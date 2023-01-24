@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+    <!--Department-->
+
+      <record id="dep_management" model="hr.department">
+          <field name="name">Management</field>
+      </record>
+
+      <record id="dep_rd" model="hr.department">
+          <field name="name">Research &amp; Development</field>
+      </record>
+
+      <record id="dep_rd_be" model="hr.department">
+          <field name="name">R&amp;D Nigeria</field>
+          <field name="parent_id" ref="dep_rd"/>
+      </record>
+
+      <record id="dep_rd_ltp" model="hr.department">
+          <field name="name">Long Term Projects</field>
+          <field name="parent_id" ref="dep_rd_be"/>
+      </record>
+
+      <record id="dep_ps" model="hr.department">
+          <field name="name">Professional Services</field>
+      </record>
+
+
+      <!-- Contract Types -->
+      <record id="contract_type_permanent" model="hr.contract.type">
+          <field name="name">Permanent</field>
+          <field name="sequence">1</field>
+      </record>
+
+      <record id="contract_type_temporary" model="hr.contract.type">
+          <field name="name">Temporary</field>
+          <field name="sequence">2</field>
+      </record>
+
+      <record id="contract_type_interim" model="hr.contract.type">
+          <field name="name">Interim</field>
+          <field name="sequence">3</field>
+      </record>
+
+    <!--Jobs-->
+
+      <record id="job_ceo" model="hr.job">
+          <field name="name">Director, Innovation &amp; Strategy</field>
+          <field name="department_id" ref="dep_management"/>
+          <field name="description">Demonstration of different Ciphlex services for each client and convincing the client about functionality of the application.
+The candidate should have excellent communication skills.
+Relationship building and influencing skills
+Expertise in New Client Acquisition (NCAs) and Relationship Management.
+Gathering market and customer information.
+Coordinating with the sales and support team for adopting different strategies
+Reviewing progress and identifying opportunities and new areas for development.
+Building strong relationships with clients / customers for business growth profitability.
+Keep regular interaction with key clients for better extraction and expansion.</field>
+          <field name="requirements">MBA in Marketing is must.
+Good Communication skills.
+Only Fresher's can apply.
+Candidate should be ready to work in young and dynamic environment..
+Candidate should be able to work in “start- up” fast paced environment,hands on attitude.
+Honest,approachable and fun team player.
+Result driven.
+Excellent analytical skills, ability to think logically and "out of the box"</field>
+          <field name="contract_type_id" ref="contract_type_permanent"/>
+      </record>
+
+      <record id="job_cto" model="hr.job">
+          <field name="name">Chief Technical Officer</field>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="description">You will take part in the consulting services we provide to our partners and customers : design, analysis, development, testing, project management, support/coaching. You will work autonomously as well as coordinate and supervise small distributed development teams for some projects. Optionally, you will deliver Odoo training sessions to partners and customers (8-10 people/session). You will report to the Head of Professional Services and work closely with all developers and consultants.
+
+The job is located in Rivers State (084), Nigeria </field>
+          <field name="requirements">Bachelor, master or engineering degree in Computer Science or equivalent by experience
+Preferably at least 1 years of experience
+Interest for enterprise application development
+Customer-minded
+Willing to travel abroad occasionally for short term missions.
+Passion for the Internet and its culture
+Quick and autonomous learner, problem-solving personality, enthusiastic when faced with technical challenges
+Team spirit and good communication
+Required skills:
+Good knowledge of object-oriented programming, object modeling, relational databases, Unix/Linux platform
+Fluent in English, especially read and written
+Nice-to-have skills:
+Good knowledge of Python
+Good knowledge of HTML and Javascript
+Knowledge of UML-like modeling
+Good language skills, other than English (Igbo preferred, others welcome)
+          </field>
+          <field name="contract_type_id" ref="contract_type_permanent"/>
+      </record>
+
+      <record id="job_consultant" model="hr.job">
+          <field name="name">Consultant</field>
+          <field name="department_id" ref="dep_ps"/>
+          <field name="no_of_recruitment">5</field>
+          <field name="contract_type_id" ref="contract_type_interim"/>
+      </record>
+
+      <record id="job_developer" model="hr.job">
+          <field name="name">Advanced Developer</field>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="no_of_recruitment">5</field>
+          <field name="contract_type_id" ref="contract_type_permanent"/>
+      </record>
+
+      <record id="job_hrm" model="hr.job">
+          <field name="name">Admin, Human Resources</field>
+          <field name="department_id" ref="dep_administration"/>
+          <field name="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</field>
+          <field name="requirements">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</field>
+          <field name="contract_type_id" ref="contract_type_permanent"/>
+      </record>
+
+      <record id="job_marketing" model="hr.job">
+          <field name="name">Manager, Marketing and Community</field>
+          <field name="department_id" ref="dep_sales"/>
+      </record>
+
+      <record id="job_trainee" model="hr.job">
+          <field name="name">Trainee</field>
+          <field name="description">You participate to the update of our tutorial tools and pre-sales tools after the launch of a new version of Odoo. Indeed, any new version of the software brings significant improvements in terms of functionalities, ergonomics and configuration.
+You will have to become familiar with the existing tools (books, class supports, Ciphlex presentation’s slides, commercial tools),
+to participate to the update of those tools in order to make them appropriate for the new version of the software and, for sure,
+to suggest improvements in order to cover the new domains of the software.
+You join the Implementation Assistance department. This team of 3 people go with Ciphlex’s clients in the set up of the software. Your role will be
+to animate webinars in order to show the different functionalities of the software.
+to be involved in the support of the customers and
+to answer to their questions.
+You help the support manager to set up new support services by
+being involved in the treatment of new cases,
+contributing to the set up of a new politic,
+being involved into satisfaction surveys in order to have a better knowledge of how the support given is seen by the customers.</field>
+          <field name="requirements">You speak fluently English and French (Igbo language is a +)
+At the time of your traineeship at Ciphlex, you will be in the last year of a Master or Bachelor Degree (ideally in the following sector: Business Management, IT Management, Computer Sciences)
+You have a software and new technology awareness
+You are ready to join a young and dynamic company, you are able to work in a “start up” fast paced environment, hands on attitude
+You are approachable, honest and a fun team player
+If you have development competencies, we can propose you specific traineeships</field>
+      </record>
+
+      <!-- Work Locations -->
+
+      <record id="work_location_1" model="hr.work.location">
+          <field name="name">Building 1, Ground Floor</field>
+          <field name="address_id" ref="base.main_partner" />
+      </record>
+
+    <!-- Employee categories -->
+
+      <record id="employee_category_2" model="hr.employee.category">
+          <field name="name">Sales</field>
+          <field name="color" eval="1"/>
+      </record>
+
+      <record id="employee_category_3" model="hr.employee.category">
+          <field name="name">Trainer</field>
+          <field name="color" eval="2"/>
+      </record>
+
+      <record id="employee_category_4" model="hr.employee.category">
+          <field name="name">Employee</field>
+          <field name="color" eval="6"/>
+      </record>
+
+      <record id="employee_category_5" model="hr.employee.category">
+          <field name="name">Consultant</field>
+          <field name="color" eval="4"/>
+      </record>
+
+      <!-- Address -->
+
+      <record id="hr.res_partner_admin_private_address" model="res.partner">
+          <field name="name">Zeph Consultant</field>
+          <field name="street">Plot 36 Isiokpo</field>
+          <field name="city">Port Harcourt</field>
+          <field name="zip">500262</field>
+          <field name="country_id" ref="base.ng"/>
+<!--      <field name='state_id' ref="state_ng_1"/>-->
+          <field name="phone">+234-814-990-6672</field>
+          <field name="email">consultant@yourcompany.example.com</field>
+          <field name="create_date">2010-01-01 00:00:00</field>
+          <field name="type">private</field>
+      </record>
+      <record id="res_partner_demo_private_address" model="res.partner">
+          <field name="name">Emeka Onye</field>
+          <field name="street">Plot 36</field>
+          <field name="zip">500262</field>
+          <field name="city">Port Harcourt</field>
+          <field name="country_id" ref="base.ng"/>
+          <field name="phone">+234-814-990-6672</field>
+          <field name="email">onye@yourcompany.example.com</field>
+          <field name="type">private</field>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+    <!--Employees-->
+
+      <record id="employee_admin" model="hr.employee">
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_email">consultant@yourcompany.example.com</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_3')])]"/>
+          <field name="job_id" ref="hr.job_ceo"/>
+          <field name="job_title">Director, Innovation &amp; Strategy</field>
+          <field name="department_id" ref="dep_management"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_al" model="res.partner">
+          <field name="name">Micheal Chukwu</field>
+          <field name="email">micheal.chukwu@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_al" model="hr.employee">
+          <field name="name">Micheal Chukwu</field>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="job_id" ref="hr.job_cto"/>
+          <field name="job_title">Chief Technical Officer</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_3')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_al"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_mit" model="res.partner">
+          <field name="name">Grace Ife</field>
+          <field name="mobile">+234-814-990-6672</field>
+          <field name="email">grace.ife@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+        <record id="res_partner_mit_private_address" model="res.partner">
+            <field name="name">Grace Ife</field>
+            <field name="country_id" ref="base.ng"/>
+            <field name="mobile">+234-814-990-6672</field>
+            <field name="email">grace.ife@example.com</field>
+            <field name="type">private</field>
+        </record>
+
+      <record id="employee_mit" model="hr.employee">
+          <field name="name">Grace Ife</field>
+          <field name="department_id" ref="dep_rd_be"/>
+          <field name="parent_id" ref="employee_al"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
+          <field name="address_home_id" ref="hr.res_partner_mit_private_address"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_mit"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_niv" model="res.partner">
+          <field name="name">Anita Bellgam</field>
+          <field name="email">anita.bellgam@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_niv" model="hr.employee">
+          <field name="name">Anita Bellgam</field>
+          <field name="department_id" ref="dep_management"/>
+          <field name="parent_id" ref="employee_al"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_niv"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_stw" model="res.partner">
+          <field name="name">Phillip Katsina</field>
+          <field name="email">phillip.katsina@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_stw" model="hr.employee">
+          <field name="name">Phillip Katsina</field>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="parent_id" ref="employee_al"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_stw"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_chs" model="res.partner">
+          <field name="name">Ada Ikechi</field>
+          <field name="email">ada.ikechi@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_chs" model="hr.employee">
+          <field name="name">Ada Ikechi</field>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="parent_id" ref="employee_al"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_chs"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_qdp" model="res.partner">
+          <field name="name">Emeka Onye</field>
+          <field name="email">emeka.onye@ciphlex.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_qdp" model="hr.employee">
+          <field name="name">Emeka Onye</field>
+          <field name="user_id" ref="base.user_demo"/>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="parent_id" ref="employee_admin"/>
+          <field name="address_home_id" ref="res_partner_demo_private_address"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_qdp"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_fme" model="res.partner">
+          <field name="name">Cyprien Nwoke</field>
+          <field name="email">cyprien.nwoke@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_fme" model="hr.employee">
+          <field name="name">Cyprien Nwoke</field>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="parent_id" ref="employee_al"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_fme"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+        <record id="res_partner_fpi_private_address" model="res.partner">
+            <field name="name">Kelechi Onyeka</field>
+            <field name="country_id" ref="base.ng"/>
+            <field name="email">kelechi.onyeka@example.com</field>
+            <field name="type">private</field>
+        </record>
+
+      <record id="work_contact_fpi" model="res.partner">
+          <field name="name">Kelechi Onyeka</field>
+          <field name="email">kelechi.onyeka@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_fpi" model="hr.employee">
+          <field name="name">Kelechi Onyeka</field>
+          <field name="department_id" ref="dep_ps"/>
+          <field name="parent_id" ref="employee_admin"/>
+          <field name="job_id" ref="hr.job_consultant"/>
+          <field name="job_title">Consultant</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_5')])]"/>
+          <field name="address_home_id" ref="hr.res_partner_fpi_private_address"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_fpi"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_jth" model="res.partner">
+          <field name="name">Emmanuel Ukoh</field>
+          <field name="email">emmanuel.ukoh@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_jth" model="hr.employee">
+          <field name="name">Emmanuel Ukoh</field>
+          <field name="department_id" ref="dep_ps"/>
+          <field name="parent_id" ref="employee_admin"/>
+          <field name="job_id" ref="hr.job_consultant"/>
+          <field name="job_title">Consultant</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_5')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_jth"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_ngh" model="res.partner">
+          <field name="name">Ikechukwu Okafor</field>
+          <field name="email">ikechukwu.okafor@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_ngh" model="hr.employee">
+          <field name="name">Ikechukwu Okafor</field>
+          <field name="department_id" ref="dep_sales"/>
+          <field name="parent_id" ref="employee_admin"/>
+          <field name="job_id" ref="hr.job_marketing"/>
+          <field name="job_title">Marketing and Community Manager</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4'), ref('employee_category_2')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_ngh"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_vad" model="res.partner">
+          <field name="name">Tina Okafor</field>
+          <field name="email">tina.okafor@ciphlex.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_vad" model="hr.employee">
+          <field name="name">Tina Okafor</field>
+          <field name="department_id" ref="dep_administration"/>
+          <field name="parent_id" ref="employee_admin"/>
+          <field name="job_id" ref="hr.job_hrm"/>
+          <field name="job_title">Human Resources Manager</field>
+          <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_vad"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_han" model="res.partner">
+          <field name="name">Andrew Emenike</field>
+          <field name="email">andrew.emenike@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_han" model="hr.employee">
+          <field name="name">Andrew Emenike</field>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_han"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_jve" model="res.partner">
+          <field name="name">Segun Oluwa</field>
+          <field name="email">segun.oluwa@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_jve" model="hr.employee">
+          <field name="name">Segun Oluwaniyi</field>
+          <field name="department_id" ref="dep_rd_ltp"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_jve"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+        <record id="res_partner_jep_private_address" model="res.partner">
+            <field name="name">Joy Adefarasin</field>
+            <field name="country_id" ref="base.ng"/>
+            <field name="email">joy.adefarasin@example.com</field>
+            <field name="type">private</field>
+        </record>
+
+      <record id="work_contact_jep" model="res.partner">
+          <field name="name">Joy Adefarasin</field>
+          <field name="email">joy.adefarasin1@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_jep" model="hr.employee">
+          <field name="name">Joy Adefarasin</field>
+          <field name="department_id" ref="dep_ps"/>
+          <field name="job_id" ref="hr.job_consultant"/>
+          <field name="job_title">Consultant</field>
+          <field name="address_home_id" ref="hr.res_partner_jep_private_address"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_jep"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_jod" model="res.partner">
+          <field name="name">Nkem Emegwali</field>
+          <field name="email">emegwali@ciphlex.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_jod" model="hr.employee">
+          <field name="name">Nkem Emegwali</field>
+          <field name="department_id" ref="dep_sales"/>
+          <field name="job_id" ref="hr.job_marketing"/>
+          <field name="job_title">Marketing and Community Manager</field>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_jod"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+        <record id="res_partner_jog_private_address" model="res.partner">
+            <field name="name">Evans Kebi</field>
+            <field name="country_id" ref="base.ng"/>
+            <field name="email">evans.kebi@example.com</field>
+            <field name="type">private</field>
+        </record>
+
+      <record id="work_contact_jog" model="res.partner">
+          <field name="name">Evans Kebi</field>
+          <field name="email">evans.kebi2@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_jog" model="hr.employee">
+          <field name="name">Evans Kebi</field>
+          <field name="department_id" ref="dep_rd"/>
+          <field name="job_id" ref="hr.job_developer"/>
+          <field name="job_title">Experienced Developer</field>
+          <field name="address_home_id" ref="hr.res_partner_jog_private_address"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_jog"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_jgo" model="res.partner">
+          <field name="name">Solomon Mmanuako</field>
+          <field name="email">solomon.mmanuako@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_jgo" model="hr.employee">
+          <field name="name">Solomon Mmanuako</field>
+          <field name="department_id" ref="dep_ps"/>
+          <field name="job_id" ref="hr.job_consultant"/>
+          <field name="job_title">Consultant</field>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_jgo"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+      <record id="work_contact_lur" model="res.partner">
+          <field name="name">Chimamanda Chukwuka</field>
+          <field name="email">chimamanda.chukwuka@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_lur" model="hr.employee">
+          <field name="name">Chimamanda Chukwuka</field>
+          <field name="department_id" ref="dep_sales"/>
+          <field name="job_id" ref="hr.job_marketing"/>
+          <field name="job_title">Marketing and Community Manager</field>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_lur"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+      </record>
+
+        <record id="res_partner_hne_private_address" model="res.partner">
+            <field name="name">Jumoke Dayo</field>
+            <field name="country_id" ref="base.ng"/>
+            <field name="email">jumoke.dayo@example.com</field>
+            <field name="type">private</field>
+        </record>
+
+      <record id="work_contact_hne" model="res.partner">
+          <field name="name">Jumoke Dayo</field>
+          <field name="email">jumoke.dayo2@example.com</field>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+      </record>
+
+      <record id="employee_hne" model="hr.employee">
+          <field name="name">Jumoke Dayo</field>
+          <field name="department_id" ref="dep_ps"/>
+          <field name="job_id" ref="hr.job_consultant"/>
+          <field name="job_title">Consultant</field>
+          <field name="address_home_id" ref="hr.res_partner_hne_private_address"/>
+          <field name="work_location_id" ref="work_location_1"/>
+          <field name="work_phone">+234-814-990-6672</field>
+          <field name="work_contact_id" ref="hr.work_contact_hne"/>
+          <field name="image_1920" type="base64" file="hr/static/img/profile-placeholder-image.png"/>
+          <field name="create_date">2010-01-01 00:00:00</field>
+          <field name="marital">married</field>
+      </record>
+    </data>
+</odoo>
