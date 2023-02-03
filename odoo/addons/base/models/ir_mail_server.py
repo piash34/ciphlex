@@ -284,9 +284,9 @@ class IrMailServer(models.Model):
            :param string encryption: optional, ``'ssl'`` | ``'starttls'``
            :param smtp_from: FROM SMTP envelop, used to find the best mail server
            :param ssl_certificate: filename of the SSL certificate used for authentication
-               Used when no mail server is given and overwrite  the odoo-bin argument "smtp_ssl_certificate"
+               Used when no mail server is given and overwrite  the ciphlex-bin argument "smtp_ssl_certificate"
            :param ssl_private_key: filename of the SSL private key used for authentication
-               Used when no mail server is given and overwrite  the odoo-bin argument "smtp_ssl_private_key"
+               Used when no mail server is given and overwrite  the ciphlex-bin argument "smtp_ssl_private_key"
            :param bool smtp_debug: toggle debugging of SMTP sessions (all i/o
                               will be output in logs)
            :param mail_server_id: ID of specific mail server to use (overrides other parameters)
@@ -403,7 +403,7 @@ class IrMailServer(models.Model):
         # Anyway, as it may have been sent by login(), all subsequent usages should consider this command as sent.
         connection.ehlo_or_helo_if_needed()
 
-        # Store the "from_filter" of the mail server / odoo-bin argument to  know if we
+        # Store the "from_filter" of the mail server / ciphlex-bin argument to  know if we
         # need to change the FROM headers or not when we will prepare the mail message
         connection.from_filter = from_filter
         connection.smtp_from = smtp_from
@@ -701,7 +701,7 @@ class IrMailServer(models.Model):
         """Find the appropriate mail server for the given email address.
 
         Returns: Record<ir.mail_server>, email_from
-        - Mail server to use to send the email (None if we use the odoo-bin arguments)
+        - Mail server to use to send the email (None if we use the ciphlex-bin arguments)
         - Email FROM to use to send the email (in some case, it might be impossible
           to use the given email address directly if no mail server is configured for)
         """
@@ -743,7 +743,7 @@ class IrMailServer(models.Model):
         if mail_servers:
             return mail_servers[0], email_from
 
-        # 5: SMTP config in odoo-bin arguments
+        # 5: SMTP config in ciphlex-bin arguments
         from_filter = self.env['ir.config_parameter'].sudo().get_param(
             'mail.default.from_filter', tools.config.get('from_filter'))
 

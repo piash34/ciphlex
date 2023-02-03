@@ -339,14 +339,14 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
     @mute_logger('odoo.models.unlink')
     @patch.dict("odoo.tools.config.options", {"from_filter": "test.com", "smtp_server": "example.com"})
     def test_mail_server_binary_arguments_domain(self):
-        """Test the configuration provided in the odoo-bin arguments.
+        """Test the configuration provided in the ciphlex-bin arguments.
 
         This config is used when no mail server exists.
         """
         IrMailServer = self.env['ir.mail_server']
         default_bounce_adress = self.env['ir.mail_server']._get_default_bounce_address()
 
-        # Remove all mail server so we will use the odoo-bin arguments
+        # Remove all mail server so we will use the ciphlex-bin arguments
         self.env['ir.mail_server'].search([]).unlink()
         self.assertFalse(self.env['ir.mail_server'].search([]))
 
@@ -391,7 +391,7 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
     @mute_logger('odoo.models.unlink')
     @patch.dict("odoo.tools.config.options", {"from_filter": "test.com", "smtp_server": "example.com"})
     def test_mail_server_binary_arguments_domain_smtp_session(self):
-        """Test the configuration provided in the odoo-bin arguments.
+        """Test the configuration provided in the ciphlex-bin arguments.
 
         This config is used when no mail server exists.
         Use a pre-configured SMTP session.
@@ -399,7 +399,7 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
         IrMailServer = self.env['ir.mail_server']
         default_bounce_adress = self.env['ir.mail_server']._get_default_bounce_address()
 
-        # Remove all mail server so we will use the odoo-bin arguments
+        # Remove all mail server so we will use the ciphlex-bin arguments
         self.env['ir.mail_server'].search([]).unlink()
         self.assertFalse(self.env['ir.mail_server'].search([]))
 
@@ -434,14 +434,14 @@ class TestIrMailServer(TransactionCase, MockSmtplibCase):
     @mute_logger('odoo.models.unlink')
     @patch.dict('odoo.tools.config.options', {'from_filter': 'test.com', 'smtp_server': 'example.com'})
     def test_mail_server_mail_default_from_filter(self):
-        """Test that the config parameter "mail.default.from_filter" overwrite the odoo-bin
+        """Test that the config parameter "mail.default.from_filter" overwrite the ciphlex-bin
         argument "--from-filter"
         """
         self.env['ir.config_parameter'].sudo().set_param('mail.default.from_filter', 'example.com')
 
         IrMailServer = self.env['ir.mail_server']
 
-        # Remove all mail server so we will use the odoo-bin arguments
+        # Remove all mail server so we will use the ciphlex-bin arguments
         IrMailServer.search([]).unlink()
         self.assertFalse(IrMailServer.search([]))
 

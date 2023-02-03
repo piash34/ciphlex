@@ -1,0 +1,143 @@
+2023-02-03 10:42:06,116 19168 INFO ? odoo.service.server: Initiating shutdown 
+2023-02-03 10:42:06,117 19168 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-02-03 10:42:06,456 19168 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2023-02-03 10:42:39,358 22392 INFO ? odoo: Ciphlex version 16.0 
+2023-02-03 10:42:39,358 22392 INFO ? odoo: Using configuration file at C:\CiphlexDev\ciphlex-utility\ciphlex.conf 
+2023-02-03 10:42:39,358 22392 INFO ? odoo: addons paths: ['C:\\CiphlexDev\\ciphlex\\odoo\\addons', 'c:\\users\\coo-eds\\appdata\\local\\openerp s.a\\odoo\\addons\\16.0', 'c:\\ciphlexdev\\ciphlex\\addons', 'c:\\ciphlexdev\\ciphlex\\custom', 'c:\\ciphlexdev\\ciphlex\\odoo\\addons'] 
+2023-02-03 10:42:39,358 22392 INFO ? odoo: database: ciphlex@localhost:5433 
+2023-02-03 10:42:39,646 22392 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2023-02-03 10:42:40,026 22392 INFO ? odoo.service.server: HTTP service (werkzeug) running on COOEDS-PC:8072 
+2023-02-03 10:43:26,948 22392 INFO ciphlexop odoo.modules.loading: loading 1 modules... 
+2023-02-03 10:43:26,958 22392 INFO ciphlexop odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-02-03 10:43:27,342 22392 INFO ciphlexop odoo.modules.loading: loading 181 modules... 
+2023-02-03 10:43:27,366 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.hide_menu_user.models.res_user is not overriding the create method in batch 
+2023-02-03 10:43:28,736 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.base_account_budget.models.account_budget is not overriding the create method in batch 
+2023-02-03 10:43:28,822 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.product_barcode.models.product_form is not overriding the create method in batch 
+2023-02-03 10:43:28,822 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.product_barcode.models.product_form is not overriding the create method in batch 
+2023-02-03 10:43:29,161 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.purchase_report_generator.models.purchase_report is not overriding the create method in batch 
+2023-02-03 10:43:29,167 22392 WARNING ciphlexop odoo.models: The model dynamic.purchase.report has no _description 
+2023-02-03 10:43:29,167 22392 WARNING ciphlexop odoo.models: The model report.purchase_report_generator.purchase_order_report has no _description 
+2023-02-03 10:43:29,344 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.base_accounting_kit.models.account_asset is not overriding the create method in batch 
+2023-02-03 10:43:29,762 22392 WARNING ciphlexop odoo.models: The model account.account.type has no _description 
+2023-02-03 10:43:30,077 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.dynamic_accounts_report.wizard.general_ledger is not overriding the create method in batch 
+2023-02-03 10:43:30,079 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.dynamic_accounts_report.wizard.trial_balance is not overriding the create method in batch 
+2023-02-03 10:43:30,088 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.dynamic_accounts_report.wizard.cash_flow is not overriding the create method in batch 
+2023-02-03 10:43:30,107 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.dynamic_accounts_report.wizard.balance_sheet is not overriding the create method in batch 
+2023-02-03 10:43:30,142 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.dynamic_accounts_report.wizard.partner_leadger is not overriding the create method in batch 
+2023-02-03 10:43:30,151 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.dynamic_accounts_report.wizard.ageing is not overriding the create method in batch 
+2023-02-03 10:43:30,166 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.dynamic_accounts_report.wizard.daybook is not overriding the create method in batch 
+2023-02-03 10:43:30,251 22392 WARNING ciphlexop odoo.api.create: The model odoo.addons.dynamic_accounts_report.models.account_account_custom is not overriding the create method in batch 
+2023-02-03 10:43:30,252 22392 WARNING ciphlexop odoo.models: The model account.general.ledger has no _description 
+2023-02-03 10:43:30,252 22392 WARNING ciphlexop odoo.models: The model account.trial.balance has no _description 
+2023-02-03 10:43:30,252 22392 WARNING ciphlexop odoo.models: The model account.cash.flow has no _description 
+2023-02-03 10:43:30,253 22392 WARNING ciphlexop odoo.models: The model dynamic.balance.sheet.report has no _description 
+2023-02-03 10:43:30,253 22392 WARNING ciphlexop odoo.models: The model dynamic.balance.sheet.report has no _description 
+2023-02-03 10:43:30,253 22392 WARNING ciphlexop odoo.models: The model account.partner.ledger has no _description 
+2023-02-03 10:43:30,253 22392 WARNING ciphlexop odoo.models: The model account.partner.ageing has no _description 
+2023-02-03 10:43:30,253 22392 WARNING ciphlexop odoo.models: The model account.day.book has no _description 
+2023-02-03 10:43:30,253 22392 WARNING ciphlexop odoo.models: The model report.dynamic_accounts_report.trial_balance has no _description 
+2023-02-03 10:43:30,253 22392 WARNING ciphlexop odoo.models: The model report.dynamic_accounts_report.general_ledger has no _description 
+2023-02-03 10:43:30,254 22392 WARNING ciphlexop odoo.models: The model report.dynamic_accounts_report.cash_flow has no _description 
+2023-02-03 10:43:30,255 22392 WARNING ciphlexop odoo.models: The model report.dynamic_accounts_report.balance_sheet has no _description 
+2023-02-03 10:43:30,255 22392 WARNING ciphlexop odoo.models: The model report.dynamic_accounts_report.partner_ledger has no _description 
+2023-02-03 10:43:30,256 22392 WARNING ciphlexop odoo.models: The model report.dynamic_accounts_report.partner_ageing has no _description 
+2023-02-03 10:43:30,256 22392 WARNING ciphlexop odoo.models: The model report.dynamic_accounts_report.day_book has no _description 
+2023-02-03 10:43:30,427 22392 WARNING ciphlexop odoo.models: The model product.sale.order.history has no _description 
+2023-02-03 10:43:30,427 22392 WARNING ciphlexop odoo.models: The model product.sale.history.line has no _description 
+2023-02-03 10:43:30,483 22392 WARNING ciphlexop odoo.models: The model sale.report.advance has no _description 
+2023-02-03 10:43:30,483 22392 WARNING ciphlexop odoo.models: The model sale.report.invoice has no _description 
+2023-02-03 10:43:30,483 22392 WARNING ciphlexop odoo.models: The model sale.report.category has no _description 
+2023-02-03 10:43:30,484 22392 WARNING ciphlexop odoo.models: The model sale.report.indent has no _description 
+2023-02-03 10:43:30,484 22392 WARNING ciphlexop odoo.models: The model sale.report.analysis has no _description 
+2023-02-03 10:43:30,484 22392 WARNING ciphlexop odoo.models: The model sale.report.weekly has no _description 
+2023-02-03 10:43:30,589 22392 INFO ciphlexop odoo.modules.loading: 181 modules loaded in 3.25s, 0 queries (+0 extra) 
+2023-02-03 10:43:30,827 22392 WARNING ciphlexop odoo.fields: Field budget.budget.state: unknown parameter 'track_visibility', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2023-02-03 10:43:30,925 22392 INFO ciphlexop odoo.modules.loading: Modules loaded. 
+2023-02-03 10:43:30,935 22392 INFO ciphlexop odoo.modules.registry: Registry loaded in 4.057s 
+2023-02-03 10:43:30,952 22392 INFO ciphlexop odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2023-02-03 10:44:00,967 22392 INFO ciphlexop odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-02-03 10:44:00,971 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:00] "GET / HTTP/1.1" 200 - 215 2.190 27.225
+2023-02-03 10:44:01,080 22392 ERROR ciphlexop odoo.sql_db: bad query: 
+                WITH visitor AS (
+                    
+            INSERT INTO website_visitor (
+                partner_id, access_token, last_connection_datetime, visit_count, lang_id,
+                website_id, timezone, write_uid, create_uid, write_date, create_date, country_id)
+            VALUES (
+                3, 3, now() at time zone 'UTC', 1, 1,
+                1, 'Africa/Lagos', 2, 2,
+                now() at time zone 'UTC', now() at time zone 'UTC', (
+                    SELECT id FROM res_country WHERE code = NULL
+                )
+            )
+            ON CONFLICT (access_token)
+            DO UPDATE SET
+                last_connection_datetime=excluded.last_connection_datetime,
+                visit_count = CASE WHEN website_visitor.last_connection_datetime < NOW() AT TIME ZONE 'UTC' - INTERVAL '8 hours'
+                                    THEN website_visitor.visit_count + 1
+                                    ELSE website_visitor.visit_count
+                                END
+            RETURNING id, CASE WHEN create_date = now() at time zone 'UTC' THEN 'inserted' ELSE 'updated' END AS upsert
+        , 'http://localhost:8072/' AS url, 4 AS page_id
+                ), track AS (
+                    INSERT INTO website_track (visitor_id, url, page_id, visit_datetime)
+                    SELECT id, url, page_id::integer, now() at time zone 'UTC' FROM visitor
+                )
+                SELECT id, upsert from visitor;
+            
+ERROR: could not serialize access due to concurrent update
+ 
+2023-02-03 10:44:01,083 22392 INFO ciphlexop odoo.service.model: SERIALIZATION_FAILURE, 4 tries left, try again in 1.4756 sec... 
+2023-02-03 10:44:01,949 22392 INFO ? werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:01] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.940
+2023-02-03 10:44:01,983 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:01] "GET /web/assets/551-fe37113/1/web.assets_frontend.min.css HTTP/1.1" 200 - 10 0.044 0.626
+2023-02-03 10:44:02,349 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:02] "GET /web/assets/365-7f6cb55/1/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 4 0.006 0.076
+2023-02-03 10:44:02,436 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:02] "GET /web/image/website.s_cover_default_image HTTP/1.1" 200 - 13 0.008 0.026
+2023-02-03 10:44:02,537 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:02] "GET /web/image/website/1/logo/My%20Website?unique=4910d5b HTTP/1.1" 200 - 4 0.005 0.025
+2023-02-03 10:44:02,543 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:02] "GET /web/image/website/1/favicon?unique=4910d5b HTTP/1.1" 200 - 5 0.002 0.035
+2023-02-03 10:44:02,791 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:02] "GET /web/image/website.s_text_image_default_image HTTP/1.1" 200 - 7 0.013 0.031
+2023-02-03 10:44:02,810 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:02] "GET /web/assets/552-ed5bc16/1/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 4 0.005 0.010
+2023-02-03 10:44:02,812 22392 INFO ? werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:02] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.020
+2023-02-03 10:44:03,446 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:03] "GET /website/translations/ffa9ec13de7507f670c35aa15084b076c31775e5 HTTP/1.1" 200 - 4 0.001 0.010
+2023-02-03 10:44:03,804 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:03] "GET /bus/websocket_worker_bundle?v=1.0.1 HTTP/1.1" 200 - 6 0.009 0.104
+2023-02-03 10:44:04,005 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:04] "POST /shop/cart/quantity HTTP/1.1" 200 - 14 0.072 0.034
+2023-02-03 10:44:04,414 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:04] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 8 0.039 0.009
+2023-02-03 10:44:05,557 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:05] "GET / HTTP/1.1" 200 - 463 1.344 37.336
+2023-02-03 10:44:31,419 22392 INFO ? werkzeug: 127.0.0.1 - - [03/Feb/2023 10:44:31] "GET /base/static/img/country_flags/us.png?height=25 HTTP/1.1" 200 - 0 0.000 0.011
+2023-02-03 10:45:04,934 22392 INFO ciphlexop odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-02-03 10:45:04,937 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:04] "GET /web HTTP/1.1" 200 - 134 0.472 44.847
+2023-02-03 10:45:05,534 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:05] "GET /web/assets/472-6fcfad5/web.assets_common.min.css HTTP/1.1" 200 - 7 0.004 0.084
+2023-02-03 10:45:05,534 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:05] "GET /web/assets/554-dc1e0f1/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.003 0.009
+2023-02-03 10:45:05,597 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:05] "GET /web/assets/555-dc1e0f1/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.001 0.009
+2023-02-03 10:45:05,717 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:05] "GET /web/assets/230-2264977/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.002 0.049
+2023-02-03 10:45:05,911 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:05] "GET /web/webclient/translations/90e7f2b04eb7a69789c12c50144d928c4bd9fc32?lang=en_US HTTP/1.1" 200 - 3 0.002 0.012
+2023-02-03 10:45:06,066 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:06] "GET /web/webclient/load_menus/bc399bed7eff205d5a43f79b0426c4b65f98fb47e41c7e6a699d21f611d69cef HTTP/1.1" 200 - 36 0.059 0.234
+2023-02-03 10:45:06,194 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:06] "GET /web/assets/474-6fcfad5/web.assets_common.min.js HTTP/1.1" 200 - 4 0.003 0.632
+2023-02-03 10:45:08,344 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:08] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.010
+2023-02-03 10:45:08,357 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:08] "GET /bus/websocket_worker_bundle?v=1.0.1 HTTP/1.1" 304 - 5 0.006 0.016
+2023-02-03 10:45:08,464 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:08] "POST /web/action/load HTTP/1.1" 200 - 9 0.103 0.029
+2023-02-03 10:45:08,618 22392 INFO ? werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:08] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 0.020
+2023-02-03 10:45:08,724 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:08] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-03 10:45:08,748 22392 INFO ? werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:08] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.036
+2023-02-03 10:45:08,756 22392 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-02-03 10:45:08,985 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:08] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 10 0.090 0.022
+2023-02-03 10:45:09,005 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.027 0.036
+2023-02-03 10:45:09,033 22392 INFO ? werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "GET /us_navbar_branding_logo/static/img/default_logo_left.png HTTP/1.1" 200 - 0 0.000 0.037
+2023-02-03 10:45:09,042 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.016 0.027
+2023-02-03 10:45:09,228 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.322 0.123
+2023-02-03 10:45:09,417 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.016 0.004
+2023-02-03 10:45:09,597 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.015 0.006
+2023-02-03 10:45:09,636 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.008 0.051
+2023-02-03 10:45:09,647 22392 INFO ciphlexop werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "GET /web/image/mail.channel/1/avatar_128?unique=55d33dc3e554fd08aa9134927b74afa97a33ec58104597a4e5542f10eb0668d177a11703e3fbc66e071a65462dba419cda7be470b70b6db02d1cee006398486a HTTP/1.1" 200 - 4 0.002 0.007
+2023-02-03 10:45:09,660 22392 INFO ? werkzeug: 127.0.0.1 - - [03/Feb/2023 10:45:09] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 200 - 0 0.000 0.038
+2023-02-03 10:47:51,661 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-03 10:47:51,671 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-03 10:47:51,679 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-03 10:47:51,691 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-03 10:47:51,698 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-03 10:47:55,142 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-03 10:47:55,147 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-03 10:47:55,168 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-03 10:47:55,182 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-03 10:47:55,190 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-03 10:47:55,193 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-03 10:47:55,804 22392 INFO ciphlexop odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
