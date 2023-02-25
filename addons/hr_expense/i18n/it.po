@@ -1672,7 +1672,7 @@ msgstr "Acquisisci"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/xml/expense_qr_modal_template.xml:0
 #, python-format
-msgid "Scan this QR code to get the Odoo app:"
+msgid "Scan this QR code to get the Ciphlex app:"
 msgstr "Scansiona questo codice QR per ottenere l'applicazione Odoo:"
 
 #. module: hr_expense

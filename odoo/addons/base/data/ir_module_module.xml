@@ -279,7 +279,7 @@
             <field name="author">Odoo S.A.</field>
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/web_mobile.png</field>
-            <field name="website">https://play.google.com/store/apps/details?id=com.odoo.mobile</field>
+            <field name="website">https://play.google.com/store/apps/details?id=com.ciphlex.mobile</field>
         </record>
 
         <record model="ir.module.module" id="base.module_website_twitter_wall">

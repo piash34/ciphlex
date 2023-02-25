@@ -16,7 +16,7 @@ class QRModalComponent extends Component {
 QRModalComponent.template = xml`
         <div style="text-align:center;" class="o_expense_modal">
             <t t-if="url">
-                <h3>Scan this QR code to get the Odoo app:</h3><br/><br/>
+                <h3>Scan this QR code to get the Ciphlex app:</h3><br/><br/>
                 <img class="border border-dark rounded" t-att-src="url"/>
             </t>
         </div>`;

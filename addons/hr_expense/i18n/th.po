@@ -1664,7 +1664,7 @@ msgstr "สแกน"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/xml/expense_qr_modal_template.xml:0
 #, python-format
-msgid "Scan this QR code to get the Odoo app:"
+msgid "Scan this QR code to get the Ciphlex app:"
 msgstr "สแกนโค้ด QR นี้เพื่อดาวน์โหลดแอป Odoo:"
 
 #. module: hr_expense
