@@ -8,7 +8,7 @@ Ciphlex
 
 Ciphlex is a suite of web based open source business apps.
 
-The main Ciphlex Apps include an <a href="https://www.odoo.com/page/crm">CRM</a>,
+The main Ciphlex Apps include an <a href="https://www.ciphlex.com/page/crm">CRM</a>,
 <a href="https://www.ciphlex.com/app/website">Website Builder</a>,
 <a href="https://www.ciphlex.com/app/ecommerce">eCommerce</a>,
 <a href="https://www.ciphlex.com/app/inventory">Warehouse Management</a>,
