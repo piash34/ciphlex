@@ -3650,7 +3650,7 @@ msgstr "Tak for din ordre."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "The #1"
+msgid "Ciphlex"
 msgstr "#1"
 
 #. module: website_sale

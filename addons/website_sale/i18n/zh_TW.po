@@ -3619,8 +3619,8 @@ msgstr "感謝您的訂購。"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "The #1"
-msgstr "The #1"
+msgid "Ciphlex"
+msgstr "Ciphlex"
 
 #. module: website_sale
 #. odoo-python

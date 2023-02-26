@@ -3788,7 +3788,7 @@ msgstr "Gracias por su orden."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "The #1"
+msgid "Ciphlex"
 msgstr "El #1"
 
 #. module: website_sale

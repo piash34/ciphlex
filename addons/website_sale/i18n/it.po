@@ -3665,7 +3665,7 @@ msgstr "Grazie per l'ordine."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "The #1"
+msgid "Ciphlex"
 msgstr "Il n° 1 tra gli"
 
 #. module: website_sale
