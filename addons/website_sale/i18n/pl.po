@@ -2417,8 +2417,8 @@ msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
-msgstr "Open Source eCommerce"
+msgid "eCommerce"
+msgstr "eCommerce"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_image_view_kanban

@@ -703,7 +703,7 @@ msgstr "Geen overeenkomende records gevonden voor het volgende:"
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Odoo Field"
+msgid "Ciphlex Field"
 msgstr "Odoo-veld"
 
 #. module: base_import

@@ -3,7 +3,7 @@ Odoo e-Commerce
 
 ### Optimize sales with an awesome online store.
 
-Odoo is an <a href="https://www.odoo.com/app/ecommerce">Open Source eCommerce</a>
+Ciphlex is an <a href="https://www.ciphlex.com/app/ecommerce">eCommerce</a>
 unlike anything you have ever seen before. Get an awesome catalog of products
 and great product description pages.
 

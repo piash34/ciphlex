@@ -409,7 +409,7 @@ msgstr ""
 msgid ""
 "Create a beautiful and professional eCommerce on your website with Odoo. \n"
 "\n"
-"Find out more at https://www.odoo.com/page/e-commerce"
+"Find out more at https://www.ciphlex.com/page/e-commerce"
 msgstr ""
 
 #. module: website_slides

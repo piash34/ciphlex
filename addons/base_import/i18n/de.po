@@ -706,7 +706,7 @@ msgstr "Keine passenden Datensätze gefunden für folgende"
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Odoo Field"
+msgid "Ciphlex Field"
 msgstr "Odoo Feld"
 
 #. module: base_import

@@ -1476,7 +1476,7 @@ msgstr "Μόνο Υπηρεσίες"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
+msgid "eCommerce"
 msgstr "Ηλεκτρονικό Eμπόριο Ανοικτού Κώδικα"
 
 #. module: website_sale

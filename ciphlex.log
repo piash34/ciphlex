@@ -1,0 +1,752 @@
+2023-02-25 02:01:05,669 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Account: Post draft entries with auto_post enabled and accounting date up to today`. 
+2023-02-25 02:01:05,721 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Account: Post draft entries with auto_post enabled and accounting date up to today` done. 
+2023-02-25 02:05:05,897 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 02:05:05,905 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 02:05:05,912 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 02:05:05,925 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 02:09:34,599 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 02:09:34] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2023-02-25 02:12:06,004 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 02:12:10,126 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 02:12:10,140 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 02:12:10,146 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 02:15:10,179 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 02:15:10,186 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 02:15:10,194 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 02:15:10,199 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 02:15:10,208 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 02:15:10,219 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 02:15:10,228 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 02:15:10,232 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 06:33:12,430 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 06:33:12,434 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 06:33:12,468 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 06:33:12,474 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 06:33:12,762 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 06:33:12,770 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 06:33:12,788 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 06:33:12,794 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 06:33:12,867 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 06:33:13,793 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 06:33:13,843 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 06:33:14,177 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 06:33:14,194 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 06:33:14,202 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 06:33:14,240 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 06:33:14,248 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 06:33:14,306 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 06:33:14,313 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 06:35:14,401 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 06:35:14,412 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 06:35:31,402 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 06:35:31] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 06:45:14,509 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 06:45:14,512 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 06:47:32,886 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 06:47:32] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.031
+2023-02-25 06:47:42,575 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 06:47:43,533 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 06:48:15,362 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 06:48:15,436 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 06:55:15,510 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 06:55:15,515 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 07:00:17,879 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 07:00:17] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-25 07:04:15,598 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 07:04:15,619 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 07:05:01,005 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 07:05:01,176 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 07:12:02,816 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 07:12:02] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 07:12:08,374 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 07:12:08,437 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 07:12:08,445 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 07:12:08,476 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 07:15:11,561 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 07:15:11,577 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 07:15:11,586 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 07:15:11,618 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 07:15:11,624 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 07:15:11,636 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 07:15:11,644 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 07:15:11,681 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 07:25:15,794 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 07:25:15,798 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 07:25:17,805 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 07:25:17] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 07:35:15,913 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 07:35:15,918 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 07:40:18,077 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 07:40:18] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2023-02-25 07:45:16,018 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 07:45:16,025 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 07:47:44,591 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 07:47:44,617 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 07:48:16,055 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 07:48:16,095 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 07:55:16,155 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 07:55:16,159 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 07:55:32,903 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 07:55:32] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-25 08:04:16,253 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 08:04:16,262 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 08:05:02,081 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 08:05:02,084 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 08:06:18,463 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 08:06:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 08:12:09,282 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 08:12:09,352 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 08:12:09,361 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 08:12:09,449 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 08:15:12,541 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 08:15:12,545 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 08:15:12,553 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 08:15:12,745 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 08:15:12,754 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 08:15:12,758 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 08:15:12,768 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 08:15:12,773 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 08:17:03,195 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 08:17:03] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.058
+2023-02-25 08:25:16,448 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 08:25:16,492 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 08:27:32,893 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 08:27:32] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.011
+2023-02-25 08:35:16,584 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 08:35:16,589 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 08:42:18,261 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 08:42:18] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2023-02-25 08:45:16,677 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 08:45:16,682 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 08:47:45,657 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 08:47:45,802 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 08:48:16,716 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 08:48:16,822 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 08:54:18,281 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 08:54:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2023-02-25 08:54:52,997 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 08:54:53,001 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 09:04:16,966 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 09:04:17,101 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 09:05:03,286 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 09:05:03,290 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 09:08:06,435 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-02-25 09:08:09,395 13004 INFO ciphlexdev odoo.addons.base.models.ir_attachment: filestore gc 4 checked, 2 removed 
+2023-02-25 09:08:11,616 13004 INFO ciphlexdev odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2023-02-25 09:08:11,822 13004 INFO ciphlexdev odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-02-25 09:08:12,025 13004 INFO ciphlexdev odoo.models.unlink: User #1 deleted bus.bus records with IDs: [221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391] 
+2023-02-25 09:08:13,862 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-02-25 09:08:33,062 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 09:08:33] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.091
+2023-02-25 09:12:17,207 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2023-02-25 09:12:17,254 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2023-02-25 09:12:17,263 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 09:12:17,316 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 09:12:17,324 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 09:12:17,330 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 09:13:17,356 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2023-02-25 09:13:17,474 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2023-02-25 09:15:17,509 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 09:15:17,514 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 09:15:17,525 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 09:15:17,559 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 09:15:17,570 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 09:15:17,576 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 09:15:17,586 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 09:15:17,592 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 09:16:17,615 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Website Visitor : clean inactive visitors`. 
+2023-02-25 09:16:17,702 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Website Visitor : clean inactive visitors` done. 
+2023-02-25 09:21:03,088 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 09:21:03] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 09:25:17,778 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 09:25:17,782 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 09:35:03,319 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 09:35:03] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 09:35:17,887 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 09:35:17,891 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 09:45:17,995 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 09:45:18,000 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 09:47:18,051 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 09:47:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.056
+2023-02-25 09:47:18,056 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 09:47:18,174 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 09:47:18,181 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Gamification: Goal Challenge Check`. 
+2023-02-25 09:47:19,483 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Gamification: Goal Challenge Check` done. 
+2023-02-25 09:47:19,532 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `HR Employee: check work permit validity`. 
+2023-02-25 09:47:19,652 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `HR Employee: check work permit validity` done. 
+2023-02-25 09:47:19,660 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2023-02-25 09:47:19,787 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Calendar: Event Reminder` done. 
+2023-02-25 09:47:53,943 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 09:47:53,949 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 09:55:01,260 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 09:55:01,264 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 09:59:33,312 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 09:59:33] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.012
+2023-02-25 10:04:20,196 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 10:04:20,203 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 10:05:11,699 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 10:05:11,702 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 10:11:18,502 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 10:11:18] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-02-25 10:12:18,987 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 10:12:18,993 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 10:12:19,003 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 10:12:19,043 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 10:15:20,422 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 10:15:20,428 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 10:15:20,442 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 10:15:20,448 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 10:15:20,459 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 10:15:20,502 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 10:15:20,512 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 10:15:20,652 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 10:24:18,705 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 10:24:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.033
+2023-02-25 10:25:20,840 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 10:25:20,845 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 10:34:33,605 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 10:34:33] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.007
+2023-02-25 10:35:21,010 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 10:35:21,014 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 10:44:52,175 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Generate Recurring Entries`. 
+2023-02-25 10:44:52,398 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Generate Recurring Entries` done. 
+2023-02-25 10:44:52,406 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 10:44:52,410 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 10:46:18,634 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 10:46:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2023-02-25 10:47:21,198 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 10:47:21,230 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 10:47:55,512 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 10:47:55,517 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 10:55:02,763 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 10:55:02,771 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 11:00:07,938 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Purchase reminder`. 
+2023-02-25 11:00:08,298 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Purchase reminder` done. 
+2023-02-25 11:00:33,469 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:00:33] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 11:01:09,359 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `HR Contract: update state`. 
+2023-02-25 11:01:09,496 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `HR Contract: update state` done. 
+2023-02-25 11:04:12,596 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 11:04:12,602 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 11:04:12,610 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2023-02-25 11:04:15,550 13004 INFO ciphlexdev odoo.addons.stock.models.stock_orderpoint: A batch of 4 orderpoints is processed and committed 
+2023-02-25 11:04:15,765 13004 INFO ciphlexdev odoo.addons.stock.models.stock_rule: A batch of 4 moves are assigned and committed 
+2023-02-25 11:04:15,770 13004 INFO ciphlexdev odoo.addons.stock.models.stock_rule: _run_scheduler_tasks is finished and committed 
+2023-02-25 11:04:15,771 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Procurement: run scheduler` done. 
+2023-02-25 11:05:16,805 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 11:05:16,811 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 11:12:21,591 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 11:12:21,598 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 11:12:21,609 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 11:12:21,710 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 11:15:03,829 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:15:03] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-25 11:15:21,773 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 11:15:21,783 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 11:15:21,794 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2023-02-25 11:15:21,902 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2023-02-25 11:15:21,913 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 11:15:21,919 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 11:15:21,930 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 11:15:21,939 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 11:15:21,949 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 11:15:21,955 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 11:25:22,075 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 11:25:22,082 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 11:27:18,860 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:27:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 11:35:22,219 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 11:35:22,226 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 11:37:49,762 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail Marketing: Process queue`. 
+2023-02-25 11:37:49,806 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail Marketing: Process queue` done. 
+2023-02-25 11:38:18,802 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:38:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2023-02-25 11:44:56,992 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 11:44:56,997 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 11:47:22,362 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 11:47:22,382 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 11:48:00,098 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 11:48:00,111 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 11:49:19,176 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:49:19] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 11:55:07,331 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 11:55:07,334 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 11:56:21,821 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:21] "POST /web/action/load HTTP/1.1" 200 - 10 0.048 0.677
+2023-02-25 11:56:24,156 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:24] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 55 0.650 1.650
+2023-02-25 11:56:27,484 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:27] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 275 1.273 1.337
+2023-02-25 11:56:27,540 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:27] "POST /web/dataset/call_kw/res.lang/read HTTP/1.1" 200 - 3 0.003 0.007
+2023-02-25 11:56:28,493 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:28] "POST /base_setup/demo_active HTTP/1.1" 200 - 3 0.002 0.004
+2023-02-25 11:56:28,667 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:28] "POST /base_setup/data HTTP/1.1" 200 - 6 0.099 0.006
+2023-02-25 11:56:28,988 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:28] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.235
+2023-02-25 11:56:29,245 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.187
+2023-02-25 11:56:29,250 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.193
+2023-02-25 11:56:29,258 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.199
+2023-02-25 11:56:29,326 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.187
+2023-02-25 11:56:29,369 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.262
+2023-02-25 11:56:29,579 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.209
+2023-02-25 11:56:29,601 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /web/static/img/transparent.png HTTP/1.1" 200 - 0 0.000 0.051
+2023-02-25 11:56:29,615 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.049
+2023-02-25 11:56:29,682 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.115
+2023-02-25 11:56:29,772 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.088
+2023-02-25 11:56:29,776 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:29] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.136
+2023-02-25 11:56:30,027 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:30] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.132
+2023-02-25 11:56:30,037 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:30] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - 0 0.000 0.111
+2023-02-25 11:56:30,051 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 11:56:30] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - 0 0.000 0.141
+2023-02-25 12:03:19,209 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 12:03:19] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 12:04:16,612 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 12:04:16,623 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 12:05:17,651 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 12:05:17,654 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 12:12:22,681 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 12:12:22,689 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 12:12:22,701 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 12:12:22,714 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 12:15:22,753 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 12:15:22,760 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 12:15:22,773 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 12:15:22,778 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 12:15:22,789 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 12:15:22,793 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 12:15:22,802 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 12:15:22,829 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 12:16:18,683 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 12:16:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 12:25:22,997 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 12:25:23,003 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 12:27:33,648 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 12:27:33] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.012
+2023-02-25 12:35:23,105 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 12:35:23,112 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 12:42:18,989 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 12:42:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 12:44:57,746 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 12:44:57,750 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 12:47:23,231 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 12:47:23,289 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 12:48:00,843 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 12:48:00,861 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 12:54:18,931 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 12:54:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 12:55:08,068 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 12:55:08,071 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 13:04:17,384 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 13:04:17,451 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 13:05:18,487 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 13:05:18,518 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 13:08:19,105 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 13:08:19] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-25 13:12:23,589 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 13:12:23,594 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 13:12:23,602 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 13:12:23,613 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 13:15:23,642 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 13:15:23,645 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 13:15:23,652 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 13:15:23,655 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 13:15:23,663 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 13:15:23,668 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 13:15:23,675 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 13:15:23,678 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 13:23:18,868 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 13:23:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 13:25:23,772 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 13:25:23,778 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 13:34:33,955 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 13:34:33] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.012
+2023-02-25 13:35:23,871 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 13:35:23,876 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 13:44:58,631 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 13:44:58,635 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 13:46:18,792 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 13:46:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2023-02-25 13:47:23,981 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 13:47:24,039 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 13:48:01,726 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 13:48:01,732 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 13:55:08,936 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 13:55:08,941 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 13:58:21,780 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 13:58:21] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2023-02-25 14:04:18,198 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 14:04:18,206 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 14:05:19,240 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 14:05:19,243 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 14:12:22,013 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 14:12:22] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 14:12:24,259 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 14:12:24,264 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 14:12:24,271 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 14:12:24,297 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 14:15:24,331 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 14:15:24,336 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 14:15:24,347 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 14:15:24,353 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 14:15:24,368 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 14:15:24,374 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 14:15:24,382 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 14:15:24,385 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 14:25:24,484 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 14:25:24,489 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 14:26:22,171 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 14:26:22] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 14:35:24,581 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 14:35:24,585 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 14:40:22,571 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 14:40:22] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-02-25 14:44:59,328 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 14:44:59,332 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 14:47:24,694 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 14:47:24,745 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 14:48:02,410 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 14:48:02,452 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 14:55:09,647 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 14:55:09,651 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 14:55:22,512 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 14:55:22] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 15:04:18,898 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 15:04:18,913 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 15:05:19,956 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 15:05:19,961 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 15:07:22,428 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 15:07:22] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2023-02-25 15:12:24,954 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 15:12:24,958 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 15:12:24,965 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 15:12:24,970 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 15:15:25,007 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 15:15:25,011 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 15:15:25,018 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 15:15:25,020 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 15:15:25,027 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 15:15:25,030 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 15:15:25,037 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 15:15:25,041 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 15:21:37,546 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 15:21:37] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2023-02-25 15:25:25,135 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 15:25:25,140 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 15:32:22,840 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 15:32:22] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 15:35:25,245 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 15:35:25,249 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 15:43:22,624 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 15:43:22] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.008
+2023-02-25 15:45:00,042 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 15:45:00,048 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 15:47:25,358 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 15:47:25,378 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 15:48:03,136 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 15:48:03,175 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 15:53:37,598 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 15:53:37] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 15:55:10,373 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 15:55:10,376 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 16:04:19,634 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 16:04:19,691 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 16:05:20,720 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 16:05:20,724 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 16:05:22,896 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 16:05:22] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.022
+2023-02-25 16:12:25,587 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 16:12:25,591 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 16:12:25,598 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 16:12:25,635 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 16:15:25,677 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 16:15:25,684 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 16:15:25,695 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 16:15:25,701 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 16:15:25,711 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 16:15:25,717 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 16:15:25,725 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 16:15:25,728 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 16:17:23,280 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 16:17:23] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 16:25:25,812 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 16:25:25,845 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 16:30:37,924 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 16:30:37] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 16:35:25,938 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 16:35:25,942 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 16:44:39,940 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 16:44:39] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2023-02-25 16:45:00,802 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 16:45:00,806 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 16:47:26,051 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 16:47:26,377 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 16:48:03,888 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 16:48:03,949 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 16:55:11,152 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 16:55:11,155 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 16:56:18,898 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 16:56:18] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2023-02-25 17:04:20,415 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 17:04:20,422 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 17:05:21,458 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 17:05:21,462 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 17:10:34,121 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 17:10:34] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-02-25 17:12:26,594 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 17:12:26,599 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 17:12:26,607 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 17:12:26,646 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 17:15:26,678 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 17:15:26,683 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 17:15:26,692 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 17:15:26,696 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 17:15:26,703 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 17:15:26,706 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 17:15:26,713 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 17:15:26,716 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 17:21:19,188 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 17:21:19] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 17:25:26,805 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 17:25:26,810 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 17:34:03,814 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 17:34:03] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.046
+2023-02-25 17:35:26,926 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 17:35:26,930 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 17:45:01,537 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 17:45:01,542 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 17:47:15,006 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 17:47:15] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.011
+2023-02-25 17:47:27,038 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 17:47:27,086 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 17:48:04,635 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 17:48:04,640 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 17:55:11,843 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 17:55:11,847 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 17:58:05,991 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 17:58:05] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 18:04:21,101 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 18:04:21,111 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 18:05:22,143 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 18:05:22,147 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 18:12:18,803 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 18:12:18] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-25 18:12:27,297 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 18:12:27,352 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 18:12:27,360 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 18:12:27,562 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 18:15:27,593 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 18:15:27,597 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 18:15:27,604 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 18:15:27,628 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 18:15:27,635 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 18:15:27,761 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 18:15:27,770 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 18:15:27,775 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 18:25:27,869 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 18:25:27,873 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 18:26:19,183 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 18:26:19] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 18:35:27,962 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 18:35:27,966 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 18:39:20,267 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 18:39:20] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 18:45:03,344 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 18:45:03,350 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 18:47:29,179 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 18:47:31,546 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 18:48:06,459 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 18:48:07,045 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 18:50:05,127 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 18:50:05] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 18:55:14,310 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 18:55:14,710 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 19:04:24,021 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 19:04:24,279 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 19:05:20,088 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 19:05:20] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2023-02-25 19:05:25,318 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 19:05:25,325 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 19:12:31,760 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 19:12:31,997 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 19:12:32,006 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 19:12:32,209 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 19:14:34,581 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 19:14:34,887 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 19:15:32,259 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 19:15:32,267 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 19:15:32,279 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 19:15:32,416 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 19:15:32,437 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 19:15:32,508 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 19:20:20,097 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 19:20:20] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.013
+2023-02-25 19:25:04,445 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 19:25:04,886 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 19:33:35,208 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 19:33:35] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-25 19:35:15,327 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 19:35:15,330 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 19:44:20,318 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 19:44:20] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 19:45:25,601 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 19:45:25,605 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 19:47:27,689 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 19:47:27,737 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 19:48:28,773 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 19:48:28,829 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 19:55:32,937 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 19:55:32,982 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 19:59:20,204 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 19:59:20] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2023-02-25 20:04:33,074 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 20:04:33,256 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 20:05:33,276 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 20:05:33,280 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 20:12:33,352 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 20:12:33,357 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 20:12:33,366 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 20:12:33,404 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 20:14:33,429 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 20:14:33,544 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 20:14:34,977 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 20:14:34] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-02-25 20:14:55,525 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 20:14:55,564 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 20:14:55,572 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 20:14:55,593 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 20:14:55,600 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 20:14:55,603 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 20:25:05,894 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 20:25:05,948 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 20:29:34,867 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 20:29:34] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.012
+2023-02-25 20:35:16,233 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 20:35:16,241 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 20:42:20,114 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 20:42:20] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-25 20:45:26,522 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 20:45:26,527 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 20:47:28,594 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 20:47:28,906 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 20:48:29,948 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 20:48:29,958 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 20:53:35,132 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 20:53:35] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-02-25 20:55:33,889 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 20:55:33,898 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 21:04:33,978 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 21:04:34,036 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 21:05:34,060 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 21:05:34,068 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 21:06:34,825 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:06:34] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.013
+2023-02-25 21:12:34,137 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 21:12:34,156 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 21:12:34,166 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 21:12:34,202 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 21:14:34,227 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 21:14:34,246 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 21:14:56,670 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 21:14:56,695 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 21:14:56,704 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 21:14:56,710 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 21:14:56,720 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 21:14:56,738 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 21:21:09,285 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:21:09] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 21:25:07,023 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 21:25:07,029 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 21:35:18,210 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 21:35:27,749 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 21:36:13,755 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:36:13] "GET /websocket HTTP/1.1" 101 - 1 0.000 3.307
+2023-02-25 21:44:37,344 13004 INFO ciphlexdev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-02-25 21:44:37,453 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:37] "GET /web HTTP/1.1" 200 - 141 37.838 562.839
+2023-02-25 21:44:41,717 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:41] "GET /web/assets/1294-41f9b09/web.assets_backend.min.css HTTP/1.1" 200 - 6 0.294 0.827
+2023-02-25 21:44:42,075 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:42] "GET /web/assets/1295-41f9b09/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.179 0.879
+2023-02-25 21:44:50,762 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:50] "POST /web/action/load HTTP/1.1" 200 - 13 0.162 0.525
+2023-02-25 21:44:51,007 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:51] "GET /bus/websocket_worker_bundle?v=1.0.1 HTTP/1.1" 304 - 5 0.048 0.438
+2023-02-25 21:44:51,498 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:51] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 21:44:53,824 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:53] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 10 0.135 1.079
+2023-02-25 21:44:54,031 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:54] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 10 1.693 0.437
+2023-02-25 21:44:54,348 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:54] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.116 0.053
+2023-02-25 21:44:54,442 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:54] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.470 2.239
+2023-02-25 21:44:54,546 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:54] "POST /mail/init_messaging HTTP/1.1" 200 - 56 1.555 1.400
+2023-02-25 21:44:55,254 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 21:44:55,276 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 21:44:55,316 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:55] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.023 0.291
+2023-02-25 21:44:55,367 13004 INFO ? werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:55] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.111
+2023-02-25 21:44:55,406 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:55] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.116 0.266
+2023-02-25 21:44:56,221 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:56] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 67 1.284 3.065
+2023-02-25 21:44:59,709 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:59] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 288 1.839 1.054
+2023-02-25 21:44:59,724 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:44:59] "POST /web/dataset/call_kw/res.lang/read HTTP/1.1" 200 - 2 0.001 0.005
+2023-02-25 21:45:00,620 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:45:00] "POST /base_setup/demo_active HTTP/1.1" 200 - 3 0.024 0.008
+2023-02-25 21:45:00,639 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:45:00] "POST /base_setup/data HTTP/1.1" 200 - 6 0.003 0.007
+2023-02-25 21:47:50,899 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 21:47:57,712 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 21:47:57,741 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 21:47:57,752 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 21:54:57,804 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 21:54:57,840 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 21:58:37,798 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 21:58:37] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.011
+2023-02-25 22:04:14,204 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 22:04:14,301 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 22:04:57,929 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 22:04:57,958 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 22:10:52,540 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 22:10:52] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 22:12:22,527 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 22:12:22,587 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 22:12:22,594 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 22:12:22,622 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 22:14:58,055 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 22:14:58,058 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 22:14:58,066 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 22:14:58,085 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 22:14:58,092 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 22:14:58,121 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 22:14:58,134 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 22:14:58,167 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 22:23:37,711 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 22:23:37] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.007
+2023-02-25 22:24:58,255 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 22:24:58,259 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 22:34:58,354 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 22:34:58,360 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 22:37:37,974 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 22:37:37] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 22:44:55,507 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 22:44:55,511 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 22:47:58,469 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 22:47:58,473 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 22:47:58,481 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 22:47:58,524 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 22:48:38,137 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 22:48:38] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.007
+2023-02-25 22:54:58,585 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 22:54:58,589 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 23:01:38,120 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 23:01:38] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.009
+2023-02-25 23:04:15,042 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-25 23:04:15,047 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-25 23:04:58,678 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 23:04:58,681 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 23:12:23,276 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-25 23:12:23,297 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-25 23:12:23,303 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-25 23:12:23,308 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-25 23:14:38,092 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 23:14:38] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.010
+2023-02-25 23:14:58,777 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 23:14:58,781 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 23:14:58,789 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-25 23:14:58,791 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-25 23:14:58,799 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-25 23:14:58,828 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-25 23:14:58,837 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-25 23:14:58,840 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-25 23:24:58,930 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 23:24:58,933 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 23:26:38,339 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 23:26:38] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-02-25 23:34:59,027 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 23:34:59,031 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 23:41:38,519 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 23:41:38] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-25 23:44:56,183 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 23:44:56,186 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 23:47:59,145 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-25 23:47:59,175 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-25 23:47:59,181 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-25 23:47:59,218 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-25 23:54:59,277 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-25 23:54:59,281 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-25 23:55:38,571 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [25/Feb/2023 23:55:38] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.010
+2023-02-26 00:04:15,704 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-26 00:04:15,708 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-26 00:04:59,372 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-26 00:04:59,375 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-26 00:10:38,886 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 00:10:38] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.008
+2023-02-26 00:12:23,938 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-26 00:12:23,978 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-26 00:12:23,985 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-26 00:12:23,989 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-26 00:14:59,470 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-26 00:14:59,474 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-26 00:14:59,492 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-26 00:14:59,496 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-26 00:14:59,503 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-26 00:14:59,507 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-26 00:14:59,513 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-26 00:14:59,516 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-26 04:03:59,743 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-26 04:03:59,850 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-26 04:03:59,948 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-26 04:03:59,951 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-26 04:04:00,035 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-26 04:04:00,038 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-26 04:04:00,079 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-26 04:04:00,083 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-26 04:04:00,117 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Account: Post draft entries with auto_post enabled and accounting date up to today`. 
+2023-02-26 04:04:31,834 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:04:31] "GET /websocket HTTP/1.1" 101 - 1 0.411 5.709
+2023-02-26 04:04:43,355 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `eCommerce: send email to customers about their abandoned cart`. 
+2023-02-26 04:04:45,138 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `eCommerce: send email to customers about their abandoned cart` done. 
+2023-02-26 04:04:45,175 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Account: Post draft entries with auto_post enabled and accounting date up to today` done. 
+2023-02-26 04:04:46,143 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Event: Mail Scheduler`. 
+2023-02-26 04:04:46,170 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Event: Mail Scheduler` done. 
+2023-02-26 04:04:46,258 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Product: send email regarding products availability`. 
+2023-02-26 04:04:46,261 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-26 04:04:46,267 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Product: send email regarding products availability` done. 
+2023-02-26 04:04:46,601 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-26 04:04:46,604 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-26 04:04:46,638 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-26 04:05:46,705 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-26 04:05:46,710 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-26 04:12:46,772 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-26 04:12:46,823 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-26 04:12:46,833 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-02-26 04:12:46,840 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-02-26 04:14:46,897 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-26 04:14:46,902 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-26 04:14:46,911 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-26 04:14:46,943 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-26 04:14:46,951 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-26 04:14:46,994 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-26 04:14:56,983 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-26 04:14:56,987 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-26 04:16:31,837 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:16:31] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.012
+2023-02-26 04:20:33,754 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:20:33] "GET /web HTTP/1.1" 200 - 76 0.476 79.709
+2023-02-26 04:20:37,562 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:20:37] "POST /web/action/load HTTP/1.1" 200 - 9 0.368 0.689
+2023-02-26 04:20:37,615 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:20:37] "GET /bus/websocket_worker_bundle?v=1.0.1 HTTP/1.1" 304 - 4 0.113 0.990
+2023-02-26 04:20:39,683 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:20:39] "GET /websocket HTTP/1.1" 101 - 1 0.000 1.452
+2023-02-26 04:20:40,858 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:20:40] "POST /mail/init_messaging HTTP/1.1" 200 - 34 0.448 2.668
+2023-02-26 04:20:40,989 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:20:40] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 6 0.643 1.829
+2023-02-26 04:20:41,549 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:20:41] "POST /mail/load_message_failures HTTP/1.1" 200 - 9 0.117 0.148
+2023-02-26 04:21:27,250 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:27] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.894 2.542
+2023-02-26 04:21:27,350 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:27] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 7 0.294 3.013
+2023-02-26 04:21:27,479 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:27] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 1 0.001 3.666
+2023-02-26 04:21:27,566 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:27] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.112 0.155
+2023-02-26 04:21:27,884 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:27] "GET /web/image/res.company/1/favicon HTTP/1.1" 304 - 5 0.004 0.005
+2023-02-26 04:21:32,178 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:32] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 69 1.175 2.857
+2023-02-26 04:21:32,327 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:32] "POST /web/dataset/call_kw/res.lang/read HTTP/1.1" 200 - 2 0.002 0.112
+2023-02-26 04:21:33,512 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:33] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.119
+2023-02-26 04:21:34,101 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:21:34] "POST /base_setup/data HTTP/1.1" 200 - 5 0.050 0.405
+2023-02-26 04:25:07,270 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-26 04:25:07,273 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-02-26 04:32:19,969 13004 INFO ciphlexdev werkzeug: 127.0.0.1 - - [26/Feb/2023 04:32:19] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.009
+2023-02-26 04:35:17,549 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-02-26 04:35:17,553 13004 INFO ciphlexdev odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 

@@ -706,7 +706,7 @@ msgstr "Nu s-au găsit înregistrări care se potrivesc pentru următoarele"
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Odoo Field"
+msgid "Ciphlex Field"
 msgstr "Câmp Odoo"
 
 #. module: base_import

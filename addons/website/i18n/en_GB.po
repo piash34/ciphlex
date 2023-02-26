@@ -2785,7 +2785,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Open Source eCommerce"
+msgid "eCommerce"
 msgstr ""
 
 #. module: website

@@ -682,7 +682,7 @@ msgstr "没有发现以下的匹配记录"
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Odoo Field"
+msgid "Ciphlex Field"
 msgstr "字段"
 
 #. module: base_import

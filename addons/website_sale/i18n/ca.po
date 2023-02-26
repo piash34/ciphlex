@@ -2563,7 +2563,7 @@ msgstr "Obre les comandes de venda"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
+msgid "eCommerce"
 msgstr "Comerç electrònic de codi obert"
 
 #. module: website_sale

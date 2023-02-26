@@ -2510,7 +2510,7 @@ msgstr "فتح أوامر البيع "
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
+msgid "eCommerce"
 msgstr "التجارة الإلكترونية مفتوحة المصدر "
 
 #. module: website_sale

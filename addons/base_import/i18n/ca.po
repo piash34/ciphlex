@@ -715,7 +715,7 @@ msgstr "No s'han trobat registres coincidents per al següent"
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Odoo Field"
+msgid "Ciphlex Field"
 msgstr "Camp Odoo"
 
 #. module: base_import

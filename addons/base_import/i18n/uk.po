@@ -702,7 +702,7 @@ msgstr "Не знайдено співставлених записів для �
 #. openerp-web
 #: code:addons/base_import/static/src/legacy/xml/base_import.xml:0
 #, python-format
-msgid "Odoo Field"
+msgid "Ciphlex Field"
 msgstr "Поле Odoo"
 
 #. module: base_import

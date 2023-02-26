@@ -240,13 +240,13 @@ class Import(models.TransientModel):
 
             .. attribute:: model_name: str
 
-                Used in the Odoo Field Tooltip on the import view
+                Used in the Ciphlex Field Tooltip on the import view
                 and to get the model of the field of the related field(s).
                 Name of the current field's model.
 
             .. attribute:: comodel_name: str
 
-                Used in the Odoo Field Tooltip on the import view
+                Used in the Ciphlex Field Tooltip on the import view
                 and to get the model of the field of the related field(s).
                 Name of the current field's comodel, i.e. if the field is a relation field.
 
