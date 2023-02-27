@@ -4110,7 +4110,7 @@ msgstr "Créé avec %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
+msgid "Powered by <span>Ciphlex Inc.</span>"
 msgstr "Propulsé par <span>Odoo</span>"
 
 #. module: web

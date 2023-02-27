@@ -4075,7 +4075,7 @@ msgstr "Cung cấp bởi %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
+msgid "Powered by <span>Ciphlex Inc.</span>"
 msgstr "Được hỗ trợ bởi <span>Hệ thống</span>"
 
 #. module: web

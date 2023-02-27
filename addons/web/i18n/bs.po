@@ -2572,8 +2572,8 @@ msgstr "Molimo koristite dugme kopiraj da prijavite grešku vašoj podršci."
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Powered by <span>Odoo</span>"
+msgid "Powered by <span>Ciphlex Inc.</span>"
+msgstr "Powered by <span>Ciphlex Inc.</span>"
 
 #. module: web
 #. openerp-web

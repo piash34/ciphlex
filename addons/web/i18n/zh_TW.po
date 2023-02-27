@@ -4046,7 +4046,7 @@ msgstr "源自 %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
+msgid "Powered by <span>Ciphlex Inc.</span>"
 msgstr "由<span>Odoo</span>提供支援"
 
 #. module: web

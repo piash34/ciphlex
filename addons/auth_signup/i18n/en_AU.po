@@ -113,7 +113,7 @@ msgstr ""
 
 #. module: auth_signup
 #: model:mail.template,subject:auth_signup.set_password_email
-msgid "${object.company_id.name} invitation to connect on Odoo"
+msgid "${object.company_id.name} invitation to connect on Ciphlex BMS"
 msgstr ""
 
 #. module: auth_signup

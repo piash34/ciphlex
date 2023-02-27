@@ -4069,7 +4069,7 @@ msgstr "由%s%s提供支持"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
+msgid "Powered by <span>Ciphlex Inc.</span>"
 msgstr "由<span>Odoo</span>提供支持"
 
 #. module: web
