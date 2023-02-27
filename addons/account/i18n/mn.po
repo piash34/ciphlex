@@ -10077,7 +10077,7 @@ msgstr "Бусад мэдээлэл"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Our invoices are payable within 21 working days, unless another payment "
+"Our invoices are payable before shippment, unless another payment "
 "timeframe is indicated on either the invoice or the order. In the event of "
 "non-payment by the due date,"
 msgstr ""

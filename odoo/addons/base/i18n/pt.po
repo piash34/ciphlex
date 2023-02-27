@@ -22647,7 +22647,7 @@ msgstr ""
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Our invoices are payable within 21 working days, unless another payment "
+"Our invoices are payable before shippment, unless another payment "
 "timeframe is indicated on either the invoice or the order. In the event of "
 "non-payment by the due date, My Company (Ciphlex Inc.) reserves the right "
 "to request a fixed interest payment amounting to 10% of the sum remaining "

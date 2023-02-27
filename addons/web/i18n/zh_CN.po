@@ -6024,7 +6024,7 @@ msgstr "您应该将Wkhtmltopdf的版本至少升级到0.12.0，以便正确显�
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
+msgid "Your Ciphlex session expired. The current page is about to be refreshed. "
 msgstr "您的Odoo会话已过期。当前页面即将被刷新。"
 
 #. module: web

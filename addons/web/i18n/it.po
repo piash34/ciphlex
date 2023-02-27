@@ -6049,7 +6049,7 @@ msgstr ""
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
+msgid "Your Ciphlex session expired. The current page is about to be refreshed. "
 msgstr ""
 "La sessione Odoo è scaduta. La pagina corrente sta per essere aggiornata."
 

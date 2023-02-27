@@ -28,13 +28,12 @@
         <div>
             <h1>STANDARD TERMS AND CONDITIONS OF SALE</h1>
             <p>You should update this document to reflect your T&amp;C.</p>
-            <p>Below text serves as a suggestion and doesn’t engage Odoo S.A. responsibility.</p>
             <ol>
                 <li>
                     The client explicitly waives its own standard terms and conditions, even if these were drawn up after these standard terms and conditions of sale. In order to be valid, any derogation must be expressly agreed to in advance in writing.
                 </li>
                 <li>
-                    Our invoices are payable within 21 working days, unless another payment timeframe is indicated on either the invoice or the order. In the event of non-payment by the due date, <t t-esc="company_name"/> reserves the right to request a fixed interest payment amounting to 10% of the sum remaining due. <t t-esc="company_name"/> will be authorized to suspend any provision of services without prior warning in the event of late payment.
+                    Our invoices are payable before shippment, unless another payment timeframe is indicated on either the invoice or the order. In the event of non-payment by the due date, <t t-esc="company_name"/> reserves the right to request a fixed interest payment amounting to 10% of the sum remaining due. <t t-esc="company_name"/> will be authorized to suspend any provision of services without prior warning in the event of late payment.
                 </li>
                 <li>
                     If a payment is still outstanding more than sixty (60) days after the due payment date, <t t-esc="company_name"/> reserves the right to call on the services of a debt recovery company. All legal expenses will be payable by the client.

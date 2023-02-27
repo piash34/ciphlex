@@ -1046,7 +1046,7 @@ msgstr ""
 
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid "Below text serves as a suggestion and doesn’t engage Odoo S.A. responsibility."
+msgid "Below text serves as a suggestion and doesn’t engage Ciphlex Inc. responsibility."
 msgstr ""
 
 #. module: stock
@@ -4616,7 +4616,7 @@ msgstr ""
 
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid "Our invoices are payable within 21 working days, unless another payment timeframe is indicated on either the invoice or the order. In the event of non-payment by the due date, My Company (Chicago) reserves the right to request a fixed interest payment amounting to 10% of the sum remaining due. My Company (Chicago) will be authorized to suspend any provision of services without prior warning in the event of late payment."
+msgid "Our invoices are payable before shippment, unless another payment timeframe is indicated on either the invoice or the order. In the event of non-payment by the due date, My Company (Chicago) reserves the right to request a fixed interest payment amounting to 10% of the sum remaining due. My Company (Chicago) will be authorized to suspend any provision of services without prior warning in the event of late payment."
 msgstr ""
 
 #. module: stock
