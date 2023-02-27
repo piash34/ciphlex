@@ -11762,7 +11762,7 @@ msgstr "簡訊發送錯誤"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgid "TERMS AND CONDITIONS OF SALE"
 msgstr "標准銷售條款和條件"
 
 #. module: account

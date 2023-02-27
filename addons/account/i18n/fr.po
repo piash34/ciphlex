@@ -12193,7 +12193,7 @@ msgstr "Erreur d'envoi SMS"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgid "TERMS AND CONDITIONS OF SALE"
 msgstr "CONDITIONS GENERALES DE VENTE"
 
 #. module: account

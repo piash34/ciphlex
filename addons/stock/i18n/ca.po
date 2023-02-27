@@ -7206,7 +7206,7 @@ msgstr "SSCC:"
 
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgid "TERMS AND CONDITIONS OF SALE"
 msgstr "TERMES I CONDICIONS ESTÀNDAR DE VENDA"
 
 #. module: stock

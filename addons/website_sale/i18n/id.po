@@ -128,7 +128,7 @@ msgstr "<b>Pesanan Anda: </b>"
 #: model_terms:ir.ui.view,arch_db:website_sale.product_custom_text
 msgid ""
 "<br/>\n"
-"                30-day money-back guarantee<br/>\n"
+"                7-day money-back guarantee<br/>\n"
 "                Shipping: 2-3 Business Days"
 msgstr ""
 "<br/>\n"

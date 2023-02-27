@@ -6994,7 +6994,7 @@ msgstr ""
 
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgid "TERMS AND CONDITIONS OF SALE"
 msgstr "標准銷售條款和條件"
 
 #. module: stock

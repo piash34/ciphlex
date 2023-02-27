@@ -47,7 +47,7 @@ msgstr "-- Crear nueva dirección --"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid ""
-"30-day money-back guarantee<br/>\n"
+"7-day money-back guarantee<br/>\n"
 "                    Free Shipping in U.S.<br/>\n"
 "                    Buy now, get in 2 days"
 msgstr ""

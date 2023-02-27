@@ -24717,7 +24717,7 @@ msgstr ""
 
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgid "TERMS AND CONDITIONS OF SALE"
 msgstr ""
 
 #. module: base

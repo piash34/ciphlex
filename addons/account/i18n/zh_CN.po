@@ -11768,7 +11768,7 @@ msgstr "短信息发送错误"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgid "TERMS AND CONDITIONS OF SALE"
 msgstr "标准销售期限和条件"
 
 #. module: account

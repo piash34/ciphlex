@@ -12000,7 +12000,7 @@ msgstr "خطأ في تسليم الرسائل القصيرة"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgid "TERMS AND CONDITIONS OF SALE"
 msgstr "الشروط والأحكام القياسية للبيع "
 
 #. module: account

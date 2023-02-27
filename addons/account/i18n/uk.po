@@ -12112,7 +12112,7 @@ msgstr "Помилка доставки SMS"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
-msgid "STANDARD TERMS AND CONDITIONS OF SALE"
+msgid "TERMS AND CONDITIONS OF SALE"
 msgstr "СТАНДАРТНІ ТЕРМІНИ ТА УМОВИ ПРОДАЖУ"
 
 #. module: account
