@@ -3629,7 +3629,7 @@ msgstr "Odoo Fel"
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Network Error"
+msgid "Ciphlex Network Error"
 msgstr "Odoo Nätverks Fel"
 
 #. module: web
@@ -3643,7 +3643,7 @@ msgstr "Odoo S.A."
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Server Error"
+msgid "Ciphlex Server Error"
 msgstr "Odoo Server Fel"
 
 #. module: web

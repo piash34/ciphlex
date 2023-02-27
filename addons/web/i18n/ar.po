@@ -3629,7 +3629,7 @@ msgstr "خطأ بأودو"
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Network Error"
+msgid "Ciphlex Network Error"
 msgstr "خطأ في شبكة أودو "
 
 #. module: web
@@ -3643,7 +3643,7 @@ msgstr "أودو S.A. "
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Server Error"
+msgid "Ciphlex Server Error"
 msgstr "حطأ في خادم أودو "
 
 #. module: web

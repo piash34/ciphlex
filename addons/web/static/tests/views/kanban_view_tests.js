@@ -3154,7 +3154,7 @@ QUnit.module("Views", (hooks) => {
                 if (args.method === "name_create") {
                     throw makeErrorFromResponse({
                         code: 200,
-                        message: "Odoo Server Error",
+                        message: "Ciphlex Server Error",
                         data: {
                             name: "odoo.exceptions.UserError",
                             debug: "traceback",
@@ -3209,7 +3209,7 @@ QUnit.module("Views", (hooks) => {
                 if (args.method === "name_create") {
                     throw makeErrorFromResponse({
                         code: 200,
-                        message: "Odoo Server Error",
+                        message: "Ciphlex Server Error",
                         data: {
                             name: "odoo.exceptions.UserError",
                             debug: "traceback",
@@ -3256,7 +3256,7 @@ QUnit.module("Views", (hooks) => {
                 if (args.method === "name_create") {
                     throw makeErrorFromResponse({
                         code: 200,
-                        message: "Odoo Server Error",
+                        message: "Ciphlex Server Error",
                         data: {
                             name: "odoo.exceptions.UserError",
                             debug: "traceback",
@@ -3315,7 +3315,7 @@ QUnit.module("Views", (hooks) => {
                 if (args.method === "name_create") {
                     throw makeErrorFromResponse({
                         code: 200,
-                        message: "Odoo Server Error",
+                        message: "Ciphlex Server Error",
                         data: {
                             name: "odoo.exceptions.UserError",
                             debug: "traceback",

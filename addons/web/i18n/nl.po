@@ -3634,7 +3634,7 @@ msgstr "Odoo fout"
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Network Error"
+msgid "Ciphlex Network Error"
 msgstr "Odoo-netwerkfout"
 
 #. module: web
@@ -3648,7 +3648,7 @@ msgstr "Odoo SA"
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #, python-format
-msgid "Odoo Server Error"
+msgid "Ciphlex Server Error"
 msgstr "Odoo-serverfout"
 
 #. module: web

@@ -52,7 +52,7 @@ class TBXLSXReportController(http.Controller):
             se=0
             error = {
                 'code': 200,
-                'message': 'Odoo Server Error',
+                'message': 'Ciphlex Server Error',
                 'data': se
             }
             return request.make_response(html_escape(json.dumps(error)))

@@ -52,7 +52,7 @@ ClientErrorDialog.title = _lt("Ciphlex Client Error");
 // Network Error Dialog
 // -----------------------------------------------------------------------------
 export class NetworkErrorDialog extends ErrorDialog {}
-NetworkErrorDialog.title = _lt("Odoo Network Error");
+NetworkErrorDialog.title = _lt("Ciphlex Network Error");
 
 // -----------------------------------------------------------------------------
 // RPC Error Dialog
@@ -78,13 +78,13 @@ export class RPCErrorDialog extends ErrorDialog {
         }
         switch (this.props.type) {
             case "server":
-                this.title = this.env._t("Odoo Server Error");
+                this.title = this.env._t("Ciphlex Server Error");
                 break;
             case "script":
                 this.title = this.env._t("Ciphlex Client Error");
                 break;
             case "network":
-                this.title = this.env._t("Odoo Network Error");
+                this.title = this.env._t("Ciphlex Network Error");
                 break;
         }
     }

@@ -4746,7 +4746,7 @@ QUnit.module("Views", (hooks) => {
                 arch: '<tree><field name="foo"/></tree>',
                 mockRPC(route, args) {
                     if (args.method === "unlink") {
-                        return Promise.reject({ message: "Odoo Server Error" });
+                        return Promise.reject({ message: "Ciphlex Server Error" });
                     }
                 },
             });

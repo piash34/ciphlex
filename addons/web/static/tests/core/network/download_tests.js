@@ -78,7 +78,7 @@ QUnit.module("download", (hooks) => {
                 arguments: ["Business Error Message", "someArg"],
                 message: "Business Error Message",
             },
-            message: "Odoo Server Error",
+            message: "Ciphlex Server Error",
         };
 
         async function send() {

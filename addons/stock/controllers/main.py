@@ -30,7 +30,7 @@ class StockReportController(http.Controller):
             se = http.serialize_exception(e)
             error = {
                 'code': 200,
-                'message': 'Odoo Server Error',
+                'message': 'Ciphlex Server Error',
                 'data': se
             }
             res = werkzeug.wrappers.Response(
