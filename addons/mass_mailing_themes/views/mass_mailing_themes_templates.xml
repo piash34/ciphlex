@@ -5,8 +5,8 @@
         <xpath expr="//div[@id='email_designer_themes']" position="inside">
             <!--<div data-name="newsletter" title="Event Promo"
                   data-img="/mass_mailing_themes/static/src/img/theme_imgs/newsletter_thumb" data-images-info='{"logo": {"format": "png"}, "all": {"module": "mass_mailing_themes"}}'>
-                <t t-call="mass_mailing_themes.theme_newsletter_template"/>-->
-            </div>
+                <t t-call="mass_mailing_themes.theme_newsletter_template"/>
+            </div>-->
             <div data-name="tech" title="Blogging" data-img="/mass_mailing_themes/static/src/img/theme_imgs/tech_thumb" data-images-info='{"logo": {"format": "png"}, "all": {"module": "mass_mailing_themes"}}'>
                 <t t-call="mass_mailing_themes.theme_tech_template"/>
             </div>
