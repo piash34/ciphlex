@@ -109,10 +109,10 @@ msgstr "<font style=\"color: rgb(255, 255, 255);\">Hallo daar!</font>"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid ""
-"<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Odoo Experience Online</span> is coming soon!\n"
+"<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Ciphlex Experience Online</span> is coming soon!\n"
 "                    <br/>To stir up your curiosity, have a look at all the great talks scheduled and highlighted in our agenda!</font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\">De volgende editie van <span style=\"font-weight: bolder;\">Odoo Experience Online</span> komt eraan!\n"
+"<font style=\"color: rgb(255, 255, 255);\">De volgende editie van <span style=\"font-weight: bolder;\">Ciphlex Experience Online</span> komt eraan!\n"
 "                    <br/>Om je nieuwsgierigheid op te wekken, kun je alle geweldige talks bekijken die zijn gepland en gemarkeerd in onze agenda!</font>"
 
 #. module: mass_mailing_themes
@@ -121,7 +121,7 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
 "Experience is free for everyone!</font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\">Nul, niets, nada! Odoo Experience"
+"<font style=\"color: rgb(255, 255, 255);\">Nul, niets, nada! Ciphlex Experience"
 " is gratis voor iedereen!</font>"
 
 #. module: mass_mailing_themes
@@ -465,7 +465,7 @@ msgid ""
 "Experts and Partners."
 msgstr ""
 "Leer door middel van workshops, productdemo's en inspirerende lezingen van "
-"Odoo Experts en Partners."
+"Ciphlex Experts en Partners."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template

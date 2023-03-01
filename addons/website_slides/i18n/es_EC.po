@@ -1877,9 +1877,9 @@ msgstr "tu-amigo@dominio.com"
 #~ msgid "Odoo - The Voice of the Customer: Alpinter"
 #~ msgstr "Odoo - La voz del consumidor: Alpinter"
 
-#~ msgid "Odoo Experience - Register now https://www.odoo.com/event/304/"
+#~ msgid "Ciphlex Experience - Register now https://www.ciphlex.com/event/304/"
 #~ msgstr ""
-#~ "Experiencia Odoo  - Registrese ahora https://www.odoo.com/event/304/"
+#~ "Experiencia Ciphlex  - Registrese ahora https://www.ciphlex.com/event/304/"
 
 #~ msgid "Odoo Open Days 2014"
 #~ msgstr "Odoo Open Days 2014"
@@ -1887,8 +1887,8 @@ msgstr "tu-amigo@dominio.com"
 #~ msgid "Odoo POS Indiegogo Campaign"
 #~ msgstr "Odoo POS Indiegogo Campaign"
 
-#~ msgid "Odoo SEO - Boost Your Website Trafic"
-#~ msgstr "SEO Odoo - Aumente su tráfico del sitio web"
+#~ msgid "Ciphlex SEO - Boost Your Website Trafic"
+#~ msgstr "SEO Ciphlex - Aumente su tráfico del sitio web"
 
 #~ msgid "Open Source Website Builder and eCommerce: Odoo"
 #~ msgstr "Constructor de Sitio Web y eCommerce Open Source: Odoo"

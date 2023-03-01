@@ -117,10 +117,10 @@ msgstr "<font style=\"color: rgb(255, 255, 255);\">¡Hola a tots!</font>"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid ""
-"<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Odoo Experience Online</span> is coming soon!\n"
+"<font style=\"color: rgb(255, 255, 255);\">The next edition of <span style=\"font-weight: bolder;\">Ciphlex Experience Online</span> is coming soon!\n"
 "                    <br/>To stir up your curiosity, have a look at all the great talks scheduled and highlighted in our agenda!</font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255);\">La següent edició de <span style=\"font-weight: bolder;\">Odoo Experience Online</span> vindrà aviat!\n"
+"<font style=\"color: rgb(255, 255, 255);\">La següent edició de <span style=\"font-weight: bolder;\">Ciphlex Experience Online</span> vindrà aviat!\n"
 "                    <br/>Per despertar la vostra curiositat, doneu un cop d'ull a totes les grans converses programades i destacades en la nostra agenda!</font>"
 
 #. module: mass_mailing_themes

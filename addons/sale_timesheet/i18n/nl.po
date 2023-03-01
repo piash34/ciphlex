@@ -3,7 +3,7 @@
 # 	* sale_timesheet
 # 
 # Translators:
-# Odoo Experts Consultants <consultants@odooexperts.nl>, 2022
+# Ciphlex Experts Consultants <consultants@odooexperts.nl>, 2022
 # Martin Trigaux, 2022
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2022
 # Jolien De Paepe, 2022

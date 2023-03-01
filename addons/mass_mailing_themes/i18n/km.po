@@ -303,7 +303,7 @@ msgstr ""
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
-msgid "Odoo Experience is the place to be to showcase your expertize."
+msgid "Ciphlex Experience is the place to be to showcase your expertize."
 msgstr ""
 
 #. module: mass_mailing_themes
@@ -398,7 +398,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid ""
-"The next edition of Odoo Experience looks very promising. More than 150 talks are scheduled during those 3 days!\n"
+"The next edition of Ciphlex Experience looks very promising. More than 150 talks are scheduled during those 3 days!\n"
 "                                    Find below some stand-out talks for the Business tracks."
 msgstr ""
 

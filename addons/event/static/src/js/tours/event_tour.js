@@ -46,7 +46,7 @@ tour.register('event_tour', {
 }, {
     trigger: '.o_event_form_view input[id="name"]',
     content: Markup(_t("This is the <b>name</b> your guests will see when registering.")),
-    run: 'text Odoo Experience 2020',
+    run: 'text Ciphlex Experience 2020',
 }, {
     trigger: '.o_event_form_view div[name="date_end"]',
     content: _t("Open date range picker. Pick a Start date for your event"),

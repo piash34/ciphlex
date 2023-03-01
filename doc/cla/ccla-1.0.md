@@ -1,4 +1,4 @@
-# Odoo Corporate Contributor License Agreement
+# Ciphlex Corporate Contributor License Agreement
 ## Odoo CCLA v1.0
 Based on the Apache Software Foundation Corporate Contributor License Agreement v2.0, with modifications
 
