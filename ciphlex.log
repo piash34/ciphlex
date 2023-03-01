@@ -1,3 +1,1 @@
-2023-02-27 08:52:29,062 20180 INFO ? odoo.service.server: Initiating shutdown 
-2023-02-27 08:52:29,063 20180 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
-2023-02-27 08:52:30,241 20180 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 10 connections  
+ 
