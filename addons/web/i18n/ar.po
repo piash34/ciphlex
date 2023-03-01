@@ -3651,7 +3651,7 @@ msgstr "حطأ في خادم أودو "
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 #, python-format
-msgid "Odoo Session Expired"
+msgid "Ciphlex Session Expired"
 msgstr "انتهت صلاحية جلسة أودو"
 
 #. module: web

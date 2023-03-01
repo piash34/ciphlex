@@ -2300,7 +2300,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:212
 #, python-format
-msgid "Odoo Session Expired"
+msgid "Ciphlex Session Expired"
 msgstr ""
 
 #. module: web

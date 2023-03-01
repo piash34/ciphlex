@@ -163,7 +163,7 @@ export class SessionExpiredDialog extends Component {
 }
 SessionExpiredDialog.template = "web.SessionExpiredDialog";
 SessionExpiredDialog.components = { Dialog };
-SessionExpiredDialog.title = _lt("Odoo Session Expired");
+SessionExpiredDialog.title = _lt("Ciphlex Session Expired");
 
 registry
     .category("error_dialogs")
