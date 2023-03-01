@@ -2906,10 +2906,10 @@ msgstr "Mich 喜欢接受挑战。凭借在软件行业担任商务总监的多�
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.theme_default_template
 msgid ""
-"Michael Fletcher<br/>\n"
+"Zephaniah Okafor<br/>\n"
 "                   <span style=\"font-size: 12px; font-weight: bolder;\">Customer Service</span>"
 msgstr ""
-"Michael Fletcher<br/>\n"
+"Zephaniah Okafor<br/>\n"
 "                  <span style=\"font-size: 12px; font-weight: bolder;\">客户服务</span>"
 
 #. module: mass_mailing

@@ -131,7 +131,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_title_text
 msgid ""
 "<small>\n"
-"                                    <strong>Michael Fletcher</strong><br/>\n"
+"                                    <strong>Zephaniah Okafor</strong><br/>\n"
 "                                    <small>Community Manager</small>\n"
 "                                </small>"
 msgstr ""
