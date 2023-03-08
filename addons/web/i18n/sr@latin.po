@@ -1709,7 +1709,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
+msgid "Ciphlex BMS will be available soon"
 msgstr ""
 
 #. module: web

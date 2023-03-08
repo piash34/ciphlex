@@ -3613,7 +3613,7 @@ msgstr "Odoo"
 #. odoo-javascript
 #: code:addons/web/static/src/legacy/js/apps.js:0
 #, python-format
-msgid "Odoo Apps will be available soon"
+msgid "Ciphlex BMS will be available soon"
 msgstr "Las aplicaciones de Odoo estarán disponibles pronto"
 
 #. module: web
