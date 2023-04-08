@@ -512,7 +512,7 @@ msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
-msgid "You may want to add new computed fields with Odoo Studio:"
+msgid "You may want to add new computed fields with Ciphlex Studio:"
 msgstr ""
 
 #. module: digest

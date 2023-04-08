@@ -181,8 +181,8 @@ msgstr "Для настройки Studio необходима программа
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
-msgid "Studio customizations require the Odoo Studio app."
-msgstr "Настройка Studio требуют приложение Odoo Studio."
+msgid "Studio customizations require the Ciphlex Studio app."
+msgstr "Настройка Studio требуют приложение Ciphlex Studio."
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0

@@ -180,8 +180,8 @@ msgstr "Přizpůsobení Studio vyžaduje studio"
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
-msgid "Studio customizations require the Odoo Studio app."
-msgstr "Přizpůsobení aplikace Studio vyžadují aplikaci Odoo Studio."
+msgid "Studio customizations require the Ciphlex Studio app."
+msgstr "Přizpůsobení aplikace Studio vyžadují aplikaci Ciphlex Studio."
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0

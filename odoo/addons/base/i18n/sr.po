@@ -10424,7 +10424,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_view_form
 msgid ""
 "Be aware that editing the architecture of a standard view is not advised, since the changes will be overwritten during future module updates.<br/>\n"
-"                        We recommend applying modifications to standard views through inherited views or customization with Odoo Studio."
+"                        We recommend applying modifications to standard views through inherited views or customization with Ciphlex Studio."
 msgstr ""
 
 #. module: base

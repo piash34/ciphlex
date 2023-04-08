@@ -175,7 +175,7 @@ msgstr "تخصيصات الاستوديو تتطلب وجود تطبيق الا�
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
-msgid "Studio customizations require the Odoo Studio app."
+msgid "Studio customizations require the Ciphlex Studio app."
 msgstr "تخصيصات الاستوديو تتطلب وجود تطبيق الاستوديو من أودو. "
 
 #. module: base_import_module

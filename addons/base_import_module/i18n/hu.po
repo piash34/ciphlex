@@ -184,8 +184,8 @@ msgstr "A Studio testreszabáshoz Studio szükséges"
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
-msgid "Studio customizations require the Odoo Studio app."
-msgstr "A Studio testreszabásához az Odoo Studio alkalmazás szükséges."
+msgid "Studio customizations require the Ciphlex Studio app."
+msgstr "A Studio testreszabásához az Ciphlex Studio alkalmazás szükséges."
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0

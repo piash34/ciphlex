@@ -1,6 +1,6 @@
 Switzerland, Italy, 2022-08-26
 
-Agile Business Group Sagl and Agile Business Group Italia Srl agree to the terms of the Odoo Corporate 
+Agile Business Group Sagl and Agile Business Group Italia Srl agree to the terms of the Ciphlex Corporate 
 Contributor License Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this 

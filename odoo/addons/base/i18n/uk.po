@@ -14921,10 +14921,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_view_form
 msgid ""
 "Be aware that editing the architecture of a standard view is not advised, since the changes will be overwritten during future module updates.<br/>\n"
-"                        We recommend applying modifications to standard views through inherited views or customization with Odoo Studio."
+"                        We recommend applying modifications to standard views through inherited views or customization with Ciphlex Studio."
 msgstr ""
 "Майте на увазі, що редагувати архітектуру стандартного перегляду не рекомендується, оскільки зміни будуть перезаписані під час майбутніх оновлень модуля.<br/>\n"
-"                        Ми рекомендуємо вносити зміни до стандартних уявлень за допомогою успадкованих представлень або налаштувати за допомогою Odoo Studio."
+"                        Ми рекомендуємо вносити зміни до стандартних уявлень за допомогою успадкованих представлень або налаштувати за допомогою Ciphlex Studio."
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_asset__directive__before

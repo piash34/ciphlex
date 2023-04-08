@@ -21,7 +21,7 @@ Record employee contracts and get alerts when they have to be renewed.
 Streamline Your Recruitment Process
 -----------------------------------
 
-Index resumes, track applicants, search profiles with <a href="https://www.odoo.com/app/employees">Odoo HR</a>.
+Index resumes, track applicants, search profiles with <a href="https://www.ciphlex.com/app/employees">Ciphlex HR</a>.
 
 Post job offers and keep track of each application received. Follow applicants
 in your recruitment process with the smart kanban view.

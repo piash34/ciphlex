@@ -13762,9 +13762,9 @@ msgstr "能夠在電子商務結帳表單中檢視標識類型和 AFIP 責任."
 #: model_terms:ir.ui.view,arch_db:base.view_view_form
 msgid ""
 "Be aware that editing the architecture of a standard view is not advised, since the changes will be overwritten during future module updates.<br/>\n"
-"                        We recommend applying modifications to standard views through inherited views or customization with Odoo Studio."
+"                        We recommend applying modifications to standard views through inherited views or customization with Ciphlex Studio."
 msgstr ""
-"請注意，不建議編輯標準檢視的架構，因為在將來的模組更新期間更改將被覆蓋. <br/>我們建議通過繼承檢視或使用 Odoo Studio "
+"請注意，不建議編輯標準檢視的架構，因為在將來的模組更新期間更改將被覆蓋. <br/>我們建議通過繼承檢視或使用 Ciphlex Studio "
 "進行自訂來對標準檢視進行修改."
 
 #. module: base

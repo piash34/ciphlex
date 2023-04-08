@@ -172,8 +172,8 @@ msgstr "StudioのカスタマイズにはStudioが必要です"
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0
 #, python-format
-msgid "Studio customizations require the Odoo Studio app."
-msgstr "StudioのカスタマイズにはOdoo Studioアプリが必要です"
+msgid "Studio customizations require the Ciphlex Studio app."
+msgstr "StudioのカスタマイズにはCiphlex Studioアプリが必要です"
 
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:0

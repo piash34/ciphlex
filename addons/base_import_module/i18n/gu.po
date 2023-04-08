@@ -170,7 +170,7 @@ msgstr ""
 #. module: base_import_module
 #: code:addons/base_import_module/models/ir_module.py:57
 #, python-format
-msgid "Studio customizations require the Odoo Studio app."
+msgid "Studio customizations require the Ciphlex Studio app."
 msgstr ""
 
 #. module: base_import_module

@@ -404,7 +404,7 @@
                 <t t-out="preference"/>
             </div>
             <div class="by_odoo">
-                Sent by <a href="https://www.odoo.com" target="_blank" class="odoo_link"><span class="odoo_link_text">Odoo</span></a>
+                Sent by <a href="https://www.ciphlex.com" target="_blank" class="odoo_link"><span class="odoo_link_text">Ciphlex</span></a>
                 <t t-if="unsubscribe_token">
                     –
                     <a t-attf-href="/digest/#{object.id}/unsubscribe?token=#{unsubscribe_token}&amp;user_id=#{user.id}"
@@ -429,7 +429,7 @@
 <div class="global_layout" id="footer">
     <p style="font-weight: bold;" t-esc="company.name"/>
     <p class="by_odoo" id="powered">
-        Powered by <a href="https://www.odoo.com" target="_blank" class="odoo_link"><span class="odoo_link_text">Odoo</span></a>
+        Powered by <a href="https://www.ciphlex.com" target="_blank" class="odoo_link"><span class="odoo_link_text">Ciphlex</span></a>
     </p>
 </div>
 </div>
@@ -442,10 +442,10 @@
     <template id="digest_section_mobile">
 <div class="global_layout" style="overflow: auto;">
     <div style="width: 50%; float: left; text-align: right;">
-        <img src="https://www.odoo.com/web/image/24717933/odoo-mobile.png" alt="Odoo Mobile" />
+        <img src="https://www.ciphex.com/web/image/24717933/odoo-mobile.png" alt="Ciphlex Mobile" />
     </div>
     <div style="width: 50%; float: left;">
-        <p class="run_business">Run your business from anywhere with <b>Odoo Mobile</b>.</p>
+        <p class="run_business">Run your business from anywhere with <b>Ciphlex Mobile</b>.</p>
         <div>
             <a href="https://play.google.com/store/apps/details?id=com.ciphlex.mobile" target="_blank"><img class="download_app" src="https://download.odoocdn.com/digests/digest/static/src/img/google_play.png" /></a>
         </div>

@@ -2113,7 +2113,7 @@
 </record>
 
 <!-- Error and special pages -->
-<template id="website_info" name="Odoo Information">
+<template id="website_info" name="Ciphlex Information">
     <t t-call="website.layout">
         <div id="wrap" class="o_website_info"/>
     </t>
@@ -2127,7 +2127,7 @@
                     <small groups='base.group_no_one'>Ciphlex Version <t t-out="version.get('server_version')"/></small>
                 </h1>
                 <p>
-                    Information about the <t t-esc="res_company.name"/> instance of Odoo, the <a target="_blank" href="https://www.odoo.com">Open Source ERP</a>.
+                    Information about the <t t-esc="res_company.name"/> instance of Ciphlex, the <a target="_blank" href="https://www.ciphlex.com">BMS</a>.
                 </p>
 
                 <div class="alert alert-warning alert-dismissable mt16" groups="website.group_website_restricted_editor" role="status">
@@ -2155,7 +2155,7 @@
                     <h2 class='mt32'>Installed Localizations / Account Charts</h2>
                     <dl class="dl-horizontal" t-foreach="l10n" t-as="app">
                         <dt>
-                            <a t-att-href="app.website or 'https://www.odoo.com/app/accounting/' + app.name">
+                            <a t-att-href="app.website or 'https://www.ciphlex.com/app/accounting/' + app.name">
                                 <t t-out="app.shortdesc"/>
                             </a>
                         </dt>
