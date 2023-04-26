@@ -27,10 +27,10 @@ from odoo.tools.image import image_guess_size_from_field_name
 _logger = logging.getLogger(__name__)
 
 BAD_X_SENDFILE_ERROR = """\
-Odoo is running with --x-sendfile but is receiving /web/filestore requests.
+Ciphlex is running with --x-sendfile but is receiving /web/filestore requests.
 
 With --x-sendfile enabled, NGINX should be serving the
-/web/filestore route, however Odoo is receiving the
+/web/filestore route, however Ciphlex is receiving the
 request.
 
 This usually indicates that NGINX is badly configured,

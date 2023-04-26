@@ -113,7 +113,7 @@ export class WarningDialog extends Component {
         if (this.props.exceptionName && odooExceptionTitleMap.has(this.props.exceptionName)) {
             return odooExceptionTitleMap.get(this.props.exceptionName).toString();
         }
-        return this.props.title || this.env._t("Odoo Warning");
+        return this.props.title || this.env._t("Ciphlex Warning");
     }
 }
 WarningDialog.template = "web.WarningDialog";
@@ -127,7 +127,7 @@ export class RedirectWarningDialog extends Component {
         this.actionService = useService("action");
         const { data, subType } = this.props;
         const [message, actionId, buttonText, additionalContext] = data.arguments;
-        this.title = capitalize(subType) || this.env._t("Odoo Warning");
+        this.title = capitalize(subType) || this.env._t("Ciphlex Warning");
         this.message = message;
         this.actionId = actionId;
         this.buttonText = buttonText;

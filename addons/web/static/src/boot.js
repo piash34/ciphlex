@@ -21,7 +21,7 @@
  *      Non loaded modules:
  *          Modules who depend on a missing or a failed module
  *      Debug:
- *          Non loaded or failed module informations for debugging
+ *          Non loaded or failed module information for debugging
  */
 (function () {
     "use strict";

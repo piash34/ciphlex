@@ -1054,7 +1054,7 @@ QUnit.module("Views", ({ beforeEach }) => {
                         message: {
                             code: 200,
                             data: {},
-                            message: "Odoo server error",
+                            message: "Ciphlex server error",
                         },
                         event: new Event("server_error"),
                     });

@@ -21,7 +21,7 @@ class DataSet(http.Controller):
 
     @http.route('/web/dataset/load', type='json', auth="user")
     def load(self, model, id, fields):
-        warnings.warn("the route /web/dataset/load is deprecated and will be removed in Odoo 17. Use /web/dataset/call_kw with method 'read' and a list containing the id as args instead", DeprecationWarning)
+        warnings.warn("the route /web/dataset/load is deprecated and will be removed in Ciphlex 17. Use /web/dataset/call_kw with method 'read' and a list containing the id as args instead", DeprecationWarning)
         value = {}
         r = request.env[model].browse([id]).read()
         if r:
@@ -34,7 +34,7 @@ class DataSet(http.Controller):
 
     @http.route('/web/dataset/call', type='json', auth="user")
     def call(self, model, method, args, domain_id=None, context_id=None):
-        warnings.warn("the route /web/dataset/call is deprecated and will be removed in Odoo 17. Use /web/dataset/call_kw with empty kwargs instead", DeprecationWarning)
+        warnings.warn("the route /web/dataset/call is deprecated and will be removed in Ciphlex 17. Use /web/dataset/call_kw with empty kwargs instead", DeprecationWarning)
         return self._call_kw(model, method, args, {})
 
     @http.route(['/web/dataset/call_kw', '/web/dataset/call_kw/<path:path>'], type='json', auth="user")

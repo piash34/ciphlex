@@ -616,7 +616,7 @@ class IrActionsReport(models.Model):
                 reader = PdfFileReader(stream)
                 writer.appendPagesFromReader(reader)
             except utils.PdfReadError:
-                raise UserError(_("Odoo is unable to merge the generated PDFs."))
+                raise UserError(_("Ciphlex is unable to merge the generated PDFs."))
         result_stream = io.BytesIO()
         streams.append(result_stream)
         writer.write(result_stream)

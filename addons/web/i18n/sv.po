@@ -3666,7 +3666,7 @@ msgstr "Odoo Varning"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/barcode/barcode_scanner.js:0
 #, python-format
-msgid "Odoo needs your authorization first."
+msgid "Ciphlex needs your authorization first."
 msgstr ""
 
 #. module: web
@@ -4092,7 +4092,7 @@ msgstr "Drivs med %s%s"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
 msgid "Powered by <span>Ciphlex Inc.</span>"
-msgstr "Drivs med <span>Odoo</span>"
+msgstr "Drivs med <span>Ciphlex</span>"
 
 #. module: web
 #. odoo-javascript
@@ -6048,10 +6048,10 @@ msgstr ""
 #: code:addons/web/static/src/webclient/actions/action_service.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start Ciphlex with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Du måste starta Odoo med minst två arbetare för att skriva ut en pdf "
+"Du måste starta Ciphlex med minst två arbetare för att skriva ut en pdf "
 "-version av rapporterna."
 
 #. module: web
@@ -6074,7 +6074,7 @@ msgstr ""
 #, python-format
 msgid "Your Ciphlex session expired. The current page is about to be refreshed. "
 msgstr ""
-"Din Odoo -session har löpt ut. Den aktuella sidan kommer att uppdateras."
+"Din Ciphlex -session har löpt ut. Den aktuella sidan kommer att uppdateras."
 
 #. module: web
 #. odoo-javascript
