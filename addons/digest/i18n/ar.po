@@ -34,7 +34,7 @@ msgstr "<span class=\"button\" id=\"button_open_report\">تقرير مفتوح</
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
-msgid "<span class=\"odoo_link_text\">Odoo</span>"
+msgid "<span class=\"odoo_link_text\">Ciphlex</span>"
 msgstr "<span class=\"odoo_link_text\">أودو</span> "
 
 #. module: digest
