@@ -38,7 +38,7 @@
                 <tr><td valign="top" style="font-size: 13px;">
                     <div>
                         Dear <t t-out="object.name or ''">Emeka Onye</t>,<br/><br/>
-                        A password reset was requested for the Odoo account linked to this email.
+                        A password reset was requested for the Ciphlex account linked to this email.
                         You may change your password by following this link which will remain valid during 24 hours:<br/>
                         <div style="margin: 16px 0px 16px 0px;">
                             <a t-att-href="object.signup_url"
@@ -87,7 +87,7 @@
 <tr><td align="center" style="min-width: 590px;">
     <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;">
       <tr><td style="text-align: center; font-size: 13px;">
-        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Odoo</a>
+        Powered by <a target="_blank" href="https://www.ciphlex.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Ciphlex</a>
       </td></tr>
     </table>
 </td></tr>
@@ -144,7 +144,7 @@
                         <t t-set="website_url" t-value="object.get_base_url()"></t>
                         Your Ciphlex BMS domain is: <b><a t-att-href='website_url' t-out="website_url or ''">http://yourcompany.ciphlex.com</a></b><br />
                         Your sign in email is: <b><a t-attf-href="/web/login?login={{ object.email }}" target="_blank" t-out="object.email or ''">mark.brown23@example.com</a></b><br /><br />
-                        Never heard of Ciphlex BMS? It is a business managment software loved by many users. It will considerably improve your experience at work and increase your productivity.
+                        Never heard of Ciphlex BMS? It is a business management software loved by many users. It will considerably improve your experience at work and increase your productivity.
                         <br /><br />
                         Have a look at the <a href="https://www.ciphlex.com/page/tour?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Ciphlex BMS Tour</a> to discover the tool.
                         <br /><br />
@@ -184,7 +184,7 @@
 <tr><td align="center" style="min-width: 590px;">
     <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;">
       <tr><td style="text-align: center; font-size: 13px;">
-        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Odoo</a>
+        Powered by <a target="_blank" href="https://www.ciphlex.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Ciphlex</a>
       </td></tr>
     </table>
 </td></tr>
@@ -332,7 +332,7 @@
 <tr><td align="center" style="min-width: 590px;">
     <table border="0" cellpadding="0" cellspacing="0" width="590" style="min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;">
       <tr><td style="text-align: center; font-size: 13px;">
-        Powered by <a target="_blank" href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Odoo</a>
+        Powered by <a target="_blank" href="https://www.ciphlex.com?utm_source=db&amp;utm_medium=auth" style="color: #875A7B;">Ciphlex</a>
       </td></tr>
     </table>
 </td></tr>
