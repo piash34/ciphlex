@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.call.for.price</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <div id="website_info_settings" position="after">
+                <h2>Call for Price</h2>
+                <div class="row mt16 o_settings_container" id="call_for_price_settings">
+                    <div class="col-12 col-lg-6 o_setting_box" id="web_call_for_price_settings" title="By enabling this option, you can enable Call for Price for all Products globally.">
+                        <div class="o_setting_left_pane">
+                            <field name="call_for_price_settings"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="call_for_price_settings"/>
+                            <span class="fa fa-lg fa-phone" title="Website Call for Price"/>
+                            <div class="text-muted">
+                                By enabling this option, you can enable Call for Price for all Products globally.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </field>
+    </record>
+</odoo>

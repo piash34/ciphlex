@@ -1,0 +1,14 @@
+<odoo>
+	<data>
+		<record id="product_template_form_view_call_for_price" model="ir.ui.view">
+			<field name="name">product.template.form.call_for_price</field>
+			<field name="model">product.template</field>
+			<field name="inherit_id" ref="product.product_template_form_view"/>
+			<field name="arch" type="xml">
+				<xpath expr="//page[@name='general_information']//field[@name='detailed_type']" position="after">
+					<field name="call_for_price_settings"/>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo>

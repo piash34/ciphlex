@@ -10,7 +10,10 @@ class SalesProductProfitReport(models.Model):
     name = fields.Char(string='Order Number')
     date_order = fields.Datetime(string='Order Date')
     product_id = fields.Many2one(
-        'product.product', string='Product', )
+        'product.product', string='Product')
+    product_uom_id = fields.Many2one(
+        'uom.uom', string='Unit Of Measure')
+    product_unit_price = fields.Float(string='Product Price Unit')
     qty = fields.Float(string='Quantity')
     profit = fields.Float()
     margin = fields.Float(string="Margin (%)")
@@ -23,3 +26,4 @@ class SalesProductProfitReport(models.Model):
                                   related='company_id.currency_id')
     cost = fields.Monetary()
     sale_price = fields.Monetary()
+    avg_profit_margin = fields.Float(string='Average Profit Margin')

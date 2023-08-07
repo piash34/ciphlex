@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_call_for_price,access.call.for.price,model_call_for_price,base.group_user,1,1,1,1
+access_call_for_price_settings_wizard,access.call.for.price.settings.wizard,model_call_for_price_settings_wizard,base.group_user,1,1,1,1

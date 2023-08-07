@@ -10,12 +10,15 @@
                 <field name="date_order" optional="show" />
                 <field name="product_id" options="{'no_open': True, 'no_create': True}" optional="show" />
                 <field name="sh_partner_id" options="{'no_open': True, 'no_create': True}" optional="show" />
-                <field name="qty" />
+                <field name="product_uom_id" options="{'no_open': True, 'no_create': True}" optional="show" />
+                <field name="product_unit_price" />
+                <field name="qty" sum="Total Quantity" />
                 <field name="cost" sum="Total Cost" optional="show" />
                 <field name="sale_price" sum="Total Sale Price" optional="show" />
                 <field name="currency_id" invisible="1" />
                 <field name="profit" sum="Total Profit" optional="show" />
                 <field name="margin" sum="Total Margin" optional="show" />
+                <field name="avg_profit_margin" sum="Total Average Profit Margin" optional="show" />
             </tree>
         </field>
     </record>
@@ -29,14 +32,18 @@
                 <field name="date_order" />
                 <field name="product_id" />
                 <field name="sh_partner_id" />
+                <field name="product_uom_id" />
+                <field name="product_unit_price" />
                 <field name="qty" />
                 <field name="cost" />
                 <field name="sale_price" />
                 <field name="profit" />
                 <field name="margin" />
+                <field name="avg_profit_margin" />
                 <filter string="Order Date" name="group_order_date" domain="[]" context="{'group_by': 'date_order'}" />
                 <filter string="Customer" name="group_customer" domain="[]" context="{'group_by': 'sh_partner_id'}" />
                 <filter string="Product" name="group_product" domain="[]" context="{'group_by': 'product_id'}" />
+                <filter string="Unit Of Measure" name="group_product_uom" domain="[]" context="{'group_by': 'product_uom_id'}" />
             </search>
         </field>
     </record>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <record id="view_call_for_price_form" model="ir.ui.view">
+        <field name="name">call.for.price.form</field>
+        <field name="model">call.for.price</field>
+        <field name="arch" type="xml">
+            <form string="Call for Price" class="o_call_for_price">
+                <header>
+                </header>
+                <sheet>
+                    <field name="image" widget="image" class="oe_avatar" options="{'preview_image': 'image'}"/>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group name="call_for_price">
+                        <group>
+                            <field name="product_id"/>
+                            <field name="product_qty"/>
+                        </group>
+                        <group>
+                            <field name="first_name"/>
+                            <field name="last_name"/>
+                            <field name="email"/>
+                            <field name="phone"/>
+                        </group>
+                        <group>
+                            <field name="message"/>
+                        </group>
+                        <group>
+                            <field name="website_id" readonly="0"/>
+                            <field name="company_id" readonly="0"/>
+                        </group>
+                    </group>
+
+                </sheet>            
+            </form>
+        </field>
+    </record>
+
+    <record id="view_call_for_price_tree" model="ir.ui.view">
+        <field name="name">call.for.price.tree</field>
+        <field name="model">call.for.price</field>
+        <field name="priority">4</field>
+        <field name="arch" type="xml">
+            <tree string="Call for Price">                
+                <field name="product_id"/>
+                <field name="product_qty"/>
+                <field name="name"/>
+                <field name="first_name"/>
+                <field name="last_name"/>
+                <field name="email"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_call_for_price_search" model="ir.ui.view">
+        <field name="name">call.for.price.search</field>
+        <field name="model">call.for.price</field>
+        <field name="priority" eval="15"/>
+        <field name="arch" type="xml">
+            <search string="Search Call for Price">
+                <field name="name"/>
+                <field name="first_name"/>
+                <field name="last_name"/>
+                <field name="email"/>
+                <field name="product_id"/>
+                <field name="product_qty"/>
+                <field name="website_id"/>
+                <field name="company_id"/>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_call_for_price_kanban">
+        <field name="name">call.for.price.kanban</field>
+        <field name="model">call.for.price</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_mobile" sample="1">
+                <field name="name"/>
+                <field name="first_name"/>
+                <field name="last_name"/>
+                <field name="email"/>
+                <field name="product_id"/>
+                <field name="product_qty"/>
+                <templates>    
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                            <div class="o_kanban_image">
+                                <img t-att-src="kanban_image('product.product', 'image_128', record.product_id.raw_value)" alt="Product" class="o_image_64_contain"/>
+                            </div>
+                            <div class="oe_kanban_details">
+                                <div class="o_kanban_record_top">
+                                    <div class="o_kanban_record_headings">
+                                        <strong class="o_kanban_record_title">
+                                            <div>
+                                                <div class="float-right">
+                                                    <field name="product_qty"/>
+                                                </div>
+                                                <strong><span t-esc="record.product_id.value"/></strong>
+                                            </div>
+                                        </strong>
+                                    </div>
+                                </div>
+                                <div class="o_kanban_record_bottom">
+                                    <div class="oe_kanban_bottom_left">
+                                        <field name="website_id"/>                                       
+                                    </div>
+                                    <div class="oe_kanban_bottom_right text-muted">
+                                        <span><t t-esc="record.name.value"/></span>                    
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="call_for_price_action" model="ir.actions.act_window">
+        <field name="name">Call for Price</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">call.for.price</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="view_id" ref="web_call_for_price.view_call_for_price_kanban"/>
+        <field name="search_view_id" ref="web_call_for_price.view_call_for_price_search"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new record
+            </p>
+        </field>
+    </record>
+
+
+    <menuitem id="call_for_price_menu"
+        name="Call for Price"
+        parent="sale.sale_order_menu"
+        action="call_for_price_action"
+        groups="base.group_user"
+        sequence="10"/>
+</odoo>

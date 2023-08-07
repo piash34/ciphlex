@@ -1,0 +1,2 @@
+
+16.0.0.1 ==> Fixed issue of when discount based on tax or untax amount and after that create bil and discount applied based on order line at that time trace back occur and also changes in when discount apply on order line at that time line subtotal chnages based on that.

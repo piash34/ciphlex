@@ -1,0 +1,145 @@
+<odoo>
+	<data>
+        <template id="product_call_for_price" inherit_id="website_sale.product">
+            <xpath expr="//div[@id='product_details']/form" position="before">
+				<t t-set ="call_for_price_settings" t-value="product.get_call_for_price_settings(website.id)"/>	
+			</xpath>            
+            <xpath expr="//div[@id='product_details']/form/div[hasclass('js_main_product')]" position="attributes">
+				<attribute name="t-att-style">
+					'display:none' if call_for_price_settings else ''
+				</attribute>
+			</xpath>
+            <xpath expr="//div[@id='product_details']/form" position="inside">
+				<t t-if="call_for_price_settings">					
+					<a  class ="btn btn-primary btn-lg mt8 mb8 text-white call_for_price_dialog">
+						<i class="fa fa-phone"></i> Call for Price
+					</a>
+				</t>				
+			</xpath>
+        </template>
+
+        <template id="product__itemcall_for_price" inherit_id="website_sale.products_item">						
+			<xpath expr="//div[hasclass('o_wsale_product_btn')]" position="before">
+				<t t-set ="call_for_price_visibility_cart" t-value="product.get_call_for_price_settings(website.id)"/>
+			</xpath>
+			<xpath expr="//div[hasclass('o_wsale_product_btn')]" position="attributes">
+				<attribute name="t-att-style">
+					'display:none' if call_for_price_visibility_cart else ''
+				</attribute>
+			</xpath>
+			<xpath expr="//div[hasclass('product_price')]" position="before">
+				<t t-set ="call_for_price_settings" t-value="product.get_call_for_price_settings(website.id)"/>
+			</xpath>
+			<xpath expr="//div[hasclass('product_price')]" position="attributes">
+				<attribute name="t-att-style">
+					'display:none' if call_for_price_settings else ''
+				</attribute>
+			</xpath>
+		</template>	
+
+		<template id="product_call_for_price_dialog" inherit_id="website_sale.product">
+			<xpath expr="//t[@t-call='website.layout']" position="inside">
+				<div class="modal" id="call_for_price_dialog" tabindex="-1" role="dialog" style="height: auto !important;">
+					<div class="modal-dialog" role="document">						
+						<div class="modal-content">
+							<form role="form" id="o_form_call_for_price">
+								<header class="modal-header">
+									<h4 class="modal-title">Call for Price</h4>
+									<button type="button" class="call_for_price_dialog_close border-0 bg-transparent" data-dismiss="modal" aria-label="Close">&amp;times;</button>										
+								</header>
+								<main class="modal-body">
+									<input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+									<input type="hidden" id="dialog-website-id" t-att-value="website.id" autocomplete="off"/> 
+									<div class="form-group row">
+										<t t-if="len(product.product_variant_ids)&gt; 1">																							
+											<div class="col-md-3">
+												Product Variant :
+											</div>
+											<div class="col-md-9">
+												<select id="dialog-product-id" class="form-control o_input">
+													<t t-foreach="product.product_variant_ids" t-as="variant">
+														<t t-foreach="variant.product_template_attribute_value_ids" t-as="var_att">
+															<option t-att-value="variant.id">
+																<t t-esc="var_att.attribute_id.name"/> -  <t t-esc="var_att.name"/>
+															</option>
+														</t>
+													</t>
+												</select>
+											</div>
+										</t>
+										<t t-else="">
+											<t t-set="combination" t-value="product._get_first_possible_combination()"/>
+											<t t-set="combination_info" t-value="product._get_combination_info(combination, add_qty=add_qty or 1, pricelist=pricelist)"/>
+											<t t-set="product_variant" t-value="product.env['product.product'].browse(combination_info['product_id'])"/>											
+											<input type="hidden" class="form-control" id="dialog-product-id" t-att-value="product_variant.id" autocomplete="off"/>
+										</t>										
+									</div>
+									<div class="form-group row">
+										<div class="col-md-3">
+											First Name :
+										</div>
+										<div class="col-md-9">
+											<input class="form-control" id="dialog-first-name" type="text" autocomplete="off"/>
+										</div>
+									</div>
+									<div class="form-group row mt8">
+										<div class="col-md-3">
+											Last Name :
+										</div>
+										<div class="col-md-9">
+											<input class="form-control" id="dialog-last-name" type="text" autocomplete="off"/>
+										</div>
+									</div>
+									<div class="form-group row mt8">
+										<div class="col-md-3">
+											Email :
+										</div>
+										<div class="col-md-9">
+											<input class="form-control" id="dialog-email" type="email" autocomplete="off"/>
+										</div>
+									</div>
+									<div class="form-group row mt8">
+										<div class="col-md-3">
+											Phone No. :
+										</div>
+										<div class="col-md-9">
+											<input class="form-control" id="dialog-phone" type="number" autocomplete="off"/>
+										</div>
+									</div>
+									<div class="form-group row mt8">
+										<div class="col-md-3">
+											Quantity :
+										</div>
+										<div class="col-md-9">
+											<input class="form-control"  id="dialog-product-qty" type="number" min="1" autocomplete="off"/>
+										</div>
+									</div>
+									<div class="form-group row mt8 mb8">
+										<div class="col-md-3">
+											Message :
+										</div>
+										<div class="col-md-9">
+											<textarea class="form-control" id="dialog-message" rows="2" autocomplete="off"/>
+										</div>
+									</div>
+									<div class="call_for_price_success_alert alert alert-success d-none" role="alert">
+										Your request has been generated for Call for Price.
+									</div>	
+
+									<div class="call_for_price_danger_alert alert alert-danger d-none " role="alert">
+										Something went wrong during your request generation.
+									</div>	
+								</main>
+								<footer class="modal-footer">
+									<button type="button" class="call_for_price_dialog_close btn btn-secondary" data-dismiss="modal">Close</button>
+									<button type="button" class="call_for_price_dialog_reset btn btn-danger">Reset</button>
+									<button type="button" class="call_for_price_dialog_submit btn btn-primary">Submit</button>
+								</footer>	
+							</form>
+						</div>
+					</div>
+				</div>
+			</xpath>
+		</template>
+    </data>
+</odoo>

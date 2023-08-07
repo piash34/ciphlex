@@ -29,6 +29,8 @@
                                         <span t-esc="customer" />
                                     </b>
                                 </center>
+                                <t t-set="total_ave_profit_margin" t-value="0" />
+                                <t t-set="total_quantity" t-value="0" />
                                 <t t-set="total_cost" t-value="0" />
                                 <t t-set="total_sales_price" t-value="0" />
                                 <t t-set="total_profit" t-value="0" />
@@ -39,11 +41,14 @@
                                             <th style="border: 1px solid black;">Order Number</th>
                                             <th style="border: 1px solid black;">Order Date</th>
                                             <th style="border: 1px solid black;">Product</th>
+                                            <th style="border: 1px solid black;">Unit Of Measure</th>
+                                            <th style="border: 1px solid black;">Product Unit Price</th>
                                             <th style="border: 1px solid black;">Quantity</th>
                                             <th style="border: 1px solid black;">Cost</th>
                                             <th style="border: 1px solid black;">Sale Price</th>
                                             <th style="border: 1px solid black;">Profit</th>
                                             <th style="border: 1px solid black;">Margin(%)</th>
+                                            <th style="border: 1px solid black;">Average Profit Margin</th>
                                         </tr>
                                     </thead>
                                     <tbody class="sale_tbody">
@@ -51,6 +56,7 @@
                                             <t t-set="sale_price" t-value="(order.get('sale_price',0.0)*order.get('qty',0.0))" />
                                             <t t-set="cost_price" t-value="(order.get('cost',0.0)*order.get('qty',0.0))" />
                                             <t t-set="profit" t-value="(order.get('sale_price',0.0)*order.get('qty',0.0)) - (order.get('cost',0.0)*order.get('qty',0.0))" />
+                                            <t t-set="sh_quantity" t-value="order.get('qty',0.0)" />
                                             <tr>
                                                 <td style="border: 1px solid black;">
                                                     <span t-esc="order.get('order_number','')" />
@@ -60,6 +66,12 @@
                                                 </td>
                                                 <td style="border: 1px solid black;">
                                                     <span t-esc="order.get('product','')" />
+                                                </td>
+                                                <td style="border: 1px solid black;">
+                                                    <span><t t-out="order.get('product_uom_id').name"/></span>
+                                                </td>
+                                                <td style="border: 1px solid black;">
+                                                    <span t-esc="order.get('product_unit_price','')" />
                                                 </td>
                                                 <td style="border: 1px solid black;">
                                                     <span t-esc="'%.2f'%(order.get('qty',0.0))" />
@@ -82,6 +94,18 @@
                                                         <span t-esc="'%.2f'%(0.00)" />
                                                     </t>
                                                 </td>
+                                                <td style="border: 1px solid black;">
+                                                    <t t-if="sh_quantity != 0.0">
+                                                        <span t-esc="'%.2f'%(profit / sh_quantity )" />
+                                                    </t>
+                                                    <t t-else="">
+                                                        <span t-esc="'%.2f'%(0.00)" />
+                                                    </t>
+                                                </td>
+                                                <t t-set="total_quantity" t-value="total_quantity + order.get('qty',0.0)" />
+                                                <t t-if="profit">
+                                                    <t t-set="total_ave_profit_margin" t-value="total_ave_profit_margin + (profit / sh_quantity )" />
+                                                </t>
                                                 <t t-set="total_cost" t-value="total_cost + order.get('cost',0.0) * order.get('qty',0.0) " />
                                                 <t t-set="total_sales_price" t-value="total_sales_price + order.get('sale_price',0.0) * order.get('qty',0.0)" />
                                                 <t t-set="total_profit" t-value="total_profit + (order.get('sale_price',0.0)*order.get('qty',0.0)) - (order.get('cost',0.0)*order.get('qty',0.0))" />
@@ -94,8 +118,12 @@
                                             <td style="border: 1px solid black;"></td>
                                             <td style="border: 1px solid black;"></td>
                                             <td style="border: 1px solid black;"></td>
+                                            <td style="border: 1px solid black;"></td>
                                             <td style="border: 1px solid black;">
                                                 <b>Total</b>
+                                            </td>
+                                            <td style="border: 1px solid black;">
+                                                <span t-esc="'%.2f'%(total_quantity)" />
                                             </td>
                                             <td style="border: 1px solid black;">
                                                 <span t-esc="'%.2f'%(total_cost)" />
@@ -108,6 +136,9 @@
                                             </td>
                                             <td style="border: 1px solid black;">
                                                 <span t-esc="'%.2f'%(total_margin)" />
+                                            </td>
+                                            <td style="border: 1px solid black;">
+                                                <span t-esc="'%.2f'%(total_ave_profit_margin)" />
                                             </td>
                                         </tr>
                                     </tbody>
@@ -123,6 +154,8 @@
                                         <span t-esc="product" />
                                     </b>
                                 </center>
+                                <t t-set="total_ave_profit_margin" t-value="0" />
+                                <t t-set="total_quantity" t-value="0" />
                                 <t t-set="total_cost" t-value="0" />
                                 <t t-set="total_sales_price" t-value="0" />
                                 <t t-set="total_profit" t-value="0" />
@@ -133,11 +166,14 @@
                                             <th style="border: 1px solid black;">Order Number</th>
                                             <th style="border: 1px solid black;">Order Date</th>
                                             <th style="border: 1px solid black;">Customer</th>
+                                            <th style="border: 1px solid black;">Unit Of Measure</th>
+                                            <th style="border: 1px solid black;">Product Unit Price</th>
                                             <th style="border: 1px solid black;">Quantity</th>
                                             <th style="border: 1px solid black;">Cost</th>
                                             <th style="border: 1px solid black;">Sale Price</th>
                                             <th style="border: 1px solid black;">Profit</th>
                                             <th style="border: 1px solid black;">Margin(%)</th>
+                                            <th style="border: 1px solid black;">Average Profit Margin</th>
                                         </tr>
                                     </thead>
                                     <tbody class="sale_tbody">
@@ -154,6 +190,12 @@
                                                 </td>
                                                 <td style="border: 1px solid black;">
                                                     <span t-esc="order.get('customer','')" />
+                                                </td>
+                                                <td style="border: 1px solid black;">
+                                                    <span><t t-out="order.get('product_uom_id').name"/></span>
+                                                </td>
+                                                <td style="border: 1px solid black;">
+                                                    <span t-esc="order.get('product_unit_price','')" />
                                                 </td>
                                                 <td style="border: 1px solid black;">
                                                     <span t-esc="'%.2f'%(order.get('qty',0.0))" />
@@ -175,6 +217,19 @@
                                                         <span t-esc="'%.2f'%(0.00)" />
                                                     </t>
                                                 </td>
+                                                <td style="border: 1px solid black;">
+                                                    <t t-set="sh_quantity" t-value="order.get('qty',0.0)" />
+                                                    <t t-if="sh_quantity != 0.0">
+                                                        <span t-esc="'%.2f'%(profit / sh_quantity )" />
+                                                    </t>
+                                                    <t t-else="">
+                                                        <span t-esc="'%.2f'%(0.00)" />
+                                                    </t>
+                                                </td>
+                                                <t t-set="total_quantity" t-value="total_quantity + order.get('qty',0.0)" />
+                                                <t t-if="profit">
+                                                    <t t-set="total_ave_profit_margin" t-value="total_ave_profit_margin + (profit / sh_quantity )" />
+                                                </t>
                                                 <t t-set="total_cost" t-value="total_cost + order.get('cost',0.0) * order.get('qty',0.0) " />
                                                 <t t-set="total_sales_price" t-value="total_sales_price + order.get('sale_price',0.0) * order.get('qty',0.0)" />
                                                 <t t-set="total_profit" t-value="total_profit + (order.get('sale_price',0.0)*order.get('qty',0.0)) - (order.get('cost',0.0)*order.get('qty',0.0))" />
@@ -187,8 +242,12 @@
                                             <td style="border: 1px solid black;"></td>
                                             <td style="border: 1px solid black;"></td>
                                             <td style="border: 1px solid black;"></td>
+                                            <td style="border: 1px solid black;"></td>
                                             <td style="border: 1px solid black;">
                                                 <b>Total</b>
+                                            </td>
+                                            <td style="border: 1px solid black;">
+                                                <span t-esc="'%.2f'%(total_quantity)" />
                                             </td>
                                             <td style="border: 1px solid black;">
                                                 <span t-esc="'%.2f'%(total_cost)" />
@@ -202,6 +261,9 @@
                                             <td style="border: 1px solid black;">
                                                 <span t-esc="'%.2f'%(total_margin)" />
                                             </td>
+                                            <td style="border: 1px solid black;">
+                                                <span t-esc="'%.2f'%(total_ave_profit_margin)" />
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -210,6 +272,8 @@
                     </t>
                     <t t-if="report_by == 'both'">
                         <t t-if="both_order_list">
+                            <t t-set="total_ave_profit_margin" t-value="0" />
+                            <t t-set="total_quantity" t-value="0" />
                             <t t-set="total_cost" t-value="0" />
                             <t t-set="total_sales_price" t-value="0" />
                             <t t-set="total_profit" t-value="0" />
@@ -221,11 +285,14 @@
                                         <th style="border: 1px solid black;">Order Date</th>
                                         <th style="border: 1px solid black;">Customer</th>
                                         <th style="border: 1px solid black;">Product</th>
+                                        <th style="border: 1px solid black;">Unit Of Measure</th>
+                                        <th style="border: 1px solid black;">Product Unit Price</th>
                                         <th style="border: 1px solid black;">Quantity</th>
                                         <th style="border: 1px solid black;">Cost</th>
                                         <th style="border: 1px solid black;">Sale Price</th>
                                         <th style="border: 1px solid black;">Profit</th>
                                         <th style="border: 1px solid black;">Margin(%)</th>
+                                        <th style="border: 1px solid black;">Average Profit Margin</th>
                                     </tr>
                                 </thead>
                                 <tbody class="sale_tbody">
@@ -247,6 +314,12 @@
                                                 <span t-esc="order.get('product','')" />
                                             </td>
                                             <td style="border: 1px solid black;">
+                                                <span><t t-out="order.get('product_uom_id').name"/></span>
+                                            </td>
+                                            <td style="border: 1px solid black;">
+                                                <span t-esc="order.get('product_unit_price','')" />
+                                            </td>
+                                            <td style="border: 1px solid black;">
                                                 <span t-esc="'%.2f'%(order.get('qty',0.0))" />
                                             </td>
                                             <td style="border: 1px solid black;">
@@ -266,6 +339,19 @@
                                                     <span t-esc="'%.2f'%(0.00)" />
                                                 </t>
                                             </td>
+                                            <td style="border: 1px solid black;">
+                                                <t t-set="sh_quantity" t-value="order.get('qty',0.0)" />
+                                                <t t-if="sh_quantity != 0.0">
+                                                    <span t-esc="'%.2f'%(profit / sh_quantity )" />
+                                                </t>
+                                                <t t-else="">
+                                                    <span t-esc="'%.2f'%(0.00)" />
+                                                </t>
+                                            </td>
+                                            <t t-set="total_quantity" t-value="total_quantity + order.get('qty',0.0)" />
+                                            <t t-if="profit">
+                                                <t t-set="total_ave_profit_margin" t-value="total_ave_profit_margin + (profit / sh_quantity )" />
+                                            </t>
                                             <t t-set="total_cost" t-value="total_cost + order.get('cost',0.0) * order.get('qty',0.0) " />
                                             <t t-set="total_sales_price" t-value="total_sales_price + order.get('sale_price',0.0) * order.get('qty',0.0)" />
                                             <t t-set="total_profit" t-value="total_profit + (order.get('sale_price',0.0)*order.get('qty',0.0)) - (order.get('cost',0.0)*order.get('qty',0.0))" />
@@ -279,8 +365,12 @@
                                         <td style="border: 1px solid black;"></td>
                                         <td style="border: 1px solid black;"></td>
                                         <td style="border: 1px solid black;"></td>
+                                        <td style="border: 1px solid black;"></td>
                                         <td style="border: 1px solid black;">
                                             <b>Total</b>
+                                        </td>
+                                        <td style="border: 1px solid black;">
+                                            <span t-esc="'%.2f'%(total_quantity)" />
                                         </td>
                                         <td style="border: 1px solid black;">
                                             <span t-esc="'%.2f'%(total_cost)" />
@@ -294,6 +384,9 @@
                                         <td style="border: 1px solid black;">
                                             <span t-esc="'%.2f'%(total_margin)" />
                                         </td>
+                                        <td style="border: 1px solid black;">
+                                            <span t-esc="'%.2f'%(total_ave_profit_margin)" />
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -303,6 +396,7 @@
             </t>
         </t>
     </template>
+    
     <record id="paperformat_sales_product_profit" model="report.paperformat">
         <field name="name">Sales Product Profit</field>
         <field name="default" eval="True" />
@@ -316,6 +410,7 @@
         <field name="header_spacing">55</field>
         <field name="dpi">90</field>
     </record>
+
     <record id="sh_sales_product_profit_action" model="ir.actions.report">
         <field name="name">Sales Product Profit</field>
         <field name="model">report.sh_sale_product_profit.sh_sales_product_profit_doc</field>
@@ -324,4 +419,5 @@
         <field name="print_report_name">'Sales Product Profit'</field>
         <field name="paperformat_id" ref="sh_sale_product_profit.paperformat_sales_product_profit" />
     </record>
+
 </odoo>

@@ -18,6 +18,7 @@
 						<field name="sh_end_date" />
 						<field name="sh_product_ids" widget="many2many_tags"
 							attrs="{'invisible':[('report_by','=','customer')]}" />
+						<field name="sh_status" widget="radio" />
 					</group>
 				</group>
 				<footer>
@@ -54,4 +55,5 @@
 	<menuitem id="menu_sales_product_profit" name="Sales Product Profit"
 		parent="sale.menu_sale_report" groups="sh_sale_product_profit.sh_group_sale_product_profit"
 		action="action_sales_product_profit" sequence="2" />
+
 </odoo>

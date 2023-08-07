@@ -3,7 +3,7 @@
 from odoo import api, models, fields
 from odoo.exceptions import UserError
 import pytz
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 
 class SalesProductProfitAnalysis(models.AbstractModel):
@@ -54,6 +54,15 @@ class SalesProductProfitAnalysis(models.AbstractModel):
                     if data.get('company_ids', False):
                         domain.append(
                             ('company_id', 'in', data.get('company_ids', False)))
+                    sh_status=data.get('sh_status')
+                    if sh_status=='quotation':
+                        domain.append(('state', 'in', ['draft']))
+                    elif sh_status=='sale_order':
+                        domain.append(('state', 'in', ['sale']))
+                    elif sh_status=='cancelled':
+                        domain.append(('state', 'in', ['cancel']))
+                    elif sh_status=='invoiced':
+                        domain.append(('invoice_status', 'in', ['invoiced']))
                     search_orders = self.env['sale.order'].sudo().search(
                         domain)
                     if search_orders:
@@ -71,17 +80,12 @@ class SalesProductProfitAnalysis(models.AbstractModel):
                                             'qty': line.product_uom_qty,
                                             'cost': line.sh_cost,
                                             'sale_price': line.price_unit,
+                                            'product_uom_id': line.product_id.uom_id,
+                                            'product_unit_price': line.product_id.list_price,
                                         }
-                                        if order_dic.get(line.product_id.id, False):
-                                            qty = order_dic.get(
-                                                line.product_id.id)['qty']
-                                            qty = qty + line.product_uom_qty
-                                            line_dic.update({
-                                                'qty': qty,
-                                            })
                                         if line_dic:
                                             order_dic.update(
-                                                {line.product_id.id: line_dic})
+                                                {line.id: line_dic})
                                 if order_dic:
                                     for key, value in order_dic.items():
                                         order_list.append(value)
@@ -116,6 +120,15 @@ class SalesProductProfitAnalysis(models.AbstractModel):
                     if data.get('company_ids', False):
                         domain.append(
                             ('company_id', 'in', data.get('company_ids', False)))
+                    sh_status=data.get('sh_status')
+                    if sh_status=='quotation':
+                        domain.append(('state', 'in', ['draft']))
+                    elif sh_status=='sale_order':
+                        domain.append(('state', 'in', ['sale']))
+                    elif sh_status=='cancelled':
+                        domain.append(('state', 'in', ['cancel']))
+                    elif sh_status=='invoiced':
+                        domain.append(('invoice_status', 'in', ['invoiced']))
                     search_orders = self.env['sale.order'].sudo().search(
                         domain)
                     if search_orders:
@@ -133,17 +146,12 @@ class SalesProductProfitAnalysis(models.AbstractModel):
                                             'cost': line.sh_cost,
                                             'product_id': line.product_id.id,
                                             'sale_price': line.price_unit,
+                                            'product_uom_id': line.product_id.uom_id,
+                                            'product_unit_price': line.product_id.list_price,
                                         }
-                                        if order_dic.get(line.product_id.id, False):
-                                            qty = order_dic.get(
-                                                line.product_id.id)['qty']
-                                            qty = qty + line.product_uom_qty
-                                            line_dic.update({
-                                                'qty': qty,
-                                            })
                                         if line_dic:
                                             order_dic.update(
-                                                {line.product_id.id: line_dic})
+                                                {line.id: line_dic})
                                 if order_dic:
                                     for key, value in order_dic.items():
                                         order_list.append(value)
@@ -181,6 +189,15 @@ class SalesProductProfitAnalysis(models.AbstractModel):
             if data.get('company_ids', False):
                 domain.append(
                     ('company_id', 'in', data.get('company_ids', False)))
+            sh_status=data.get('sh_status')
+            if sh_status=='quotation':
+                domain.append(('state', 'in', ['draft']))
+            elif sh_status=='sale_order':
+                domain.append(('state', 'in', ['sale']))
+            elif sh_status=='cancelled':
+                domain.append(('state', 'in', ['cancel']))
+            elif sh_status=='invoiced':
+                domain.append(('invoice_status', 'in', ['invoiced']))
             search_orders = self.env['sale.order'].sudo().search(domain)
             if search_orders:
                 for order in search_orders.sudo().filtered(lambda x: x.partner_id.id in partners.ids):
@@ -198,17 +215,12 @@ class SalesProductProfitAnalysis(models.AbstractModel):
                                     'qty': line.product_uom_qty,
                                     'cost': line.sh_cost,
                                     'sale_price': line.price_unit,
+                                    'product_uom_id': line.product_id.uom_id,
+                                    'product_unit_price': line.product_id.list_price,
                                 }
-                                if order_dic.get(line.product_id.id, False):
-                                    qty = order_dic.get(
-                                        line.product_id.id)['qty']
-                                    qty = qty + line.product_uom_qty
-                                    line_dic.update({
-                                        'qty': qty,
-                                    })
                                 if line_dic:
                                     order_dic.update(
-                                        {line.product_id.id: line_dic})
+                                        {line.id: line_dic})
                         if order_dic:
                             for key, value in order_dic.items():
                                 both_order_list.append(value)
