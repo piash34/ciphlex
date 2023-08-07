@@ -1,0 +1,265 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_vendor_purchase_analysis
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-05 07:05+0000\n"
+"PO-Revision-Date: 2021-06-05 07:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.actions.report,print_report_name:sh_vendor_purchase_analysis.sh_vend_po_analysis_action
+msgid "'Vendor Purchase Analysis'"
+msgstr "تحليل شراء البائع"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "<b>Total</b>"
+msgstr "<b>المجموع</b>"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields.selection,name:sh_vendor_purchase_analysis.selection__sh_purchase_analysis_wizard__sh_status__all
+msgid "All"
+msgstr "الجميع"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Amount Paid"
+msgstr "المبلغ المدفوع"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vendor_purchase_analysis_wizard
+msgid "Cancel"
+msgstr "يلغي"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vendor_purchase_analysis_xls_view
+msgid "Close"
+msgstr "قريب"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls__create_uid
+msgid "Created by"
+msgstr "انشأ من قبل"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__create_date
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls__create_date
+msgid "Created on"
+msgstr "تم إنشاؤها على"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Date"
+msgstr "تاريخ"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_report_sh_vendor_purchase_analysis_sh_vend_po_analysis_doc__display_name
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__display_name
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls__excel_file
+msgid "Download report Excel"
+msgstr "تنزيل تقرير Excel"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields.selection,name:sh_vendor_purchase_analysis.selection__sh_purchase_analysis_wizard__sh_status__draft
+msgid "Draft"
+msgstr "مشروع"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__sh_end_date
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls__file_name
+msgid "Excel File"
+msgstr "ملف اكسل"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_report_sh_vendor_purchase_analysis_sh_vend_po_analysis_doc__id
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__id
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls__id
+msgid "ID"
+msgstr "هوية شخصية"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_report_sh_vendor_purchase_analysis_sh_vend_po_analysis_doc____last_update
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard____last_update
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__write_date
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_xls__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث على"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields.selection,name:sh_vendor_purchase_analysis.selection__sh_purchase_analysis_wizard__sh_status__done
+msgid "Locked"
+msgstr "مقفل"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Number"
+msgstr "عدد"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Order Date"
+msgstr "تاريخ الطلب"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Order Number"
+msgstr "رقم الأمر"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Price"
+msgstr "سعر"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vendor_purchase_analysis_wizard
+msgid "Print"
+msgstr "مطبعة"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vendor_purchase_analysis_wizard
+msgid "Print In XLS"
+msgstr "طباعة في XLS."
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Product"
+msgstr "المنتج"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__sh_product_ids
+#: model:ir.model.fields.selection,name:sh_vendor_purchase_analysis.selection__sh_purchase_analysis_wizard__report_by__product
+msgid "Products"
+msgstr "منتجات"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Purchase Amount"
+msgstr "مبلغ الشراء"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model,name:sh_vendor_purchase_analysis.model_sh_purchase_analysis_wizard
+msgid "Purchase Analysis Wizard"
+msgstr "معالج تحليل الشراء"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model,name:sh_vendor_purchase_analysis.model_sh_purchase_analysis_xls
+msgid "Purchase Analysis Xls Report"
+msgstr "إجراء تحليل XLS"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields.selection,name:sh_vendor_purchase_analysis.selection__sh_purchase_analysis_wizard__report_by__order
+#: model:ir.model.fields.selection,name:sh_vendor_purchase_analysis.selection__sh_purchase_analysis_wizard__sh_status__purchase
+msgid "Purchase Order"
+msgstr "أمر شراء"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Purchase Representative"
+msgstr "ممثل المشتريات"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Quantity"
+msgstr "كمية"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields.selection,name:sh_vendor_purchase_analysis.selection__sh_purchase_analysis_wizard__sh_status__sent
+msgid "RFQ Sent"
+msgstr "أرسلت RFQ"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__report_by
+msgid "Report Print By"
+msgstr "تقرير طباعة"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__sh_start_date
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__sh_status
+msgid "Status"
+msgstr "حالة"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Subtotal"
+msgstr "إشراف"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "Tax"
+msgstr "ضريبة"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+msgid "To"
+msgstr "إلى"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.actions.act_window,name:sh_vendor_purchase_analysis.action_vend_purchase_analysis_xls
+#: model:ir.actions.act_window,name:sh_vendor_purchase_analysis.action_vendor_purchase_analysis
+#: model:ir.actions.report,name:sh_vendor_purchase_analysis.sh_vend_po_analysis_action
+#: model:ir.ui.menu,name:sh_vendor_purchase_analysis.menu_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vend_po_analysis_doc
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vendor_purchase_analysis_wizard
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vendor_purchase_analysis_xls_view
+msgid "Vendor Purchase Analysis"
+msgstr "تحليل شراء البائع"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model,name:sh_vendor_purchase_analysis.model_report_sh_vendor_purchase_analysis_sh_vend_po_analysis_doc
+msgid "Vendor Purchase Analysis report abstract model"
+msgstr "تقرير شراء البائع تقرير نموذج مجردة"
+
+#. module: sh_vendor_purchase_analysis
+#: model:ir.model.fields,field_description:sh_vendor_purchase_analysis.field_sh_purchase_analysis_wizard__sh_partner_ids
+msgid "Vendors"
+msgstr "البائعين"
+
+#. module: sh_vendor_purchase_analysis
+#: model_terms:ir.ui.view,arch_db:sh_vendor_purchase_analysis.sh_vendor_purchase_analysis_wizard
+msgid "or"
+msgstr "أو"
+
+#. module: sh_vendor_purchase_analysis
+#: code:addons/sh_vendor_purchase_analysis/wizard/vendor_purchase_analysis_wizard.py:0
+#, python-format
+msgid "start date must be less than end date."
+msgstr "يجب أن يكون تاريخ البدء أقل من تاريخ الانتهاء."

@@ -1,0 +1,225 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_sale_product_profit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-28 04:59+0000\n"
+"PO-Revision-Date: 2021-06-28 04:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_sale_product_profit
+#: model:ir.actions.report,print_report_name:sh_sale_product_profit.sh_sales_product_profit_action
+msgid "'Sales Product Profit'"
+msgstr "Ganancia de productos de ventas"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "<b>Total</b>"
+msgstr "<b>Total</b>"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields.selection,name:sh_sale_product_profit.selection__sh_sale_product_profit_wizard__report_by__both
+msgid "Both"
+msgstr "Ambos"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_xls_view
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__company_ids
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Cost"
+msgstr "Costo"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__create_date
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__sh_partner_ids
+#: model:ir.model.fields.selection,name:sh_sale_product_profit.selection__sh_sale_product_profit_wizard__report_by__customer
+msgid "Customers"
+msgstr "Clientes"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_report_sh_sale_product_profit_sh_sales_product_profit_doc__display_name
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__display_name
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls__excel_file
+msgid "Download report Excel"
+msgstr "Descargar informe Excel"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__sh_end_date
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls__file_name
+msgid "Excel File"
+msgstr "Archivo Excel"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_report_sh_sale_product_profit_sh_sales_product_profit_doc__id
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__id
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls__id
+msgid "ID"
+msgstr "IDENTIFICACIÓN"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_report_sh_sale_product_profit_sh_sales_product_profit_doc____last_update
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard____last_update
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__write_date
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_xls__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Margin(%)"
+msgstr "Margen(%)"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Order Date"
+msgstr "Fecha de orden"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Order Number"
+msgstr "Número de orden"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_wizard
+msgid "Print"
+msgstr "Impresión"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_wizard
+msgid "Print In XLS"
+msgstr "Imprimir en XLS"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Product"
+msgstr "Producto"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__sh_product_ids
+#: model:ir.model.fields.selection,name:sh_sale_product_profit.selection__sh_sale_product_profit_wizard__report_by__product
+msgid "Products"
+msgstr "Productos"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Profit"
+msgstr "Lucro"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__report_by
+msgid "Report Print By"
+msgstr "Informe de impresión por"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "Sale Price"
+msgstr "Precio de venta"
+
+#. module: sh_sale_product_profit
+#: model:ir.actions.act_window,name:sh_sale_product_profit.action_sales_product_profit
+#: model:ir.actions.act_window,name:sh_sale_product_profit.action_sales_product_profit_xls
+#: model:ir.actions.report,name:sh_sale_product_profit.sh_sales_product_profit_action
+#: model:ir.ui.menu,name:sh_sale_product_profit.menu_sales_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_wizard
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_xls_view
+msgid "Sales Product Profit"
+msgstr "Ganancia de productos de ventas"
+
+#. module: sh_sale_product_profit
+#: model:ir.model,name:sh_sale_product_profit.model_sh_sale_product_profit_wizard
+msgid "Sales Product Profit Wizard"
+msgstr "Asistente de ganancias de productos de venta"
+
+#. module: sh_sale_product_profit
+#: model:ir.model,name:sh_sale_product_profit.model_sh_sale_product_profit_xls
+msgid "Sales Product Profit Xls Report"
+msgstr "PROGRAMA DE PRODUCTOS DE VENTAS INFORME XLS"
+
+#. module: sh_sale_product_profit
+#: model:ir.model,name:sh_sale_product_profit.model_report_sh_sale_product_profit_sh_sales_product_profit_doc
+msgid "Sales Product Profit report abstract model"
+msgstr "Informe de ganancias de productos de venta Modelo abstracto"
+
+#. module: sh_sale_product_profit
+#: model:ir.model.fields,field_description:sh_sale_product_profit.field_sh_sale_product_profit_wizard__sh_start_date
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_doc
+msgid "To"
+msgstr "Para"
+
+#. module: sh_sale_product_profit
+#: model_terms:ir.ui.view,arch_db:sh_sale_product_profit.sh_sales_product_profit_wizard
+msgid "or"
+msgstr "o"
+
+#. module: sh_sale_product_profit
+#: code:addons/sh_sale_product_profit/wizard/sales_product_profit_wizard.py:0
+#, python-format
+msgid "start date must be less than end date."
+msgstr "La fecha de inicio debe ser menor que la fecha de finalización."

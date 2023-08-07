@@ -1,0 +1,14 @@
+15/05/2023
+
+- 16.0.0.1: separate this setting for Customer and Vendor Bill.
+1) Customer Invoice.
+
+-Automatic Validate Customer Invoice from Delivery
+
+-Auto Customer Invoice send by Email
+
+2) Vendor Bills.
+
+-Automatic Validate Vendor Bill from Receipt
+
+-Auto Vendor Bill send by Email

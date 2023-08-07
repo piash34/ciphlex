@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="sh_group_sale_invoice_summary" model="res.groups">
+        <field name="name">Sale Invoice Summary Report</field>
+    </record>
+</odoo>

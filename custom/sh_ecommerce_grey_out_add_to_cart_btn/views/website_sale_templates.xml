@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <!-- =============================================== -->
+    <!-- === PRODUCT DETAILS PAGE ADD TO CART BUTTON ====-->
+    <!-- =============================================== -->
+    
+    <template id="sh_ecommerce_grey_out_add_to_cart_btn_website_sale_product" name="sh_ecommerce_grey_out_add_to_cart_btn_website_sale_product" inherit_id="website_sale.product">
+        <xpath expr="//a[@id='add_to_cart']" position="replace">            
+            <t t-if="request.session.uid">
+                <a role="button" id="add_to_cart" class="btn btn-primary btn-lg js_check_product a-submit my-1 mr-1 px-5 font-weight-bold flex-grow-1" href="#"><i class="fa fa-shopping-cart mr-2"/>ADD TO CART</a>
+            </t>
+            <t t-elif="request.website.sh_disable_add_to_cart">
+                <a class="btn btn-primary is_cart_grey_out_cls_uniq_grey btn-lg my-1 mr-1 px-5 font-weight-bold flex-grow-1" href="#" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-content="You must login for Add to cart" data-bs-placement="top"><i class="fa fa-shopping-cart mr-2"/>ADD TO CART</a>
+            </t>
+            <t t-else="">
+                <a role="button" id="add_to_cart" class="btn btn-primary btn-lg js_check_product a-submit my-1 mr-1 px-5 font-weight-bold flex-grow-1" href="#"><i class="fa fa-shopping-cart mr-2"/>ADD TO CART</a>
+            </t>
+        </xpath>
+    </template>
+
+    <!-- =============================================== -->
+    <!-- ======SHOP PAGE ADD TO CART BUTTON============= -->
+    <!-- =============================================== -->
+
+    <template id="website_sale_products_item_inherit_id" name="website_sale_products_item_inherit_id" inherit_id="website_sale.products_add_to_cart">
+        <!-- <xpath expr="//t[contains(@t-if, 'product_variant_id')]" position="after">
+        	<h1>ADMIN</h1>
+        </xpath> -->
+        <xpath expr="//t[contains(@t-if, 'product_variant_id')]" position="replace">
+            <t t-if="product_variant_id">
+                <t t-if="request.session.uid and request.website.sh_disable_add_to_cart">
+                    <a href="#" role="button" class="btn btn-primary a-submit" aria-label="Shopping cart" title="Shopping cart">
+                        <span class="fa fa-shopping-cart"/>
+                    </a>
+                </t>
+                <t t-elif="request.website.sh_disable_add_to_cart">
+                    <a href="#" role="button" class="btn btn-primary is_cart_grey_out_cls_uniq_grey" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-content="You must login for Add to cart" data-bs-placement="top">
+                        <span class="fa fa-shopping-cart"/>                    
+                    </a>
+                </t>
+                <t t-else="">
+                    <a href="#" role="button" class="btn btn-primary a-submit" aria-label="Shopping cart" title="Shopping cart">
+                        <span class="fa fa-shopping-cart"/>
+                    </a>
+                </t>               
+            </t>
+        </xpath>
+    </template>
+
+    <!-- =============================================== -->
+    <!-- =============WISHLIST PAGE BUTTON ==============-->
+    <!-- =============================================== -->
+
+    <template id="sh_ecommerce_grey_out_add_to_cart_btn_product_wishlist" name="sh_ecommerce_grey_out_add_to_cart_btn_product_wishlist" inherit_id="website_sale_wishlist.product_wishlist">
+        <xpath expr="//button[hasclass('o_wish_add')]" position="replace">
+            <t t-if="request.session.uid and request.website.sh_disable_add_to_cart">
+                <button type="button" role="button" class="btn btn-secondary btn-block o_wish_add mb4" >Add <span class='d-none d-md-inline'>to Cart</span></button>
+            </t>
+            <t t-elif="request.website.sh_disable_add_to_cart">
+                <button type="button" role="button" class="btn btn-secondary btn-block mb4 is_cart_grey_out_cls_uniq_grey" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-content="You must login for Add to cart" data-bs-placement="top">Add <span class='d-none d-md-inline'>to Cart</span></button>
+            </t>    
+            <t t-else="">
+                <button type="button" role="button" class="btn btn-secondary btn-block o_wish_add mb4" >Add <span class='d-none d-md-inline'>to Cart</span></button>
+            </t> 
+        </xpath>
+    </template>
+
+    <!-- =============================================== -->
+    <!-- ===============COMPARE PRODUCT PAGE============ -->
+    <!-- =============================================== -->
+
+    <template id="sh_ecommerce_grey_out_add_to_cart_btn.product_compare" name="website_sale_comparison_product_compare" inherit_id="website_sale_comparison.product_compare">
+        <xpath expr="//a[hasclass('a-submit')]" position="replace">
+            <t t-if="request.session.uid and request.website.sh_disable_add_to_cart">
+                <a role="button" class="btn btn-primary btn-block a-submit" href="#"><i class="fa fa-shopping-cart mr-2"></i>Add to Cart</a>
+            </t>
+            <t t-elif="request.website.sh_disable_add_to_cart">
+                <a role="button" class="btn btn-primary btn-block is_cart_grey_out_cls_uniq_grey" href="#" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-content="You must login for Add to cart" data-bs-placement="top"><i class="fa fa-shopping-cart mr-2"></i>Add to Cart</a>
+            </t>            
+            <t t-else="">
+                <a role="button" class="btn btn-primary btn-block a-submit" href="#"><i class="fa fa-shopping-cart mr-2"></i>Add to Cart</a>
+            </t>            
+        </xpath>
+    </template>
+
+</odoo>

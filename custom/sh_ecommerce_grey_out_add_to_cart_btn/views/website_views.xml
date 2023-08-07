@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="website_view_website_form_inherit_sh_ecommerce_grey_out_add_to_cart_btn" model="ir.ui.view">
+        <field name="name">website.view.form.inherit</field>
+        <field name="model">website</field>
+        <field name="inherit_id" ref="website.view_website_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="sh_disable_add_to_cart"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

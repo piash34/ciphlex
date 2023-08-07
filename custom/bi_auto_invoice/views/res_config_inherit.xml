@@ -1,0 +1,59 @@
+<odoo>
+    <data>
+
+        <record id="res_config_auto_invoice_send" model="ir.ui.view">
+            <field name="name">res.config.settings.inherit</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="account.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='invoicing_settings']" position="inside">
+                        <div class="col-12 col-lg-6 o_setting_box">
+                            <div class="o_setting_left_pane">
+                                <div class="content-group">
+                                    <field name="auto_validate_customer_invoice"  />
+                                </div>
+                            </div>
+                            <div class="o_setting_right_pane">     
+                                <label string="Automatic Validate Customer Invoice from Delivery" for="auto_validate_customer_invoice" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 o_setting_box" attrs="{'invisible' : [('auto_validate_customer_invoice','!=',True)]}">
+
+                            <div class="o_setting_left_pane">
+                                <div class="content-group">
+                                    <field name="auto_send_mail_customer_invoice"  />
+                                </div>
+                            </div>
+                            <div class="o_setting_right_pane">
+                                <label string="Auto Customer Invoice send by Email" for="auto_send_mail_customer_invoice"/>
+                            </div>
+                        </div>
+                </xpath>
+                <xpath expr="//div[@id='account_vendor_bills']" position="inside">
+                        <div class="col-12 col-lg-6 o_setting_box">
+                            <div class="o_setting_left_pane">
+                                <div class="content-group">
+                                    <field name="auto_validate_vendor_bill"  />
+                                </div>
+                            </div>
+                            <div class="o_setting_right_pane">     
+                                <label string="Automatic Validate Vendor Bill from Receipt" for="auto_validate_vendor_bill" />
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 o_setting_box" attrs="{'invisible' : [('auto_validate_vendor_bill','!=',True)]}">
+
+                            <div class="o_setting_left_pane">
+                                <div class="content-group">
+                                    <field name="auto_send_mail_vendor_bill"  />
+                                </div>
+                            </div>
+                            <div class="o_setting_right_pane">
+                                <label string="Auto Vendor Bill send by Email" for="auto_send_mail_vendor_bill"/>
+                            </div>
+                        </div>
+                </xpath>
+            </field>
+        </record>
+        
+    </data>
+</odoo>

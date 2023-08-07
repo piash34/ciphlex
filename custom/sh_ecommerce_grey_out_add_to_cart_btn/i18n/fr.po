@@ -1,0 +1,46 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_ecommerce_grey_out_add_to_cart_btn
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-11 05:24+0000\n"
+"PO-Revision-Date: 2022-07-11 05:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_ecommerce_grey_out_add_to_cart_btn
+#: model_terms:ir.ui.view,arch_db:sh_ecommerce_grey_out_add_to_cart_btn.sh_ecommerce_grey_out_add_to_cart_btn_website_sale_product
+msgid "<i class=\"fa fa-shopping-cart mr-2\"/>ADD TO CART"
+msgstr "<i class=\"fa fa-shopping-cart mr-2\"/>AJOUTER AU PANIER"
+
+#. module: sh_ecommerce_grey_out_add_to_cart_btn
+#: model_terms:ir.ui.view,arch_db:sh_ecommerce_grey_out_add_to_cart_btn.product_compare
+msgid "<i class=\"fa fa-shopping-cart mr-2\"/>Add to Cart"
+msgstr "<i class=\"fa fa-shopping-cart mr-2\"/>Ajouter au chariot"
+
+#. module: sh_ecommerce_grey_out_add_to_cart_btn
+#: model_terms:ir.ui.view,arch_db:sh_ecommerce_grey_out_add_to_cart_btn.sh_ecommerce_grey_out_add_to_cart_btn_product_wishlist
+msgid "Add <span class=\"d-none d-md-inline\">to Cart</span>"
+msgstr "Ajouter <span class=\"d-none d-md-inline\">chariot</span>"
+
+#. module: sh_ecommerce_grey_out_add_to_cart_btn
+#: model:ir.model.fields,field_description:sh_ecommerce_grey_out_add_to_cart_btn.field_website__sh_disable_add_to_cart
+msgid "Disable Add to cart button"
+msgstr "Désactiver le bouton Ajouter au panier"
+
+#. module: sh_ecommerce_grey_out_add_to_cart_btn
+#: model_terms:ir.ui.view,arch_db:sh_ecommerce_grey_out_add_to_cart_btn.website_sale_products_item_inherit_id
+msgid "Shopping cart"
+msgstr "Panier"
+
+#. module: sh_ecommerce_grey_out_add_to_cart_btn
+#: model:ir.model,name:sh_ecommerce_grey_out_add_to_cart_btn.model_website
+msgid "Website"
+msgstr "Site Internet"
