@@ -5,8 +5,8 @@ In this module, you can generate and print product sales profit reports in PDF a
 Installation
 ============
 1) Copy module files to addon folder.
-2) Restart odoo service (sudo service odoo-server restart).
-3) Go to your odoo instance and open apps (make sure to activate debug mode).
+2) Restart ciphlex service (sudo service ciphlex-server restart).
+3) Go to your ciphlex instance and open apps (make sure to activate debug mode).
 4) click on update app list.
 5) search module name and hit install button.
 

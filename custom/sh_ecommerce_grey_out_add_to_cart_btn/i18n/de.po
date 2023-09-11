@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of Ciphlex Server.
 # This file contains the translation of the following modules:
 # 	* sh_ecommerce_grey_out_add_to_cart_btn
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Ciphlex Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-11 05:24+0000\n"
 "PO-Revision-Date: 2022-07-11 05:24+0000\n"

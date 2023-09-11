@@ -1,0 +1,154 @@
+/*====TO USE GOOGLE FONT======*/
+@if $is_used_google_font == True {
+    @import url("https://fonts.googleapis.com/css?family=#{unquote($body_google_font_family)}");
+    $body_font_family: $body_google_font_family;
+}
+/*====TO USE GOOGLE FONT======*/
+[data-logged="false"] #wrapwrap .card .card-body .oe_login_form{margin: 0px auto;}
+[data-logged="false"] #wrapwrap .card .card-body input[type="text"]#db{border-top-right-radius: 0px !important;border-bottom-right-radius: 0px !important;}
+[data-logged="false"] #wrapwrap .card .card-body input[type="text"]#db + .btn{border-top-left-radius: 0px !important;border-bottom-left-radius: 0px !important;display: flex;align-items: center;}
+[data-logged="false"] #wrapwrap .card .card-body input[type="text"]#db + .btn .fa{margin-left: 5px;}
+
+@if $login_page_style == "style_1" {
+    [data-logged="false"] #wrapwrap .card .card-body #db + .btn-secondary {border-top-right-radius: 20px;border-bottom-right-radius: 20px;}
+    [data-logged="false"] #wrapwrap,[data-logged="false"] #wrapwrap .o_database_list.card{font-family: $body_font_family !important;}
+    [data-logged="false"] #wrapwrap .card .card-body input:-webkit-autofill,
+    [data-logged="false"] #wrapwrap .card .card-body input:-webkit-autofill:hover,
+    [data-logged="false"] #wrapwrap .card .card-body input:-webkit-autofill:focus,
+    [data-logged="false"] #wrapwrap .card .card-body input:-webkit-autofill:active{-webkit-box-shadow: 0 0 0px 1000px #f5f5f5 inset !important;box-shadow: 0 0 0px 1000px #f5f5f5 inset !important;}
+    /* Added by chandrika */
+    [data-logged="false"] #wrapwrap .card .company_name_style_1 {color: $primaryColor;font-size: 26px;font-weight: 600;letter-spacing: 0.7px;}
+    [data-logged="false"] #wrapwrap .card .card-body h2 {margin-bottom: 50px;}
+    [data-logged="false"] #wrapwrap {border-left: 10px solid $primaryColor;border-right: 10px solid $primaryColor;}
+    [data-logged="false"] #wrapwrap .card .card-body #login::placeholder,
+    [data-logged="false"] #wrapwrap .card .card-body #password::placeholder,
+    [data-logged="false"] #wrapwrap .card .card-body .login_user_icon {color: #616161;}
+    [data-logged="false"] #wrapwrap .card .card-body .text-center.small.mt-4.pt-3.border-top a {color: #414141;background: #f5f5f5;text-decoration: none;padding: 10px 20px !important;border-radius: 30px;border-bottom: 3px solid #ececec;}
+
+    /* Added by chandrika */
+
+    @if $login_page_background_type == "bg_color" {
+        [data-logged="false"] #wrapwrap > main {height: 100vh !important;}
+        [data-logged="false"] #wrapwrap > main .oe_login_form {margin: 30px auto !important;}
+        [data-logged="false"] #wrapwrap > main .oe_login_form .form-group.field-login {margin-bottom: 0.5rem !important;}
+        [data-logged="false"] #wrapwrap .container.pb-5 .mt-5 {margin-top: 2rem !important;}
+        [data-logged="false"] #wrapwrap .card .card-body input {padding-left: 0;background-color: transparent;background-repeat: no-repeat;background-position: center bottom, center calc(100% - 1px);background-size: 0 2px, 100% 1px;transition: background 0s ease-out;border-bottom: 1px solid #ccc;border-left: 0px;border-right: 0px;border-top: 0px;padding: 0.429rem 1.072rem;border-radius: 0px;}
+
+        [data-logged="false"] #wrapwrap .card .card-body .justify-content-between.mt-2.d-flex.small {justify-content: flex-start !important;}
+        [data-logged="false"] #wrapwrap .card .card-body .justify-content-between.mt-2.d-flex.small a {color: #616161;font-weight: 600;letter-spacing: 0.7px;text-decoration: none;}
+        [data-logged="false"] #wrapwrap .btn.btn-link.btn-sm,
+        [data-logged="false"] #wrapwrap .btn-group-sm > .btn.btn-link #wrapwrap {color: #616161 !important;}
+        [data-logged="false"] .bg-100 {color: #616161 !important;}
+        [data-logged="false"] #wrapwrap .card .card-body .text-center.small.mt-4.pt-3.border-top {margin-top: 0.5rem !important;display: flex;justify-content: space-between;border: 0 !important;}
+        [data-logged="false"] #wrapwrap .btn.btn-link.btn-sm {color: #616161;padding-top: 15px;}
+        [data-logged="false"] #wrapwrap .o_database_list {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);background-color: $login_page_background_color !important;}  
+        [data-logged="false"] #wrapwrap{background-color: $login_page_background_color !important;}
+        [data-logged="false"] #wrapwrap .container .bg-100 {background-color: $login_page_box_color !important;}
+        [data-logged="false"] #wrapwrap .container.pb-5 {padding-top: 2rem;}
+        [data-logged="false"] #wrapwrap .container.mb-5 {margin-bottom: 0rem !important;}
+        [data-logged="false"] #wrapwrap .container.pb-5 .mt-5 {margin-top: 0rem !important;}
+        [data-logged="false"] #wrapwrap .o_database_list {max-width: 100% !important;border-radius: 10px;overflow: hidden;padding: 0px 25px;}
+        [data-logged="false"] #wrapwrap .container .bg-100 {background-color: $login_page_box_color !important;color: #212529;}
+
+        [data-logged="false"] #wrapwrap .card .card-body .form-control:focus {box-shadow: none;}
+        [data-logged="false"] #wrapwrap .card .card-body #db + .btn-secondary {background-color: $primaryColor;border-color: $primaryColor;}
+        [data-logged="false"] #wrapwrap .card .card-body input[type="text"] {background-color: transparent;border: none;color: #0d0d0d;text-align: left;text-decoration: none;display: inline-block;font-size: 16px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;border-radius:20px;border-bottom: 2px solid #dcdcdc !important;border: 1px solid #dcdcdc;}
+        [data-logged="false"] #wrapwrap .card .card-body input[type="password"] {background-color: transparent;border: none;color: #0d0d0d;text-align: left;text-decoration: none;display: inline-block;font-size: 16px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;border-bottom: 2px solid #dcdcdc !important;border: 1px solid #dcdcdc;border-radius: 20px;}
+        [data-logged="false"] #wrapwrap .card .card-body .btn-primary {border: none;color: white;/* padding: 15px 80px; */text-align: center;text-decoration: none;display: inline-block;text-transform: uppercase;font-size: 13px;box-shadow: none;-webkit-border-radius: 30px;border-radius: 30px;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;background-color: $primaryColor;padding: 10px 10px;border-bottom: 3px solid darken($primaryColor,10%);}
+        [data-logged="false"] #wrapwrap .container .oe_login_form .justify-content-between.mt-2 {margin-top: 0.8rem !important;justify-content: flex-start !important;}
+        [data-logged="false"] #wrapwrap .card .card-body .justify-content-between.mt-2.d-flex.small a:last-child{color: $primaryColor !important;}
+        
+    }
+
+    @if $login_page_background_type == "bg_img" {
+        [data-logged="false"] #wrapwrap .card .card-body input {padding-left: 0;background-color: transparent;background-repeat: no-repeat;background-position: center bottom, center calc(100% - 1px);background-size: 0 2px, 100% 1px;transition: background 0s ease-out;border-bottom: 1px solid #ccc;border-left: 0px;border-right: 0px;border-top: 0px;padding: 0.429rem 1.072rem;border-radius: 0px;}
+        [data-logged="false"] #wrapwrap .o_database_list {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+        [data-logged="false"] #wrapwrap .btn.btn-link.btn-sm,
+        [data-logged="false"] #wrapwrap .btn-group-sm > .btn.btn-link #wrapwrap {color: #616161 !important;}
+        [data-logged="false"] #wrapwrap {color: #616161 !important;}
+        [data-logged="false"] #wrapwrap .card .card-body .text-center.small.mt-4.pt-3.border-top {margin-top: 0.5rem !important;}
+        [data-logged="false"] #wrapwrap .card .card-body .text-center.small.mt-4.pt-3.border-top a {color: #616161;}
+        [data-logged="false"] #wrapwrap .btn.btn-link.btn-sm {color: #616161;padding-top: 15px;}
+        [data-logged="false"] #wrapwrap .card .card-body .justify-content-between.mt-2.d-flex.small a {color: #616161;text-decoration: none;}
+		
+		[data-logged="false"] #wrapwrap .card .card-body .justify-content-between.mt-2.d-flex.small a:last-child{color: $primaryColor !important;}
+		[data-logged="false"] #wrapwrap .o_database_list {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+        [data-logged="false"] #wrapwrap {background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.5)), url("/web/image?model=sh.back.theme.config.settings&id=1&field=login_page_background_image");background-repeat: no-repeat;background-size: cover;color: #616161;font-family: $body_font_family !important;}
+        [data-logged="false"] #wrapwrap .container.pb-5 {padding-top: 2rem;}
+        [data-logged="false"] #wrapwrap .container.pb-5 {padding-bottom: 0px !important;}
+        [data-logged="false"] #wrapwrap .container.pb-5 .mt-5 {margin-top: 0rem !important;}
+        [data-logged="false"] #wrapwrap .container.mb-5 {margin-bottom: 0rem !important;}
+
+        [data-logged="false"] #wrapwrap .o_database_list {width: 50%;max-width: 100% !important;border-radius: 10px;overflow: hidden;padding: 0px 25px;}
+        [data-logged="false"] #wrapwrap .container .bg-100 {background-color: $login_page_box_color !important;color: #212529;}
+        [data-logged="false"] #wrapwrap .card .card-body .form-control:focus {box-shadow: none;}
+        [data-logged="false"] #wrapwrap .card .card-body input[type="text"] {background-color: transparent;border: none;color: #0d0d0d;text-align: left;text-decoration: none;display: inline-block;font-size: 16px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;padding: 0.429rem 1.072rem;border-bottom: 2px solid #dcdcdc !important;border: 1px solid #dcdcdc;border-radius: 0px;}
+        [data-logged="false"] #wrapwrap .card .card-body input[type="password"] {background-color: transparent;border: none;color: #0d0d0d;text-align: left;text-decoration: none;display: inline-block;font-size: 16px;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;-webkit-border-radius: 5px 5px 5px 5px;border-radius: 5px 5px 5px 5px;padding: 0.429rem 1.072rem;border-bottom: 2px solid #dcdcdc !important;border: 1px solid #dcdcdc;border-radius: 0px;}
+        [data-logged="false"] #wrapwrap .card .card-body #db + .btn-secondary {background-color: $primaryColor;border-color: $primaryColor;}
+        [data-logged="false"] #wrapwrap .card .card-body .btn-primary {border: none;color: white;padding: 15px 80px;text-align: center;text-decoration: none;display: inline-block;text-transform: uppercase;font-size: 13px;box-shadow: none;-webkit-border-radius: 30px;border-radius: 30px;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;background-color: $primaryColor;padding: 10px 10px;border-bottom: 3px solid darken($primaryColor,10%);}
+        [data-logged="false"] #wrapwrap .container .oe_login_form .justify-content-between.mt-2 {margin-top: 1rem !important; justify-content: flex-start !important;}
+    }
+
+    [data-logged="false"] #wrapwrap,
+    [data-logged="false"] #wrapwrap .container .bg-100 {background: #fff !important;}
+    [data-logged="false"] #wrapwrap .card .card-body .oe_login_form .form-group .input-group {background: #f5f5f5;padding: 5px 20px;border-radius: 30px;margin-bottom: 25px !important;}
+    [data-logged="false"] #wrapwrap .card .card-body .oe_login_form .form-group .input-group .input-group-prepend {align-items: center;}
+    [data-logged="false"] #wrapwrap .card .card-body .oe_login_form .form-group .input-group .input-group-prepend span {margin-right: 15px;}
+    [data-logged="false"] #wrapwrap .card .card-body .oe_login_form .form-group .input-group input {border: 0 !important;padding-left: 15px;color: #616161;}
+    [data-logged="false"] #wrapwrap .container .oe_login_form .row .col-4 {text-align: right;}
+    [data-logged="false"] #wrapwrap .card .card-body .text-center.small.mt-4.pt-3.border-top a {letter-spacing: 0.6px;font-weight: 600;}
+    [data-logged="false"] #wrapwrap .container .oe_login_form .oe_login_buttons {margin-bottom: 25px !important;}
+    [data-logged="false"] #wrapwrap .card .card-body .oe_login_form .form-group .input-group .input-group-prepend i {margin-right: 15px;color: #616161 ;}
+    [data-logged="false"] #wrapwrap .card .card-body .oe_login_form .form-group.field-db .input-group {padding-right: 0;padding-top: 0;padding-bottom: 0;}
+    [data-logged="false"] #wrapwrap .card .card-body .oe_login_form .form-group.field-db .input-group input {padding: 10px 15px;}
+    [data-logged="false"] #wrapwrap .card .card-body .oe_login_form .form-group.field-db .input-group a.btn.btn-secondary {background: $primaryColor !important;line-height: 42px;padding: 0 30px;text-transform: uppercase;font-size: 12px;font-weight: 600;letter-spacing: 0.7px;border: 0px;box-shadow: none;outline: none;color: #fff !important;border-top-right-radius: 30px;border-bottom-right-radius: 30px;}
+    [data-logged="false"] #wrapwrap .card .card-body .btn-primary:not(:disabled):not(.disabled):active,
+    [data-logged="false"] #wrapwrap .card .card-body .btn-primary:not(:disabled):not(.disabled).active,
+    [data-logged="false"] #wrapwrap .card .card-body .show > .btn-primary.dropdown-toggle {background-color: $primaryColor;border-color: $primaryColor;}
+    [data-logged="false"] #wrapwrap .card .card-body .text-center.small.mt-4.pt-3.border-top{display: flex;justify-content: space-between;}
+@media only screen and (max-width: 576px){
+	@if $login_page_style == "style_1"{
+		[data-logged="false"] #wrapwrap, [data-logged="false"] #wrapwrap .container .bg-100{width: 100%;}
+	}   
+}
+}
+
+@media only screen and (max-width: 1024px){
+	@if $login_page_style == "style_1"{
+		[data-logged="false"] #wrapwrap .py-5{padding-top: 0px !important;}
+		[data-logged="false"] #wrapwrap .card .card-body{padding-top: 0px !important;}
+		[data-logged="false"] #wrapwrap .card .card-body h2{margin-bottom: 25px !important;}
+		[data-logged="false"] #wrapwrap .container .oe_login_form .oe_login_buttons{margin-bottom: 10px !important;}
+	}
+} 
+@media only screen and (max-width: 576px){
+	@if $login_page_style == "style_1"{        
+        [data-logged="false"] #wrapwrap > main .oe_login_form .form-group.field-login{position: relative;margin-bottom: 0px !important;}
+        [data-logged="false"] #wrapwrap > main .oe_login_form .form-group.field-password{position: relative;}
+        [data-logged="false"] #wrapwrap > main .oe_login_form .form-group.field-login label {display: none;}
+
+        [data-logged="false"] #wrapwrap > main .oe_login_form .form-group.field-password label { display: none;}
+	}
+}
+@media only screen and (max-width: 768px) {
+	@if $login_page_style == "style_1"{
+		[data-logged="false"] #wrapwrap .o_database_list{top: 50% !important;}
+		[data-logged="false"] #wrapwrap .o_database_list{padding: 0px 10px !important;}
+    
+	}
+}
+@media only screen and (max-width: 576px) and (min-width: 321px){
+	@if $login_page_style == "style_1"{
+		[data-logged="false"] #wrapwrap .card .card-body{padding-left: 0px !important;padding-right: 0px !important;}
+		[data-logged="false"] #wrapwrap .card .card-body h2 span.company_name_style_1{font-size: 20px !important;}
+	}
+}
+@media only screen and (max-width: 320px){
+	@if $login_page_style == "style_1"{
+		[data-logged="false"] #wrapwrap .card .card-body{padding-left: 0px !important;padding-right: 0px !important;}
+		[data-logged="false"] #wrapwrap .card .card-body h2 span.company_name_style_1{font-size: 20px !important;}
+	}
+}
+@if $login_page_style == "style_1"{
+	[data-logged="false"] #wrapwrap .o_database_list{height: auto !important;min-height: auto !important;}
+}

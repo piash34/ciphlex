@@ -6,7 +6,7 @@
     "website": "https://www.softhealer.com",
     "category": "Website",
     "license": "OPL-1",
-    "summary": "Ecommerce Grey Out Add to cart Button Disable Cart Button Temporary Remove Cart Button Hide Cart Button Stop Add To Cart Disable Odoo",
+    "summary": "Ecommerce Grey Out Add to cart Button Disable Cart Button Temporary Remove Cart Button Hide Cart Button Stop Add To Cart Disable Ciphlex",
     "description": """This module helps to disable add to cart button for all products from shop. You can disable add to cart button for public user, who dont login in to the website.""",
     "version": "16.0.1",
     "depends": ['website_sale_wishlist','website_sale_comparison'],

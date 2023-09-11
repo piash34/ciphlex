@@ -50,9 +50,11 @@
         <xpath expr="//t[@t-out='0']" position="replace">
             <div id="wrapwrap" t-attf-class="#{pageName or ''}">
                 <header t-if="not no_header" id="top" data-anchor="true">
-                    <img class="img-responsive d-block mx-auto"
+                    <!--<img class="img-responsive d-block mx-auto"
                         t-attf-src="/web/binary/company_logo"
-                        alt="Logo"/>
+                        alt="Logo"/> -->
+                    <img alt="Ciphlex" src="/web/static/img/res_company_logo.png"
+                         style="max-height: 80px; max-width: 60%; width:auto"/>
                 </header>
                 <main>
                     <t t-out="0"/>
@@ -110,14 +112,18 @@
                 <div t-attf-class="card border-0 mx-auto bg-100 {{login_card_classes}} o_database_list" style="max-width: 300px;">
                     <div class="card-body">
                         <div t-attf-class="text-center pb-3 border-bottom {{'mb-3' if form_small else 'mb-4'}}">
-                            <img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}" alt="Logo" style="max-height:120px; max-width: 100%; width:auto"/>
+                            <!--<img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}" alt="Logo"
+                                  style="max-height:120px; max-width: 100%; width:auto"/> -->
+                            <img alt="Ciphlex" src="/web/static/img/res_company_logo.png"
+                                 style="max-height: 80px; max-width: 60%; width:auto"/>
                         </div>
                         <t t-out="0"/>
                         <div class="text-center small mt-4 pt-3 border-top" t-if="not disable_footer">
                             <t t-if="not disable_database_manager">
                                 <a class="border-end pe-2 me-1" href="/web/database/manager">Manage Databases</a>
                             </t>
-                            <a href="https://www.ciphlex.com?utm_source=db&amp;utm_medium=auth" target="_blank">Application by <span>Ciphlex</span></a>
+                            <a href="https://www.ciphlex.com?utm_source=db&amp;utm_medium=auth"
+                               target="_blank">Application by <span>Ciphlex Inc.</span></a>
                         </div>
                     </div>
                 </div>

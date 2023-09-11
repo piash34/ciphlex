@@ -6,7 +6,7 @@
     "website": "https://www.softhealer.com",
     "support": "support@softhealer.com",
     "category": "Purchases",
-    "summary": "Purchase Order Analysis,PO Analysis Report,RFQ Analysis Report,Request For Quotation Analysis Report,Product Analysis Report,Analyze Vendor Performance,Purchase Stock Analysis,Purchase Product Analysis Odoo",
+    "summary": "Purchase Order Analysis,PO Analysis Report,RFQ Analysis Report,Request For Quotation Analysis Report,Product Analysis Report,Analyze Vendor Performance,Purchase Stock Analysis,Purchase Product Analysis Ciphlex",
     "description": """In this module, you can generate and print vendor's purchase analysis reports in PDF as well as excel format. You can generate reports between any date range. Purchase orders & products, Report can be generated using these both options. You can also generate a report based on the status of the purchase order/RFQ.""",
     "version": "16.0.2",
     "depends": [

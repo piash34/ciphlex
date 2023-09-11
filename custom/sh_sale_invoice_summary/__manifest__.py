@@ -6,7 +6,7 @@
     "website": "https://www.softhealer.com",
     "support": "support@softhealer.com",
     "category": "Sales",
-    "summary": "Sale Invoice Summary Excel,Quotation Summary Report,Sales Report,Customer Invoice Summary Report,Invoice Analysis Report,Payment Summary Report,Manage Customer Invoice,Sale Receipt Report,Print Invoice Summary XLS,Invoice Summary PDF Odoo",
+    "summary": "Sale Invoice Summary Excel,Quotation Summary Report,Sales Report,Customer Invoice Summary Report,Invoice Analysis Report,Payment Summary Report,Manage Customer Invoice,Sale Receipt Report,Print Invoice Summary XLS,Invoice Summary PDF Ciphlex",
     "description": """This module helps to generate and print sales invoice summary reports of customers in PDF as well as excel format. You can generate reports between any date range. You can generate reports based on invoice status. We provide the option to print reports of more than one company.""",
     "version": "16.0.2",
     "depends": [
