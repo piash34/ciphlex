@@ -559,7 +559,7 @@ msgstr ""
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://ciphlex.com"
 msgstr ""
 
 #. module: website_slides

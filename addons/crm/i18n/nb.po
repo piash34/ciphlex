@@ -2510,7 +2510,7 @@ msgstr "Antall meldinger med leveringsfeil"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Ciphlex helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
 "Odoo hjelper deg med å holde styr på salgstrakten din for å  følge opp \n"

@@ -2762,7 +2762,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_opportunities
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_opportunities_tree_view
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Ciphlex helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
 

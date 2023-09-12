@@ -6593,7 +6593,7 @@ msgstr "Odoo"
 #: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Odoo Push notifications have been blocked. Go to your browser settings to "
+"Ciphlex Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr "Odooプッシュ通知はブロックされています。ブラウザの設定に移動して許可します。"
 

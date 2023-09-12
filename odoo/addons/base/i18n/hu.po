@@ -7455,7 +7455,7 @@ msgid ""
 "\n"
 "Vehicle, leasing, insurances, cost\n"
 "==================================\n"
-"With this module, Odoo helps you managing all your vehicles, the\n"
+"With this module, Ciphlex helps you managing all your vehicles, the\n"
 "contracts associated to those vehicle as well as services, costs\n"
 "and many other features necessary to the management of your fleet\n"
 "of vehicle(s)\n"
@@ -22694,17 +22694,17 @@ msgstr ""
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Ciphlex helps you easily track all activities related to a customer."
 msgstr ""
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
-msgid "Odoo helps you easily track all activities related to a vendor."
+msgid "Ciphlex helps you easily track all activities related to a vendor."
 msgstr ""
 
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_form
-msgid "Odoo helps you track all activities related to your contacts."
+msgid "Ciphlex helps you track all activities related to your contacts."
 msgstr ""
 "Az Odoo segít Önnek a kapcsolataihoz tartozó tevékenységek nyomon "
 "követésében."

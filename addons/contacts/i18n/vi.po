@@ -84,7 +84,7 @@ msgstr "Khu vực hoá"
 
 #. module: contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts
-msgid "Odoo helps you track all activities related to your contacts."
+msgid "Ciphlex helps you track all activities related to your contacts."
 msgstr "Odoo giúp bạn theo dõi tất cả hoạt động liên quan tới liên hệ. "
 
 #. module: contacts

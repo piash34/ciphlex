@@ -37,13 +37,13 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
 
     def test_search_or_create(self):
         link_tracker_1 = self.env['link.tracker'].create({
-            'url': 'https://odoo.com',
-            'title': 'Odoo',
+            'url': 'https://ciphlex.com',
+            'title': 'Ciphlex',
         })
 
         link_tracker_2 = self.env['link.tracker'].search_or_create({
-            'url': 'https://odoo.com',
-            'title': 'Odoo',
+            'url': 'https://ciphlex.com',
+            'title': 'Ciphlex',
         })
 
         self.assertEqual(link_tracker_1, link_tracker_2)
@@ -59,8 +59,8 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
         campaign_id = self.env['utm.campaign'].search([], limit=1)
 
         self.env['link.tracker'].create({
-            'url': 'https://odoo.com',
-            'title': 'Odoo',
+            'url': 'https://ciphlex.com',
+            'title': 'Ciphlex',
         })
 
         link_1 = self.env['link.tracker'].create({
@@ -71,8 +71,8 @@ class TestLinkTracker(common.TransactionCase, MockLinkTracker):
 
         with self.assertRaises(UserError):
             self.env['link.tracker'].create({
-                'url': 'https://odoo.com',
-                'title': 'Odoo',
+                'url': 'https://ciphlex.com',
+                'title': 'Ciphlex',
             })
 
         with self.assertRaises(UserError):

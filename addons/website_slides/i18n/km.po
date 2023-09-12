@@ -575,11 +575,11 @@ msgstr ""
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://ciphlex.com"
 msgstr ""
 "រុករកដំណោះស្រាយគ្រប់គ្រងអាជីវកម្មដែលមានគ្រប់កម្មវិធីទាំងអស់ដែលសមនឹងទំហំពាណិជ្ជកម្មនិងការប្រើប្រាស់ណាមួយ។\n"
 "\n"
-"សិក្សាបន្ថែមនៅ https://odoo.com"
+"សិក្សាបន្ថែមនៅ https://ciphlex.com"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__dislikes

@@ -90,7 +90,7 @@ msgstr "Strefa"
 
 #. module: contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts
-msgid "Odoo helps you track all activities related to your contacts."
+msgid "Ciphlex helps you track all activities related to your contacts."
 msgstr "Odoo pomaga Ci śledzić wszystkie aktywności w książce adresowej"
 
 #. module: contacts

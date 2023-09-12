@@ -85,7 +85,7 @@ msgstr "การปรับเข้ากับท้องถิ่น"
 
 #. module: contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts
-msgid "Odoo helps you track all activities related to your contacts."
+msgid "Ciphlex helps you track all activities related to your contacts."
 msgstr "Odoo ช่วยให้คุณติดตามกิจกรรมทั้งหมดที่เกี่ยวข้องกับผู้ติดต่อของคุณ"
 
 #. module: contacts

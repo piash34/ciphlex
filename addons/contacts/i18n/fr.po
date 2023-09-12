@@ -85,7 +85,7 @@ msgstr "Localisation"
 
 #. module: contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts
-msgid "Odoo helps you track all activities related to your contacts."
+msgid "Ciphlex helps you track all activities related to your contacts."
 msgstr "Odoo vous aide à suivre toutes les activités liées à vos contacts."
 
 #. module: contacts

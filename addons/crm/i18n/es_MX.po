@@ -2712,7 +2712,7 @@ msgstr "Número de mensajes con error de envío"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Ciphlex helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
 "Odoo le ayuda a llevar un seguimiento de su flujo de ventas para seguir\n"

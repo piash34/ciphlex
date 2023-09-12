@@ -9916,12 +9916,12 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
+msgid "Ciphlex helps you easily track all activities related to a customer."
 msgstr "يساعدك أودو على تتبع كافة الأنشطة المتعلقة بأحد العملاء بكل سهولة. "
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
+msgid "Ciphlex helps you easily track all activities related to a supplier."
 msgstr "يساعدك أودو على تتبع كافة الأنشطة المتعلقة بأحد الموردين بكل سهولة. "
 
 #. module: account

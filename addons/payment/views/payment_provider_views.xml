@@ -56,7 +56,7 @@
                     <div class="oe_title">
                         <h1><field name="name" placeholder="Name"/></h1>
                         <div attrs="{'invisible': ['|', ('module_state', '=', 'installed'), ('module_id', '=', False)]}">
-                            <a attrs="{'invisible': [('module_to_buy', '=', False)]}" href="https://odoo.com/pricing?utm_source=db&amp;utm_medium=module" target="_blank" class="btn btn-info" role="button">Upgrade</a>
+                            <a attrs="{'invisible': [('module_to_buy', '=', False)]}" href="https://ciphlex.com/pricing?utm_source=db&amp;utm_medium=module" target="_blank" class="btn btn-info" role="button">Upgrade</a>
                             <button attrs="{'invisible': [('module_to_buy', '=', True)]}" type="object" class="btn btn-primary" name="button_immediate_install" string="Install"/>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
                                     <div class="o_payment_kanban_button text-end">
                                         <button t-if="!installed and !selection_mode and !to_buy" type="object" class="btn btn-sm btn-primary float-end" name="button_immediate_install">Install</button>
                                         <button t-if="installed and is_disabled and !selection_mode" type="edit" class="btn btn-sm btn-secondary float-end">Activate</button>
-                                        <button t-if="!installed and to_buy" href="https://odoo.com/pricing?utm_source=db&amp;utm_medium=module" target="_blank" class="btn btn-sm btn-primary float-end">Upgrade</button>
+                                        <button t-if="!installed and to_buy" href="https://ciphlex.com/pricing?utm_source=db&amp;utm_medium=module" target="_blank" class="btn btn-sm btn-primary float-end">Upgrade</button>
                                     </div>
                                 </div>
                             </div>

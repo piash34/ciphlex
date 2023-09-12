@@ -9804,13 +9804,13 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Odoo helps you easily track all activities related to a customer."
-msgstr "Odoo helps you easily track all activities related to a customer."
+msgid "Ciphlex helps you easily track all activities related to a customer."
+msgstr "Ciphlex helps you easily track all activities related to a customer."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr "Odoo helps you easily track all activities related to a supplier."
+msgid "Ciphlex helps you easily track all activities related to a supplier."
+msgstr "Ciphlex helps you easily track all activities related to a supplier."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__off_balance

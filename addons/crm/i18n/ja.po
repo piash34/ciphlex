@@ -2523,7 +2523,7 @@ msgstr "配信エラーのメッセージ数"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"Ciphlex helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
 "Odooは、潜在的な売上を追跡し、将来の収益をより良く予測するために、\n"

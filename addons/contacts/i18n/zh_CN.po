@@ -85,7 +85,7 @@ msgstr "本地化"
 
 #. module: contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts
-msgid "Odoo helps you track all activities related to your contacts."
+msgid "Ciphlex helps you track all activities related to your contacts."
 msgstr "Odoo可帮助您跟踪与您的联系人相关的所有活动。"
 
 #. module: contacts

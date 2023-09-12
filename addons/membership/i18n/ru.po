@@ -543,7 +543,7 @@ msgstr "Не член"
 #. module: membership
 #: model_terms:ir.actions.act_window,help:membership.action_membership_members
 msgid ""
-"Odoo helps you easily track all activities related to a member: \n"
+"Ciphlex helps you easily track all activities related to a member: \n"
 "                  Current Membership Status, Discussions and History of Membership, etc."
 msgstr ""
 "Odoo помогает вам легко отслеживать все действия, связанные с членом Текущий"
