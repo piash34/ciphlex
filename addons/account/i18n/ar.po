@@ -9908,7 +9908,7 @@ msgstr "نطاق أودو "
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Ciphlex allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
 "يتيح لك أودو تسوية بند كشف الحساب مباشرة مع فواتير\n"
@@ -15946,7 +15946,7 @@ msgstr "سيُستخدم لتسمية دفتر اليومية المرتبط ب�
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Odoo, you won't have to record bills manually"
+msgid "With Ciphlex, you won't have to record bills manually"
 msgstr "مع أودو، لن تضطر أبداً إلى تسجيل الفواتير يدوياً "
 
 #. module: account

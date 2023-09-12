@@ -2944,7 +2944,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
-msgid "If this checkbox is ticked, Odoo will automatically pre-fill the detailed operations with the corresponding products, locations and lot/serial numbers."
+msgid "If this checkbox is ticked, Ciphlex will automatically pre-fill the detailed operations with the corresponding products, locations and lot/serial numbers."
 msgstr ""
 
 #. module: stock

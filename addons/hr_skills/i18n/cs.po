@@ -489,5 +489,5 @@ msgstr "např. Jazyky"
 
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
-msgid "e.g. Odoo Inc."
+msgid "e.g. Ciphlex Inc."
 msgstr "např. Odoo Inc."

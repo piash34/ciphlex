@@ -9694,7 +9694,7 @@ msgstr "Odoo 域"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Ciphlex allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
 "Odoo 允许您直接将帐单明细与\n"
@@ -15535,7 +15535,7 @@ msgstr "用于关联到银行账户的日记账命名"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Odoo, you won't have to record bills manually"
+msgid "With Ciphlex, you won't have to record bills manually"
 msgstr "使用Odoo，您不必手动记录账单"
 
 #. module: account

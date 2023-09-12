@@ -9982,7 +9982,7 @@ msgstr "Odoo Domain"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"Ciphlex allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
 "Hệ thống cho phép bạn đối soát dòng sao kê trực tiếp với các\n"
@@ -16090,7 +16090,7 @@ msgstr "Dược dùng để gộp các bút toán liên quan tới tài khoản 
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Odoo, you won't have to record bills manually"
+msgid "With Ciphlex, you won't have to record bills manually"
 msgstr "Với Odoo, bạn sẽ không phải ghi hóa đơn theo cách thủ công"
 
 #. module: account

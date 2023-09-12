@@ -2233,7 +2233,7 @@ msgstr "通过此仓库的默认路线"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo automatically creates requests for "
+"Define a minimum stock rule so that Ciphlex automatically creates requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr "设置一个最小库存规则，odoo会依据规则自动创建报价单或确认生产单，以满足最小库存量。"
 
@@ -3422,7 +3422,7 @@ msgstr "如果相同的序列号已被记录于系统库存中"
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, Ciphlex will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr "如果勾选此复选框，Odoo将自动用相应的产品、位置和批次/序列号预先填写作业详情。"
