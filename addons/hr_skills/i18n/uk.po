@@ -489,4 +489,4 @@ msgstr "напр., Мови"
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
 msgid "e.g. Ciphlex Inc."
-msgstr "напр., Odoo Inc."
+msgstr "напр., Ciphlex Inc."

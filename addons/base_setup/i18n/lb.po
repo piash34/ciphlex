@@ -229,7 +229,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Copyright © 2004"
+msgid "Copyright © 2014"
 msgstr ""
 
 #. module: base_setup
@@ -470,7 +470,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
+msgid "Ciphlex Inc."
 msgstr ""
 
 #. module: base_setup

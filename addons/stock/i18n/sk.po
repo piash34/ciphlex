@@ -1217,10 +1217,10 @@ msgstr ""
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
 msgstr ""
-"Nižšie uvedený text slúži ako návrh a nezaväzuje spoločnosť Odoo S.A. k "
+"Nižšie uvedený text slúži ako návrh a nezaväzuje spoločnosť Ciphlex Inc. k "
 "zodpovednosti."
 
 #. module: stock

@@ -14865,11 +14865,11 @@ msgstr "Le Belize"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
 msgstr ""
 "Le texte ci-dessous sert de suggestion et n'engage pas la responsabilité "
-"d'Odoo S.A.."
+"d'Ciphlex Inc.."
 
 #. module: base
 #: model:res.country,name:base.bj

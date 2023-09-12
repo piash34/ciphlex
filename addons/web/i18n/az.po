@@ -1510,7 +1510,7 @@ msgstr "Müəlliflik Hüququ&amp;surət;"
 #. openerp-web
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Copyright © 2004"
+msgid "Copyright © 2014"
 msgstr "Müəllif hüququ © 2004"
 
 #. module: web
@@ -3592,7 +3592,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
+msgid "Ciphlex Inc."
 msgstr ""
 
 #. module: web

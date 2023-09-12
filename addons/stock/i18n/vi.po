@@ -1242,11 +1242,11 @@ msgstr ""
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
 msgstr ""
 "Văn bản dưới đây đóng vai trò như một gợi ý và không liên quan đến trách "
-"nhiệm của Odoo S.A."
+"nhiệm của Ciphlex Inc."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__block

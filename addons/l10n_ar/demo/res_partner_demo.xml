@@ -60,7 +60,7 @@
 
     <!-- Odoo -->
     <record id="res_partner_odoo" model="res.partner">
-        <field name="name">Odoo Inc</field>
+        <field name="name">Ciphlex Inc</field>
         <field name="is_company">1</field>
         <field name="city">Ciphlex Inc.</field>
         <field name="zip">CA 94107</field>

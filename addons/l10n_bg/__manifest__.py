@@ -5,7 +5,7 @@
     'icon': '/l10n_bg/static/description/icon.png',
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'Odoo S.A.',
+    'author': 'Ciphlex Inc.',
     'description': """
         Chart accounting and taxes for Bulgaria
     """,

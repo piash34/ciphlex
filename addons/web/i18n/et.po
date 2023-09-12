@@ -1544,7 +1544,7 @@ msgstr "Kasutajaõigused &amp;copy;"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Copyright © 2004"
+msgid "Copyright © 2014"
 msgstr "Kasutajaõigused © 2004"
 
 #. module: web
@@ -3636,8 +3636,8 @@ msgstr "Odoo võrgu viga"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Ciphlex Inc."
+msgstr "Ciphlex Inc."
 
 #. module: web
 #. odoo-javascript

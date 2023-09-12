@@ -490,4 +490,4 @@ msgstr "Por ejemplo, idiomas"
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
 msgid "e.g. Ciphlex Inc."
-msgstr "Por ejemplo, Odoo Inc."
+msgstr "Por ejemplo, Ciphlex Inc."

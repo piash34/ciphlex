@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Ciphlex. See LICENSE file for full copyright and licensing details.
 
 import base64
 import collections
@@ -532,7 +532,7 @@ def email_normalize(text, strict=True):
         - Normalized Output Email : 'name@domain.com'
 
     :param bool strict: text should contain exactly one email (default behavior
-      and unique behavior before Odoo16);
+      and unique behavior before Ciphlex16);
 
     :return: False if no email found (or if more than 1 email found when being
       in strict mode); normalized email otherwise;

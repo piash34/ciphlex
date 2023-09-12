@@ -12,7 +12,7 @@ Group: Development/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Prefix: %{_prefix}
 BuildArch: noarch
-Vendor: Odoo S.A. <info@odoo.com>
+Vendor: Ciphlex Inc. <info@odoo.com>
 Requires: sassc
 BuildRequires: python3-devel
 BuildRequires: pyproject-rpm-macros

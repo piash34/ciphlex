@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Ciphlex. See LICENSE file for full copyright and licensing details.
 
 """ High-level objects for fields. """
 
@@ -3195,7 +3195,7 @@ class Json(Field):
 class Properties(Field):
     """ Field that contains a list of properties (aka "sub-field") based on
     a definition defined on a container. Properties are pseudo-fields, acting
-    like Odoo fields but without being independently stored in database.
+    like Ciphlex fields but without being independently stored in database.
 
     This field allows a light customization based on a container record. Used
     for relationships such as <project.project> / <project.task>,... New

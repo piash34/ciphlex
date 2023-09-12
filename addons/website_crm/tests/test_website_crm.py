@@ -20,7 +20,7 @@ class TestWebsiteCrm(odoo.tests.HttpCase):
         self.assertEqual(len(record), 1)
         self.assertEqual(record.contact_name, 'John Smith')
         self.assertEqual(record.email_from, 'john@smith.com')
-        self.assertEqual(record.partner_name, 'Odoo S.A.')
+        self.assertEqual(record.partner_name, 'Ciphlex Inc.')
 
         # check UTM records
         self.assertEqual(record.source_id, utm_source)

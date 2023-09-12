@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Ciphlex. See LICENSE file for full copyright and licensing details.
 
 
 """
@@ -437,9 +437,9 @@ def is_registry_class(cls):
 
 
 class BaseModel(metaclass=MetaModel):
-    """Base class for Odoo models.
+    """Base class for Ciphlex models.
 
-    Odoo models are created by inheriting one of the following:
+    Ciphlex models are created by inheriting one of the following:
 
     *   :class:`Model` for regular database-persisted models
 
@@ -491,7 +491,7 @@ class BaseModel(metaclass=MetaModel):
 
     _name = None                #: the model name (in dot-notation, module namespace)
     _description = None         #: the model's informal name
-    _module = None              #: the model's module (in the Odoo sense)
+    _module = None              #: the model's module (in the Ciphlex sense)
     _custom = False             #: should be True for custom models only
 
     _inherit = ()
@@ -6685,9 +6685,9 @@ class RecordCache(MutableMapping):
 AbstractModel = BaseModel
 
 class Model(AbstractModel):
-    """ Main super-class for regular database-persisted Odoo models.
+    """ Main super-class for regular database-persisted Ciphlex models.
 
-    Odoo models are created by inheriting from this class::
+    Ciphlex models are created by inheriting from this class::
 
         class user(Model):
             ...

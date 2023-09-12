@@ -492,4 +492,4 @@ msgstr "örn. Diller"
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
 msgid "e.g. Ciphlex Inc."
-msgstr "örn. Odoo Inc."
+msgstr "örn. Ciphlex Inc."

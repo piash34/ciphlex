@@ -1294,11 +1294,11 @@ msgstr "Prima della data prevista"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
 msgstr ""
 "Il testo qui sotto serve come suggerimento e non impegna la responsabilità "
-"di Odoo S.A."
+"di Ciphlex Inc."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__block

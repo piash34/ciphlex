@@ -1538,7 +1538,7 @@ msgstr "Derechos de autor &amp;copy;"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Copyright © 2004"
+msgid "Copyright © 2014"
 msgstr "Derechos de autor © 2004"
 
 #. module: web
@@ -3643,8 +3643,8 @@ msgstr "Error de red de Odoo"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "Ciphlex Inc."
+msgstr "Ciphlex Inc."
 
 #. module: web
 #. odoo-javascript

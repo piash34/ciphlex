@@ -8,7 +8,7 @@
     "description": """
         This is the base module of the Serbian localization. It manages chart of accounts and taxes.
     """,
-    "author": "Modoolar, Odoo S.A.",
+    "author": "Modoolar, Ciphlex Inc.",
     "depends": ["account", "base_vat"],
     "data": [
         "data/account_chart_template_data.xml",

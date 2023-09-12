@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Ciphlex. See LICENSE file for full copyright and licensing details.
 r"""\
-Odoo HTTP layer / WSGI application
+Ciphlex HTTP layer / WSGI application
 
 The main duty of this module is to prepare and dispatch all http
 requests to their corresponding controllers: from a raw http request
@@ -46,7 +46,7 @@ Here be dragons:
 
 Application.__call__
   WSGI entry point, it sanitizes the request, it wraps it in a werkzeug
-  request and itself in an Odoo http request. The Odoo http request is
+  request and itself in an Ciphlex http request. The Ciphlex http request is
   exposed at ``http.request`` then it is forwarded to either
   ``_serve_static``, ``_serve_nodb`` or ``_serve_db`` depending on the
   request path and the presence of a database. It is also responsible of
@@ -228,12 +228,12 @@ JSON_MIMETYPES = ('application/json', 'application/json-rpc')
 MISSING_CSRF_WARNING = """\
 No CSRF validation token provided for path %r
 
-Odoo URLs are CSRF-protected by default (when accessed with unsafe
+Ciphlex URLs are CSRF-protected by default (when accessed with unsafe
 HTTP methods). See
 https://www.odoo.com/documentation/16.0/developer/reference/addons/http.html#csrf
 for more details.
 
-* if this endpoint is accessed through Odoo via py-QWeb form, embed a CSRF
+* if this endpoint is accessed through Ciphlex via py-QWeb form, embed a CSRF
   token in the form, Tokens are available via `request.csrf_token()`
   can be provided through a hidden input and must be POST-ed named
   `csrf_token` e.g. in your form add:
@@ -336,7 +336,7 @@ def db_filter(dbs, host=None):
         return [db for db in dbs if dbfilter_re.match(db)]
 
     if config['db_name']:
-        # In case --db-filter is not provided and --database is passed, Odoo will
+        # In case --db-filter is not provided and --database is passed, Ciphlex will
         # use the value of --database as a comma separated list of exposed databases.
         exposed_dbs = {db.strip() for db in config['db_name'].split(',')}
         return sorted(exposed_dbs.intersection(dbs))
@@ -735,7 +735,7 @@ def _generate_routing_rules(modules, nodb_only, converters=None):
         """
         Create dummy controllers that inherit only from the controllers
         defined at the given ``modules`` (often system wide modules or
-        installed modules). Modules in this context are Odoo addons.
+        installed modules). Modules in this context are Ciphlex addons.
         """
         # Controllers defined outside of odoo addons are outside of the
         # controller inheritance/extension mechanism.
@@ -1851,7 +1851,7 @@ class JsonRPCDispatcher(Dispatcher):
 # =========================================================
 
 class Application:
-    """ Odoo WSGI application """
+    """ Ciphlex WSGI application """
     # See also: https://www.python.org/dev/peps/pep-3333
 
     @lazy_property

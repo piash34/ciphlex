@@ -11,7 +11,7 @@
     https://www.rrif.hr/dok/preuzimanje/RRIF-RP2021-ENG.PDF
     """,
     "version": "13.0",
-    "author": "Odoo S.A.",
+    "author": "Ciphlex Inc.",
     'category': 'Accounting/Localizations/Account Charts',
 
     'depends': [

@@ -1247,10 +1247,10 @@ msgstr ""
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
 msgstr ""
-"Nedeståede tekst fungere som et foreslag, og gør ikke Odoo S.A. ansvarlig."
+"Nedeståede tekst fungere som et foreslag, og gør ikke Ciphlex Inc. ansvarlig."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__block

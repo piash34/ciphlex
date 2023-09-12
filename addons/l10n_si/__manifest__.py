@@ -4,7 +4,7 @@
 {
     "name": "Slovenian - Accounting",
     "version": "1.1",
-    "author": "Odoo S.A.",
+    "author": "Ciphlex Inc.",
     "category": "Accounting/Localizations/Account Charts",
     "description": """
         Chart of accounts and taxes for Slovenia.

@@ -1,6 +1,6 @@
 """
 This code is what let us use ES6-style modules in odoo.
-Classic Odoo modules are composed of a top-level :samp:`odoo.define({name},{body_function})` call.
+Classic Ciphlex modules are composed of a top-level :samp:`odoo.define({name},{body_function})` call.
 This processor will take files starting with an `@odoo-module` annotation (in a comment) and convert them to classic modules.
 If any file has the ``/** odoo-module */`` on top of it, it will get processed by this class.
 It performs several operations to get from ES6 syntax to the usual odoo one with minimal changes.
@@ -65,7 +65,7 @@ URL_RE = re.compile(r"""
 
 def url_to_module_path(url):
     """
-    Odoo modules each have a name. (odoo.define("<the name>", async function (require) {...});
+    Ciphlex modules each have a name. (odoo.define("<the name>", async function (require) {...});
     It is used in to be required later. (const { something } = require("<the name>").
     The transpiler transforms the url of the file in the project to this name.
     It takes the module name and add a @ on the start of it, and map it to be the source of the static/src (or

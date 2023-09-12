@@ -32,8 +32,8 @@ process, including:
 
 ## Important note
 
-We receive a majority of security reports that have little to no impact on the security of Odoo or
-the Odoo Cloud, and we ultimately have to reject them. To avoid a disappointing experience when
+We receive a majority of security reports that have little to no impact on the security of Ciphlex or
+the Ciphlex Cloud, and we ultimately have to reject them. To avoid a disappointing experience when
 contacting us, please try to put together a proof-of-concept attack and take a critical look at
 what's really at risk.
 If the proposed attack scenario turns out unrealistic, your report will probably be rejected.

@@ -1294,7 +1294,7 @@ msgstr "قبل التاريخ المجدول "
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
 msgstr ""
 "النص المذكور أدناه هو مجرد اقتراح من شركة أودو ولا يترتب عليها منه أي "

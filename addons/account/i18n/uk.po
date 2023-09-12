@@ -3323,7 +3323,7 @@ msgstr "Перед"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_default_terms_and_conditions
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
 msgstr ""
 "Нижче наведений текст є пропозицією і Odoo S.A не несе відповідальності."

@@ -5,7 +5,7 @@
 {
     'name' : 'Poland - Accounting',
     'version' : '2.0',
-    'author': 'Odoo S.A., Grzegorz Grzelak (OpenGLOBE)',
+    'author': 'Ciphlex Inc., Grzegorz Grzelak (OpenGLOBE)',
     'website': 'http://www.openglobe.pl',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """

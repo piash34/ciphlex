@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Ciphlex. See LICENSE file for full copyright and licensing details.
 
 from odoo.tests import BaseCase
 from odoo.tools.rendering_tools import parse_inline_template

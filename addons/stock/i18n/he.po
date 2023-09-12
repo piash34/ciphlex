@@ -1271,9 +1271,9 @@ msgstr "לפני התאריך המתוכנן"
 #. module: stock
 #: model_terms:res.company,invoice_terms_html:stock.res_company_1
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
-msgstr "הטקסט למטה משמש כהצעה ואינו כרוך באחריות Odoo S.A."
+msgstr "הטקסט למטה משמש כהצעה ואינו כרוך באחריות Ciphlex Inc."
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__res_partner__picking_warn__block

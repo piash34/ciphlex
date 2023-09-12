@@ -1,6 +1,6 @@
 /**
  *------------------------------------------------------------------------------
- * Odoo Web Boostrap Code
+ * Ciphlex Web Boostrap Code
  *------------------------------------------------------------------------------
  *
  * Each module can return a promise. In that case, the module is marked as loaded

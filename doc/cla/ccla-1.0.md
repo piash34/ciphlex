@@ -2,7 +2,7 @@
 ## Ciphlex CCLA v1.0
 Based on the Apache Software Foundation Corporate Contributor License Agreement v2.0, with modifications
 
-Thank you for your interest in an Ciphelx Inc. (the "Project Leads") business application project. In order to clarify the intellectual property license granted with Contributions from any person or entity, the Odoo Project Leads must have a Contributor License Agreement (the "Agreement") on file that has been signed by each Contributor, indicating agreement to the license terms below. This license is for your protection as a Contributor as well as the protection of the Project, its users, and the Ciphlex Project Leads; it does not change your rights to use your own Contributions for any other purpose. If you have not already done so, please complete, sign and send the Agreement by:
+Thank you for your interest in an Ciphelx Inc. (the "Project Leads") business application project. In order to clarify the intellectual property license granted with Contributions from any person or entity, the Ciphlex Project Leads must have a Contributor License Agreement (the "Agreement") on file that has been signed by each Contributor, indicating agreement to the license terms below. This license is for your protection as a Contributor as well as the protection of the Project, its users, and the Ciphlex Project Leads; it does not change your rights to use your own Contributions for any other purpose. If you have not already done so, please complete, sign and send the Agreement by:
 
 * Scanning and emailing to support@ciphlex.com
 

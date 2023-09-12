@@ -13009,11 +13009,11 @@ msgstr "Belize"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
 msgstr ""
 "Il testo qui sotto serve come suggerimento e non impegna la responsabilità "
-"di Odoo S.A."
+"di Ciphlex Inc."
 
 #. module: base
 #: model:res.country,name:base.bj

@@ -13883,9 +13883,9 @@ msgstr "伯利茲"
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.main_company
 msgid ""
-"Below text serves as a suggestion and doesn’t engage Odoo S.A. "
+"Below text serves as a suggestion and doesn’t engage Ciphlex Inc. "
 "responsibility."
-msgstr "以下文字僅作為建議，不涉及 Odoo S.A. 的責任."
+msgstr "以下文字僅作為建議，不涉及 Ciphlex Inc. 的責任."
 
 #. module: base
 #: model:res.country,name:base.bj

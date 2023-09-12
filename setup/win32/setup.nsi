@@ -40,7 +40,7 @@ Unicode True
     Exch $R2
 !macroend
 
-!define PUBLISHER 'Odoo S.A.'
+!define PUBLISHER 'Ciphlex Inc.'
 
 !ifndef MAJOR_VERSION
     !define MAJOR_VERSION '15'

@@ -6,7 +6,7 @@
     'description': """
         Arabic/English for GCC + lot/SN numbers
     """,
-    'author': "Odoo S.A.",
+    'author': "Ciphlex Inc.",
     'website': "https://www.odoo.com",
     'category': 'Accounting/Localizations',
 

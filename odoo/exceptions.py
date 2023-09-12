@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Ciphlex. See LICENSE file for full copyright and licensing details.
 
-"""The Odoo Exceptions module defines a few core exception types.
+"""The Ciphlex Exceptions module defines a few core exception types.
 
 Those types are understood by the RPC layer.
 Any other exception type bubbling until the RPC layer will be

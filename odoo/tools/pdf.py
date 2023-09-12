@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Ciphlex. See LICENSE file for full copyright and licensing details.
 import io
 import re
 
@@ -85,11 +85,11 @@ def rotate_pdf(pdf):
 
 
 def add_banner(pdf_stream, text=None, logo=False, thickness=2 * cm):
-    """ Add a banner on a PDF in the upper right corner, with Odoo's logo (optionally).
+    """ Add a banner on a PDF in the upper right corner, with Ciphlex's logo (optionally).
 
     :param pdf_stream (BytesIO):    The PDF stream where the banner will be applied.
     :param text (str):              The text to be displayed.
-    :param logo (bool):             Whether to display Odoo's logo in the banner.
+    :param logo (bool):             Whether to display Ciphlex's logo in the banner.
     :param thickness (float):       The thickness of the banner in pixels.
     :return (BytesIO):              The modified PDF stream.
     """
