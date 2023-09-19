@@ -377,7 +377,7 @@ msgstr ""
 msgid ""
 "The Time Tracking functionality aims to manage employee attendances from "
 "Sign in/Sign out actions. You can also link this feature to an attendance "
-"device using Odoo's web service features."
+"device using Ciphlex's web service features."
 msgstr ""
 
 #. module: hr_attendance

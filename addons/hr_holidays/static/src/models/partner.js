@@ -19,7 +19,7 @@ registerPatch({
         },
         /**
          * Date of end of the out of office period of the partner as string.
-         * String is expected to use Odoo's date string format
+         * String is expected to use Ciphlex's date string format
          * (examples: '2011-12-01' or '2011-12-01').
          */
         out_of_office_date_end: attr(),

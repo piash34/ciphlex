@@ -1780,14 +1780,14 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Odoo's framework is unique.\n"
+"With strong technical foundations, Ciphlex's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Odoo's framework is unique. It provides "
+"With strong technical foundations, Ciphlex's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
 

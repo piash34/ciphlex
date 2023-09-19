@@ -231,8 +231,8 @@ msgid ""
 "target=\"_blank\">our videos</a>."
 msgstr ""
 "למרבה הצער אני רק רובוט 😞 אני לא מבין! אם צריך עזרה לגלות דברים על המוצר "
-"שלנו, כדאי לקרוא את <a href=\"https://www.odoo.com/documentation\" "
-"target=\"_blank\">הספריה שלנו</a> או <a href=\"https://www.odoo.com/slides\""
+"שלנו, כדאי לקרוא את <a href=\"https://www.ciphlex.com/documentation\" "
+"target=\"_blank\">הספריה שלנו</a> או <a href=\"https://www.ciphlex.com/slides\""
 " target=\"_blank\">לצפות בוידאות שלנו</a>."
 
 #. module: mail_bot

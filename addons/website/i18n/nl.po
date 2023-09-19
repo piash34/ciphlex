@@ -2581,10 +2581,10 @@ msgstr "Iconen wijzigen"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through Ciphlex's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
-"Verander het thema in een paar klikken en blader door Odoo's catalogus van\n"
+"Verander het thema in een paar klikken en blader door Ciphlex's catalogus van\n"
 "kant-en-klare thema's beschikbaar in onze app store."
 
 #. module: website
@@ -8432,7 +8432,7 @@ msgid ""
 "picture, in just a few clicks."
 msgstr ""
 "Zoek in de mediadialoog wanneer je foto's nodig hebt om je website te "
-"illustreren. Odoo's integratie met Unsplash, dat miljoenen royaltyvrije "
+"illustreren. Ciphlex's integratie met Unsplash, dat miljoenen royaltyvrije "
 "foto's van hoge kwaliteit aanbiedt, maakt het voor jou mogelijk om in "
 "slechts een paar klikken de perfecte foto te krijgen."
 
@@ -11563,7 +11563,7 @@ msgstr "klanten informeren"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid "instance of Odoo, the"
-msgstr "Odoo's instantie, de"
+msgstr "Ciphlex's instantie, de"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view

@@ -2728,13 +2728,13 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
-msgid "Odoo's Google Analytics settings"
+msgid "Ciphlex's Google Analytics settings"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"Ciphlex's POS is a web application that can run on any device that\n"
 "                                can display websites with little to no setup "
 "required."
 msgstr ""

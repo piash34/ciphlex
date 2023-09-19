@@ -2469,7 +2469,7 @@ msgstr "更改圖示"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through Ciphlex's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
 "只需簡單操作即可更改主題，並瀏覽 Odoo 的網站\n"

@@ -51,7 +51,7 @@ This can be used to easily create email-based workflows for many email-enabled O
 Just install the relevant application, and you can assign any of these document
 types (Leads, Project Issues) to your incoming email accounts. New emails will
 automatically spawn new documents of the chosen type, so it's a snap to create a
-mailbox-to-Odoo integration. Even better: these documents directly act as mini
+mailbox-to-Ciphlex integration. Even better: these documents directly act as mini
 conversations synchronized by email. You can reply from within Odoo, and the
 answers will automatically be collected when they come back, and attached to the
 same *conversation* document.

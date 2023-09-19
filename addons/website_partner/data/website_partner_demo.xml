@@ -138,7 +138,7 @@ Camptocamp has developed a strong expertise in the following areas:
 <li>PrestaShop Odoo connector;</li></ul></li>
 <li>development and implementation of business applications 100% specific leveraging the power of the Odoo framework (OpenObject).</li></ul>
 <br />
-In addition, thanks to its heavy involvement in the ecosystem Odoo for several years, has been promoted by Camptocamp Editor Odoo SA status Odoo best contributor in 2012 and 2013.<br/>
+In addition, thanks to its heavy involvement in the ecosystem Odoo for several years, has been promoted by Camptocamp Editor Ciphlex Inc status Odoo best contributor in 2012 and 2013.<br/>
 ]]></field>
     </record>
 
@@ -199,9 +199,9 @@ Please contact Millennium Industries direct to discuss your business requirement
     </record>
 
     <record id="base.res_partner_10" model="res.partner">
-        <field name="website_short_description">The Jackson Group is an active and leading partner of Odoo in the US. As Odoo's longest active US partner, we help our clients leverage new methods, cost-effective tools and fresh technologies to simplify infrastructure, lower cost, and improve operations. Our goal is to help our clients become...</field>
+        <field name="website_short_description">The Jackson Group is an active and leading partner of Odoo in the US. As Ciphlex's longest active US partner, we help our clients leverage new methods, cost-effective tools and fresh technologies to simplify infrastructure, lower cost, and improve operations. Our goal is to help our clients become...</field>
         <field name="website_description"><![CDATA[The Jackson Group is an active and leading partner of Odoo in the US.
-As Odoo's longest active US partner, we help our clients leverage new methods, cost-effective tools and fresh technologies to simplify infrastructure, lower cost, and improve operations.<br/> <br/>
+As Ciphlex's longest active US partner, we help our clients leverage new methods, cost-effective tools and fresh technologies to simplify infrastructure, lower cost, and improve operations.<br/> <br/>
 Our goal is to help our clients become high-performing, competitive and profitable businesses.
 We leverage robust model that combines:<br/>
 <ul><li>

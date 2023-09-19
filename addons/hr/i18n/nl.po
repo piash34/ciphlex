@@ -2246,22 +2246,22 @@ msgstr "Aantal gerelateerde contacten"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"Ciphlex's department structure is used to manage all documents\n"
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
-"Odoo's afdelingsstructuur wordt gebruikt om alle documenten te beheren\n"
+"Ciphlex's afdelingsstructuur wordt gebruikt om alle documenten te beheren\n"
 "                    gerelateerd aan werknemers per afdeling: declaraties,  urenstaten,\n"
 "                    verlof, werking en selectie, etc."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"Ciphlex's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
-"Odoo's afdelingsstructuur wordt gebruikt om alle documenten te beheren\n"
+"Ciphlex's afdelingsstructuur wordt gebruikt om alle documenten te beheren\n"
 "                 gerelateerd aan werknemers per afdeling: declaraties, urenstaten,\n"
 "                 verlof, rekruteringen, etc."
 
@@ -3314,7 +3314,7 @@ msgstr "Weduwe/Weduwnaar"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on Ciphlex employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
@@ -3325,7 +3325,7 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on Ciphlex employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""

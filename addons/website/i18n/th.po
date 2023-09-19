@@ -2509,7 +2509,7 @@ msgstr "เปลี่ยนไอคอน"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through Ciphlex's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
 "เปลี่ยนธีมได้ในไม่กี่คลิก และเรียกดูแคตตาล็อกธีมพร้อมใช้งานของ Odoo\n"

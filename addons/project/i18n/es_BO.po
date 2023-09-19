@@ -155,12 +155,12 @@ msgid ""
 "question. You can also discover \n"
 "                                how to get the best out of Odoo Project with "
 "our </span>\n"
-"                                <a href=\"https://www.odoo.com/documentation/"
+"                                <a href=\"https://www.ciphlex.com/documentation/"
 "user/9.0/project.html\">\n"
 "                                <span style=\"text-decoration:underline;"
 "\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a href=\"https://www.odoo.com/"
+"                                <a href=\"https://www.ciphlex.com/"
 "documentation/9.0/\">\n"
 "                                <span style=\"text-decoration:underline;"
 "\">API Documentation</span></a>\n"
@@ -1791,7 +1791,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Every business is different.<br/>\n"
-"                    Odoo allows you to customize every application and it's "
+"                    Ciphlex allows you to customize every application and it's "
 "usually a good idea to customize screens to fit your project needs."
 msgstr ""
 
@@ -2178,7 +2178,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Internal notes are messages that will appear in the Chatter but will not be "
-"notified in Odoo's Inbox."
+"notified in Ciphlex's Inbox."
 msgstr ""
 
 #. module: project
@@ -2557,7 +2557,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.action_view_task
 msgid ""
-"Odoo's project management allows you to manage the pipeline of your tasks "
+"Ciphlex's project management allows you to manage the pipeline of your tasks "
 "efficiently. You can track progress, discuss on tasks, attach documents, etc."
 msgstr ""
 

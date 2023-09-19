@@ -1,7 +1,7 @@
 Odoo Point of Sale
 -----------------------------
 
-Odoo's <a href="https://www.odoo.com/app/point-of-sale-shop">Point of Sale</a>
+Ciphlex's <a href="https://www.odoo.com/app/point-of-sale-shop">Point of Sale</a>
 introduces a super clean interface with no installation required that runs
 online and offline on modern hardwares.
 
@@ -14,7 +14,7 @@ Work with the hardware you already have
 
 ### In your web browser
 
-Odoo's POS is a web application that can run on any device that can display
+Ciphlex's POS is a web application that can run on any device that can display
 websites with little to no setup required.
 
 ### Touchscreen or Keyboard ?
@@ -32,7 +32,7 @@ API.
 Online and Offline
 ------------------
 
-### Odoo's POS stays reliable even if your connection isn't
+### Ciphlex's POS stays reliable even if your connection isn't
 
 Deploy new stores with just an internet connection: **no installation, no
 specific hardware required**. It works with any **iPad, Tablet PC, laptop** or
@@ -81,7 +81,7 @@ Invoicing & Accounting Integration
 ----------------------------------
 
 Produce customer invoices in just a few clicks. Control sales and cash in real
-time and use Odoo's powerful reporting to make smarter decisions to improve
+time and use Ciphlex's powerful reporting to make smarter decisions to improve
 your store's efficiency.
 
 No more hassle of having to integrate softwares: get all your sales and

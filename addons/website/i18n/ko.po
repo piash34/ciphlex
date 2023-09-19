@@ -2472,7 +2472,7 @@ msgstr "아이콘 변경"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through Ciphlex's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
 "몇 번의 클릭으로 테마를 변경하고 앱 스토어에서 바로 사용할 수 있는 \n"

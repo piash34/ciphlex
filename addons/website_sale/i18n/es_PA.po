@@ -1278,7 +1278,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"Odoo's web-services allows developers to create scripts that will load data "
+"Ciphlex's web-services allows developers to create scripts that will load data "
 "automatically into the system."
 msgstr ""
 

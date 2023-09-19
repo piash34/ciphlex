@@ -111,7 +111,7 @@ class IoTboxHomepage(Home):
         drivers_list = helpers.list_file_by_os(get_resource_path('hw_drivers', 'iot_handlers', 'drivers'))
         interfaces_list = helpers.list_file_by_os(get_resource_path('hw_drivers', 'iot_handlers', 'interfaces'))
         return handler_list_template.render({
-            'title': "Odoo's IoT Box - Handlers list",
+            'title': "Ciphlex's IoT Box - Handlers list",
             'breadcrumb': 'Handlers list',
             'drivers_list': drivers_list,
             'interfaces_list': interfaces_list,
@@ -127,7 +127,7 @@ class IoTboxHomepage(Home):
     @http.route('/list_credential', type='http', auth='none', website=True)
     def list_credential(self):
         return list_credential_template.render({
-            'title': "Odoo's IoT Box - List credential",
+            'title': "Ciphlex's IoT Box - List credential",
             'breadcrumb': 'List credential',
             'db_uuid': helpers.read_file_first_line('odoo-db-uuid.conf'),
             'enterprise_code': helpers.read_file_first_line('odoo-enterprise-code.conf'),
@@ -299,7 +299,7 @@ class IoTboxHomepage(Home):
         if flashToVersion:
             flashToVersion = '%s.%s' % (flashToVersion.get('major', ''), flashToVersion.get('minor', ''))
         return upgrade_page_template.render({
-            'title': "Odoo's IoTBox - Software Upgrade",
+            'title': "Ciphlex's IoTBox - Software Upgrade",
             'breadcrumb': 'IoT Box Software Upgrade',
             'loading_message': 'Updating IoT box',
             'commit': commit,

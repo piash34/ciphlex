@@ -67,7 +67,7 @@ msgid ""
 "help you discover its features.<br/><b>Try to send me an emoji</b> <span "
 "class=\"o_ciphlexai_command\">:)</span>"
 msgstr ""
-"Olá,<br/>O chat Odoo's ajuda na colaboração eficiente de funcionários. Estou"
+"Olá,<br/>O chat Ciphlex's ajuda na colaboração eficiente de funcionários. Estou"
 " aqui para ajudá-lo a descobrir esses recursos.<br/><b>Tente me enviar um "
 "emoji</b> <span class=\"o_ciphlexai_command\">:)</span>"
 

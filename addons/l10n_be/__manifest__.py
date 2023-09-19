@@ -34,7 +34,7 @@ Wizards provided by this module:
         **Path to access :** Invoicing/Reporting/Legal Reports/Belgium Statements/Annual Listing Of VAT-Subjected Customers
 
     """,
-    'author': 'Noviat, Odoo SA',
+    'author': 'Noviat, Ciphlex Inc',
     'depends': [
         'account',
         'base_iban',

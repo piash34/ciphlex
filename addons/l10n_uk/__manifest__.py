@@ -8,7 +8,7 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest UK Odoo localisation necessary to run Odoo accounting for UK SME's with:
+This is the latest UK Ciphlex localisation necessary to run Ciphlex accounting for UK SME's with:
 =================================================================================================
     - a CT600-ready chart of accounts
     - VAT100-ready tax structure

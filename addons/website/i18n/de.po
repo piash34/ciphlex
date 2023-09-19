@@ -2524,10 +2524,10 @@ msgstr "Ändere Symbole"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through Ciphlex's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
-"Ändern Sie das Thema mit wenigen Klicks und stöbern Sie in Odoo's Katalog von\n"
+"Ändern Sie das Thema mit wenigen Klicks und stöbern Sie in Ciphlex's Katalog von\n"
 "                            gebrauchsfertige Themen, die in unserem App-Store verfügbar sind."
 
 #. module: website

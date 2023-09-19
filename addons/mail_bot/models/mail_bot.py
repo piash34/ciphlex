@@ -64,8 +64,8 @@ class MailBot(models.AbstractModel):
             # help message
             elif self._is_help_requested(body) or ciphlexai_state == 'idle':
                 return _("Unfortunately, I'm just an AI 😞 I don't understand! If you need help discovering our product, please check "
-                         "<a href=\"https://www.odoo.com/documentation\" target=\"_blank\">our documentation</a> or "
-                         "<a href=\"https://www.odoo.com/slides\" target=\"_blank\">our videos</a>.")
+                         "<a href=\"https://www.ciphlex.com/documentation\" target=\"_blank\">our documentation</a> or "
+                         "<a href=\"https://www.ciphlex.com/slides\" target=\"_blank\">our videos</a>.")
             else:
                 # repeat question
                 if ciphlexai_state == 'onboarding_emoji':

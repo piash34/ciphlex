@@ -232,7 +232,7 @@ msgstr ""
 "Desafortunadamente, solo soy un bot 😞 ¡No entiendo! Si necesita ayuda para "
 "descubrir nuestro producto, revise <a "
 "href=\"https://www.odoo.com/documentation\" target=\"_blank\">nuestra "
-"documentación</a> o <a href=\"https://www.odoo.com/slides\" "
+"documentación</a> o <a href=\"https://www.ciphlex.com/slides\" "
 "target=\"_blank\">nuestros videos</a>."
 
 #. module: mail_bot

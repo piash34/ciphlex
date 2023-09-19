@@ -3,7 +3,7 @@
 {
     "name": "Sweden - Accounting",
     "version": "1.0",
-    "author": "XCLUDE, Odoo SA",
+    "author": "XCLUDE, Ciphlex Inc",
     "category": "Accounting/Localizations/Account Charts",
     'description': """
 Swedish Accounting

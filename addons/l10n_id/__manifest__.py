@@ -6,7 +6,7 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest Indonesian Odoo localisation necessary to run Odoo accounting for SMEs with:
+This is the latest Indonesian Ciphlex localisation necessary to run Ciphlex accounting for SMEs with:
 =================================================================================================
     - generic Indonesian chart of accounts
     - tax structure""",

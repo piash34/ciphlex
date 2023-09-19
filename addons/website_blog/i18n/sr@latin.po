@@ -45,7 +45,7 @@ msgstr ""
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo's latest launch will allow a business to go from\n"
+"\"Ciphlex's latest launch will allow a business to go from\n"
 "                    zero to trading online quicker than ever before,” Stuart\n"
 "                    Mackintosh, MD of Open Source specialist and Odoo\n"
 "                    integration partner, OpusVL, explains. “The investment\n"

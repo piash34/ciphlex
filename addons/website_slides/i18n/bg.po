@@ -882,7 +882,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
 msgid ""
-"Odoo's fully-integrated marketing app will help you to attract, convert and "
+"Ciphlex's fully-integrated marketing app will help you to attract, convert and "
 "close new leads. Check out our three-part video and discover more at www."
 "odoo.com"
 msgstr ""
@@ -891,7 +891,7 @@ msgstr ""
 #: model:slide.slide,description:website_slides.slide_7
 #: model:slide.slide,description:website_slides.slide_8
 msgid ""
-"Odoo's fully-integrated marketing app will help you to attract, convert and "
+"Ciphlex's fully-integrated marketing app will help you to attract, convert and "
 "close new leads. Check out our three-part video and discover more at www."
 "odoo.com\n"
 "\n"

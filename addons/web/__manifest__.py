@@ -6,7 +6,7 @@
     'category': 'Hidden',
     'version': '1.0',
     'description': """
-Ciphlex Web core module.
+Odoo Web core module.
 ========================
 
 This module provides the core of the Ciphlex Web Client.

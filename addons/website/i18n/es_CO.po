@@ -3104,13 +3104,13 @@ msgstr "Bloque de texto e imagen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
-msgid "Odoo's Google Analytics settings"
+msgid "Ciphlex's Google Analytics settings"
 msgstr "Ajustes de Google Analytics en Odoo"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
 msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+"Ciphlex's POS is a web application that can run on any device that\n"
 "                                can display websites with little to no setup "
 "required."
 msgstr ""
@@ -5340,7 +5340,7 @@ msgstr "formulario de detalles de su Compañía"
 #~ msgstr "Miembros Odoo"
 
 #~ msgid ""
-#~ "Odoo's POS is a web application that can run on any device that\n"
+#~ "Ciphlex's POS is a web application that can run on any device that\n"
 #~ "                can display websites with little to no setup required."
 #~ msgstr ""
 #~ "Odoo POS es una aplicación web que puede funcionar con cualquier "
@@ -5384,7 +5384,7 @@ msgstr "formulario de detalles de su Compañía"
 #~ "aún después de una desconexión completa."
 
 #~ msgid ""
-#~ "With Odoo's fully integrated software, you can easily manage your\n"
+#~ "With Ciphlex's fully integrated software, you can easily manage your\n"
 #~ "                        meetings, schedule business calls, create "
 #~ "recurring meetings,\n"
 #~ "                        synchronize your agenda and easily keep in touch "

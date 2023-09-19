@@ -3219,7 +3219,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
+"To do so, take the most out of Ciphlex's <strong>pricing options</strong>:<br/>"
 msgstr ""
 
 #. module: website_sale

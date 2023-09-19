@@ -78,7 +78,7 @@ msgstr "يرجى التحقق مما إذا كانت الطابعة بها ور�
 #, python-format
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue"
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Ciphlex's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue"
 msgstr ""
 "يرجى التحقق مما إذا كانت الطابعة لا تزال متصلة. \n"
 "لا تسمح بعض المتصفحات باستدعاءات HTTP من المواقع الإلكترونية وإلى الأجهزة في الشبكة (لأسباب أمنية). إذا كان الأمر كذلك، ستحتاج إلى متابعة وثائق أودو عن 'الشهادة الموقعة ذاتياً لطابعات نقاط البيع الإلكترونية' و 'والاتصال الآمن (HTTPS)' لحل المشكلة "

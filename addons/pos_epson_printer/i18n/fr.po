@@ -80,7 +80,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Please check if the printer is still connected. \n"
-"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue"
+"Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Ciphlex's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue"
 msgstr ""
 "Veuillez vérifier si l'imprimante est toujours connectée.\n"
 "Certains navigateurs n'autorisent pas les appels HTTP depuis des sites web vers des appareils du réseau (pour des raisons de sécurité). Si c'est le cas, vous devrez suivre la documentation d'Odoo pour 'Certificat auto-signé pour les imprimantes ePOS' et 'Connexion sécurisée (HTTPS)' pour résoudre le problème"
