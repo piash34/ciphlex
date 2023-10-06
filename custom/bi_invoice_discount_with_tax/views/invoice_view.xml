@@ -7,10 +7,10 @@
             <field name="inherit_id" ref="account.view_move_form"/>
             <field name="arch" type="xml">
                 
-                <xpath expr="//div[@class='d-flex']" position="after">
+                <field name='payment_reference' position="after">
                     <field name="discount_type" widget="radio" attrs="{'readonly': [('state', '=', 'posted')]}"/>
                     <field name="is_line" invisible='1'/>
-                </xpath>
+                </field>
 
                 <xpath expr="//page[@id='invoice_tab']/group" position="before">
                     <group style="width: 65%%">
@@ -27,11 +27,12 @@
                     </group>                    
                 </xpath>
                 
-                <xpath expr="//group[@class='oe_subtotal_footer oe_right']/field[@name='tax_totals']" position="before">
+                <xpath expr="//field[@name='tax_totals']" position="before">
                         <field name="discount_amt" widget="monetary" options="{'currency_field': 'currency_id'}" attrs="{'invisible': [('discount_type','=','line')]}"/>
                         <field name="discount_amt_line" widget="monetary" options="{'currency_field': 'currency_id'}" attrs="{'invisible': [('discount_type','=','global')]}"/>
                         <field name="discount_amount_line"  invisible="1"/>
                         <field name="total_pro_pice"  invisible="1"/>
+                        <field name="config_inv_tax" invisible="1"/>
 
                 </xpath>
 

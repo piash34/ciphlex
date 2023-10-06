@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # Part of BrowseInfo. See LICENSE file for full copyright and licensing details.
 {
-    'name': 'Odoo Global Discount on Invoice with Tax calculation',
-    'version': '16.0.0.1',
+    'name': 'Global Discount on Invoice with Tax calculation',
+    'version': '16.0.0.4',
     'category': 'Invoicing',
     'sequence': 14,
     'price': 25,
@@ -33,12 +33,12 @@ customer discount
 """,
 
     'author': 'BrowseInfo',
-    'website': 'https://www.browseinfo.in',
+    'website': 'https://www.browseinfo.com',
     'images': [],
     'depends': ['base','sale','sale_management','account','stock'],
     'data': [
         'views/invoice_view.xml',
-        # 'report/inherit_account_report.xml',
+        'report/inherit_account_report.xml',
         
     ],
     'installable': True,

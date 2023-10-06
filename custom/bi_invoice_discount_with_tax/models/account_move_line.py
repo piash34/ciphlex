@@ -24,12 +24,16 @@ class AccountMoveLine(models.Model):
 			discount_warning = self.env['ir.config_parameter'].sudo().get_param('bi_product_discount.discount_warning')
 			warning_message = self.env['ir.config_parameter'].sudo().get_param('bi_product_discount.warning_message')
 
+			
 			if line.discount_amount > 0:
 				if line.discount_amount > 0:
-					if line.discount_method == 'fix':
-						line_discount_price_unit = line.price_unit - line.discount_amount
-					elif line.discount_method == 'per':
-						line_discount_price_unit = line.price_unit * (1 - (line.discount_amount / 100.0))
+					if self.env.company.tax_discount_policy == 'untax': 
+						if line.discount_method == 'fix':
+							line_discount_price_unit = line.price_unit - line.discount_amount
+						elif line.discount_method == 'per':
+							line_discount_price_unit = line.price_unit * (1 - (line.discount_amount / 100.0))
+					else:
+						line_discount_price_unit = line.price_unit
 				else:
 					line_discount_price_unit = line.price_unit * (1 - (line.discount / 100.0))
 
@@ -67,8 +71,11 @@ class AccountMoveLine(models.Model):
 				else:
 					line.price_total = line.price_subtotal = subtotal
 
-	@api.depends('tax_ids', 'currency_id', 'partner_id', 'analytic_distribution', 'balance', 'partner_id', 'move_id.partner_id', 'price_unit')
+	@api.depends('tax_ids', 'currency_id', 'partner_id', 'analytic_distribution', 'balance', 'partner_id', 'move_id.partner_id', 'price_unit','move_id.config_inv_tax')
 	def _compute_all_tax(self):
+		res = self.env.company
+		line_count = len(self.move_id.invoice_line_ids)
+		balance = self.move_id.config_inv_tax / line_count
 		for line in self:
 			sign = line.move_id.direction_sign
 			if line.display_type == 'tax':
@@ -77,12 +84,13 @@ class AccountMoveLine(models.Model):
 				continue
 			if line.display_type == 'product' and line.move_id.is_invoice(True):
 				discount = 0
-				if line.discount_method == 'fix':
-					if line.price_unit != 0:
-					   discount = (line.discount_amount / line.price_unit) * 100 or 0.00
-				elif line.discount_method == 'per':
-					if line.price_unit != 0:
-					    discount = line.discount_amount
+				if self.env.company.tax_discount_policy == 'untax': 
+					if line.discount_method == 'fix':
+						if line.price_unit != 0:
+						   discount = (line.discount_amount / line.price_unit) * 100 or 0.00
+					elif line.discount_method == 'per':
+						if line.price_unit != 0:
+							discount = line.discount_amount
 
 				amount_currency = sign * line.price_unit * (1 - (discount / 100.0))
 				handle_price_include = True
@@ -104,7 +112,30 @@ class AccountMoveLine(models.Model):
 			)
 			rate = line.amount_currency / line.balance if line.balance else 1
 			line.compute_all_tax_dirty = True
-			line.compute_all_tax = {
+			if res.tax_discount_policy == 'untax' and line.move_id.discount_type == 'global':
+				line.compute_all_tax = {
+					frozendict({
+						'tax_repartition_line_id': tax['tax_repartition_line_id'],
+						'group_tax_id': tax['group'] and tax['group'].id or False,
+						'account_id': tax['account_id'] or line.account_id.id,
+						'currency_id': line.currency_id.id,
+						'analytic_distribution': (tax['analytic'] or not tax['use_in_tax_closing']) and line.analytic_distribution,
+						'tax_ids': [(6, 0, tax['tax_ids'])],
+						'tax_tag_ids': [(6, 0, tax['tag_ids'])],
+						'partner_id': line.move_id.partner_id.id or line.partner_id.id,
+						'move_id': line.move_id.id,
+						'display_type': line.display_type,
+					}): {
+						'name': tax['name'],
+						'balance': sign * balance,
+						'amount_currency': sign * balance,
+						'tax_base_amount': tax['base'] / rate * (-1 if line.tax_tag_invert else 1),
+					}
+					for tax in compute_all_currency['taxes']
+					if tax['amount']
+				}
+			else:
+				line.compute_all_tax = {
 				frozendict({
 					'tax_repartition_line_id': tax['tax_repartition_line_id'],
 					'group_tax_id': tax['group'] and tax['group'].id or False,
@@ -117,7 +148,7 @@ class AccountMoveLine(models.Model):
 					'move_id': line.move_id.id,
 					'display_type': line.display_type,
 				}): {
-					'name': tax['name'],
+					'name': tax['name'] + (' ' + _('(Discount)') if line.display_type == 'epd' else ''),
 					'balance': tax['amount'] / rate,
 					'amount_currency': tax['amount'],
 					'tax_base_amount': tax['base'] / rate * (-1 if line.tax_tag_invert else 1),
@@ -139,12 +170,13 @@ class AccountMoveLine(models.Model):
 		is_invoice = self.move_id.is_invoice(include_receipts=True)
 		sign = -1 if self.move_id.is_inbound(include_receipts=True) else 1
 		discount = 0
-		if self.discount_method == 'fix':
-			if self.price_unit != 0 :
-			    discount = (self.discount_amount / self.price_unit) * 100 or 0.00
-		if self.discount_method == 'per':
-			if self.price_unit != 0:
-			   discount = self.discount_amount
+		if self.env.company.tax_discount_policy == 'untax': 
+			if self.discount_method == 'fix':
+				if self.price_unit != 0 :
+					discount = (self.discount_amount / self.price_unit) * 100 or 0.00
+			if self.discount_method == 'per':
+				if self.price_unit != 0:
+				   discount = self.discount_amount
 
 		if discount > 0:          
 			return self.env['account.tax']._convert_to_tax_base_line_dict(
