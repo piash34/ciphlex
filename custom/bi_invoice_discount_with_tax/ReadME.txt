@@ -6,3 +6,5 @@
 16.0.0.3 ==> Update code for when chnages in discount amount at that time journal entry also update based on discount amount.
 
 16.0.0.4 ==> Fixed issue of when select discount based on untaxed amount at that time tax value show wrong in invoice.
+
+16.0.0.5 ==> Fixed issue of discount policy based on untaxed amount and applied discount on order line and discount method is fixed at that time count wrong amount in subtotal.

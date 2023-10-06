@@ -30,7 +30,7 @@ _logger = logging.getLogger(__name__)
 
 class IoTRestart(Thread):
     """
-    Thread to restart odoo server in IoT Box when we must return a answer before
+    Thread to restart ciphlex server in IoT Box when we must return an answer before
     """
     def __init__(self, delay):
         Thread.__init__(self)
@@ -223,7 +223,7 @@ def get_wifi_essid():
 
 def load_certificate():
     """
-    Send a request to Odoo with customer db_uuid and enterprise_code to get a true certificate
+    Send a request to Ciphlex with customer db_uuid and enterprise_code to get a true certificate
     """
     db_uuid = read_file_first_line('odoo-db-uuid.conf')
     enterprise_code = read_file_first_line('odoo-enterprise-code.conf')

@@ -27,11 +27,13 @@ class AccountMoveLine(models.Model):
 			
 			if line.discount_amount > 0:
 				if line.discount_amount > 0:
-					if self.env.company.tax_discount_policy == 'untax': 
+					if self.env.company.tax_discount_policy == 'untax':
 						if line.discount_method == 'fix':
-							line_discount_price_unit = line.price_unit - line.discount_amount
+							line_discount_price_unit = line.price_unit 
 						elif line.discount_method == 'per':
 							line_discount_price_unit = line.price_unit * (1 - (line.discount_amount / 100.0))
+						else:
+							line_discount_price_unit = line.price_unit
 					else:
 						line_discount_price_unit = line.price_unit
 				else:
@@ -48,7 +50,10 @@ class AccountMoveLine(models.Model):
 						partner=line.partner_id,
 						is_refund=line.is_refund,
 					)
-					line.price_subtotal = taxes_res['total_excluded']
+					if self.env.company.tax_discount_policy == 'untax' and line.discount_method == 'fix':
+						line.price_subtotal = taxes_res['total_excluded'] - line.discount_amount
+					else:
+						line.price_subtotal = taxes_res['total_excluded']
 					line.price_total = taxes_res['total_included']
 				else:
 					line.price_total = line.price_subtotal = subtotal
@@ -87,10 +92,12 @@ class AccountMoveLine(models.Model):
 				if self.env.company.tax_discount_policy == 'untax': 
 					if line.discount_method == 'fix':
 						if line.price_unit != 0:
-						   discount = (line.discount_amount / line.price_unit) * 100 or 0.00
+						   discount = ((line.discount_amount / line.price_unit) * 100 or 0.00)/ line.quantity
 					elif line.discount_method == 'per':
 						if line.price_unit != 0:
 							discount = line.discount_amount
+					else:
+						pass
 
 				amount_currency = sign * line.price_unit * (1 - (discount / 100.0))
 				handle_price_include = True
@@ -173,10 +180,12 @@ class AccountMoveLine(models.Model):
 		if self.env.company.tax_discount_policy == 'untax': 
 			if self.discount_method == 'fix':
 				if self.price_unit != 0 :
-					discount = (self.discount_amount / self.price_unit) * 100 or 0.00
-			if self.discount_method == 'per':
+					discount = ((self.discount_amount / self.price_unit) * 100 or 0.00)/self.quantity
+			elif self.discount_method == 'per':
 				if self.price_unit != 0:
 				   discount = self.discount_amount
+			else:
+				pass
 
 		if discount > 0:          
 			return self.env['account.tax']._convert_to_tax_base_line_dict(

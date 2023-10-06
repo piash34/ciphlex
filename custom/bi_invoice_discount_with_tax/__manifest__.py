@@ -2,7 +2,7 @@
 # Part of BrowseInfo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Global Discount on Invoice with Tax calculation',
-    'version': '16.0.0.4',
+    'version': '16.0.0.5',
     'category': 'Invoicing',
     'sequence': 14,
     'price': 25,

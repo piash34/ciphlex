@@ -74,6 +74,8 @@ class account_move(models.Model):
                         elif line.discount_method == 'per':
                             line_discount += (line.price_unit * line.quantity) * (line.discount_amount/ 100)
                             res = line_discount
+                        else:
+                            res = line_discount
 
                     if move.discount_type == 'global':
                         if move.discount_method == 'fix':
