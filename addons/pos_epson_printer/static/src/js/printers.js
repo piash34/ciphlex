@@ -21,7 +21,7 @@ class EpsonPrintResultGenerator extends PrintResultGenerator {
                 title: _t('Connection to the printer failed'),
                 body: _t('Please check if the printer is still connected. \n' +
                     'Some browsers don\'t allow HTTP calls from websites to devices in the network (for security reasons). ' +
-                    'If it is the case, you will need to follow Odoo\'s documentation for ' +
+                    'If it is the case, you will need to follow Ciphlex\'s documentation for ' +
                     '\'Self-signed certificate for ePOS printers\' and \'Secure connection (HTTPS)\' to solve the issue'
                 ),
             }

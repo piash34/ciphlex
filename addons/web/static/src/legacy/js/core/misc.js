@@ -10,13 +10,13 @@ var _t = core._t;
 
 var messages_by_seconds = function() {
     return [
-        [0, _t("Loading...")],
+        [0, _t("Ciphlex is loading...")],
         [20, _t("Still loading...")],
-        [60, _t("Still loading...<br />Please be patient.")],
+        [60, _t("Ciphlex is still loading...<br />Please be patient.")],
         [120, _t("Don't leave yet,<br />it's still loading...")],
-        [300, _t("You may not believe it,<br />but the application is actually loading...")],
-        [420, _t("Take a minute to get a coffee,<br />because it's loading...")],
-        [3600, _t("Maybe you should consider reloading the application by pressing F5...")]
+        [300, _t("You may not believe it,<br />but Ciphlex is actually loading...")],
+        [420, _t("Take a minute to get a coffee,<br />While Ciphlex loads...")],
+        [3600, _t("At this point you should consider reloading Ciphlex by pressing F5...")]
     ];
 };
 

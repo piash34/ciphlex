@@ -7,11 +7,11 @@ import { Component, useState, xml } from "@odoo/owl";
 export class BlockUI extends Component {
     setup() {
         this.messagesByDuration = [
-            { time: 20, l1: this.env._t("Loading...") },
+            { time: 20, l1: this.env._t("Ciphlex is loading...") },
             { time: 40, l1: this.env._t("Still loading...") },
             {
                 time: 60,
-                l1: this.env._t("Still loading..."),
+                l1: this.env._t("Ciphlex is still loading..."),
                 l2: this.env._t("Please be patient."),
             },
             {
@@ -22,17 +22,17 @@ export class BlockUI extends Component {
             {
                 time: 120,
                 l1: this.env._t("You may not believe it,"),
-                l2: this.env._t("but the application is actually loading..."),
+                l2: this.env._t("but Ciphlex is actually loading..."),
             },
             {
                 time: 3180,
                 l1: this.env._t("Take a minute to get a coffee,"),
-                l2: this.env._t("because it's loading..."),
+                l2: this.env._t("While Ciphlex loads..."),
             },
             {
                 time: null,
                 l1: this.env._t(
-                    "Maybe you should consider reloading the application by pressing F5..."
+                    "At this point you should consider reloading Ciphlex by pressing F5..."
                 ),
             },
         ];
