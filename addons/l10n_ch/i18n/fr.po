@@ -2073,7 +2073,7 @@ msgstr "Travaux en cours"
 
 #. module: l10n_ch
 #: model:ir.model.fields,help:l10n_ch.field_account_journal__invoice_reference_model
-msgid "You can choose different models for each type of reference. The default one is the Odoo reference."
+msgid "You can choose different models for each type of reference. The default one is the Ciphlex reference."
 msgstr "Vous pouvez choisir différents modèles par type de référence. Le modèle par défaut est la référence Odoo."
 
 #. module: l10n_ch

@@ -2075,7 +2075,7 @@ msgstr ""
 
 #. module: l10n_ch
 #: model:ir.model.fields,help:l10n_ch.field_account_journal__invoice_reference_model
-msgid "You can choose different models for each type of reference. The default one is the Odoo reference."
+msgid "You can choose different models for each type of reference. The default one is the Ciphlex reference."
 msgstr "您可以为每种参考类型选择不同的模型。默认值是Odoo引用。"
 
 #. module: l10n_ch
