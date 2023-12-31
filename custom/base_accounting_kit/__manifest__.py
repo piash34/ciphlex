@@ -21,8 +21,8 @@
 #############################################################################
 
 {
-    'name': 'Odoo 16 Full Accounting Kit',
-    'version': '16.0.1.0.0',
+    'name': 'Ciphlex 16 Full Accounting Kit',
+    'version': '16.0.2.0.12',
     'category': 'Accounting',
     'live_test_url': 'https://www.youtube.com/watch?v=peAp2Tx_XIs',
     'summary': """ Asset and Budget Management,
@@ -30,27 +30,27 @@
                  Credit Limit, Follow Ups,
                  Day-Bank-Cash book reports.""",
     'description': """
-                    odoo16, Odoo16, 16,AccountingKit, Fullaccounting, Odoo accounting, Odooaccounting, all in one accounting,
+                    ciphlex16, Ciphlex16, 16,AccountingKit, Fullaccounting, Ciphlex accounting, Ciphlexaccounting, all in one accounting,
                     allinoneaccounting, accounting,
-                    Odoo 16 Accounting,Accounting Reports, Odoo 16 Accounting
+                    Ciphlex 16 Accounting,Accounting Reports, Ciphlex 16 Accounting
                     PDF Reports, Asset Management, Budget Management,
                     Customer Credit Limit, Recurring Payment,
                     PDC Management, Customer Follow-up,
-                    Lock Dates into Odoo 16 Community Edition,
-                    Odoo Accounting,Odoo 16 Accounting Reports,Odoo 16,,
+                    Lock Dates into Ciphlex 16 Community Edition,
+                    Ciphlex Accounting,Ciphlex 16 Accounting Reports,Ciphlex 16,,
                     Full Accounting, Complete Accounting,
-                    Odoo Community Accounting, Accounting for odoo 16,
+                    Ciphlex Community Accounting, Accounting for ciphlex 16,
                     Full Accounting Package,
-                    Financial Reports, Financial Report for Odoo 16,
+                    Financial Reports, Financial Report for Ciphlex 16,
                     Reconciliation Widget,
-                    Reconciliation Widget For Odoo16,
+                    Reconciliation Widget For Ciphlex16,
                     Payments Matching
                     """,
-    'author': 'Cybrosys Techno Solutions, Ciphlex Inc',
+    'author': 'Cybrosys Techno Solutions, Ciphlex SA',
     'website': "https://www.cybrosys.com",
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
-    'depends': ['base', 'account', 'sale', 'account_check_printing', 'base_account_budget','analytic','website'],
+    'depends': ['base', 'account', 'sale', 'account_check_printing', 'base_account_budget','analytic'],
     'data': [
         'security/ir.model.access.csv',
         'security/security.xml',
@@ -106,7 +106,8 @@
         'views/recurring_payments_view.xml',
         'wizard/account_lock_date.xml',
         'views/account_payment_view.xml',
-        'data/account_pdc_data.xml'
+        'data/account_pdc_data.xml',
+        'views/report_payment_receipt_document_inherit.xml',
     ],
     'assets': {
         'web.assets_backend': [

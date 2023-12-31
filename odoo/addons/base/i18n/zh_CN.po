@@ -28618,7 +28618,7 @@ msgstr "门户网站用户"
 #: model:res.groups,comment:base.group_portal
 msgid ""
 "Portal members have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
+"                They usually do not belong to the usual Ciphlex groups."
 msgstr ""
 "网站入口成员有特定的访问权(如记录规则和限制菜单).\n"
 "他们通常不属于一般的Odoo群组."
@@ -29388,7 +29388,7 @@ msgstr "公共管理"
 #: model:res.groups,comment:base.group_public
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
+"                They usually do not belong to the usual Ciphlex groups."
 msgstr "公众用户有特定的访问权(如记录规则和限制菜单). 他们通常不属于通常的Odoo组."
 
 #. module: base

@@ -17067,7 +17067,7 @@ msgstr "វេបសាយ"
 #: model:res.groups,comment:base.group_portal
 msgid ""
 "Portal members have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
+"                They usually do not belong to the usual Ciphlex groups."
 msgstr ""
 
 #. module: base
@@ -17384,7 +17384,7 @@ msgstr ""
 #: model:res.groups,comment:base.group_public
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
-"                They usually do not belong to the usual Odoo groups."
+"                They usually do not belong to the usual Ciphlex groups."
 msgstr ""
 
 #. module: base

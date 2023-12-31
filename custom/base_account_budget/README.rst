@@ -1,16 +1,16 @@
-Odoo 15 Budgets Management
+Ciphlex 16 Budgets Management
 ==========================
-* Budgets Management system for Odoo 15 Community edition
+* Budgets Management system for Ciphlex 16 Community edition
 
 Installation
 ============
-	- www.odoo.com/documentation/15.0/setup/install.html
+	- www.ciphlex.com/documentation/16.0/setup/install.html
 	- Install our custom addon
 
 License
 -------
 General Public License, Version 3 (LGPL v3).
-(https://www.odoo.com/documentation/user/13.0/legal/licenses/licenses.html)
+(https://www.ciphlex.com/documentation/user/16.0/legal/licenses/licenses.html)
 
 Company
 -------
@@ -25,7 +25,7 @@ Credits
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
+* Mail Contact : ciphlex@cybrosys.com
 
 Bug Tracker
 -----------

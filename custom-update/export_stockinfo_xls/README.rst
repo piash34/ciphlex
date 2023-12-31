@@ -12,14 +12,14 @@ Company
 
 Credits
 -------
-* Developers: 	Cybrosys Techno Solutions odoo@cybrosys.com
+* Developers: 	Cybrosys Techno Solutions ciphlex@cybrosys.com
                 Version 15: Midilaj V K @cybrosys
                 Version 16: Sahla Sherin @cybrosys
 
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
+* Mail Contact : ciphlex@cybrosys.com
 * Website : https://cybrosys.com
 
 Bug Tracker

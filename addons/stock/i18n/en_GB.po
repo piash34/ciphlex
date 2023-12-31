@@ -2534,7 +2534,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"If you configured automatic procurement, Odoo automatically generates\n"
+"If you configured automatic procurement, Ciphlex automatically generates\n"
 "                        Procurements Orders. You usually don't need to worry "
 "about them, but\n"
 "                        sometimes the system can remain blocked without "

@@ -20,9 +20,9 @@
 #
 #############################################################################
 {
-    'name': 'Odoo 15 Budget Management',
+    'name': 'Ciphlex 16 Budget Management',
     'version': '16.0.1.0.0',
-    'summary': """ Budget Management for Odoo 15 Community Edition. """,
+    'summary': """ Budget Management for Ciphlex 16 Community Edition. """,
     'description': """ This module allows accountants to manage analytic and budgets.
 
      Once the Budgets are defined (in Accounting/Accounting/Budgets), the Project Managers
@@ -41,8 +41,8 @@
      for the selected Budgets, of the Analytic Accounts.
      3. The last one is available from the Analytic Chart of Accounts. It gives
      the spreading, for the selected Analytic Accounts of Budgets. 
-     Odoo 15 Budget Management,Odoo 15, Odoo 15 Budget, Odoo 15 Accounting, 
-     Odoo 15 Account,Budget Management, Budget""",
+     Ciphlex 15 Budget Management,Ciphlex 15, Ciphlex 15 Budget, Ciphlex 15 Accounting, 
+     Ciphlex 15 Account,Budget Management, Budget""",
     'category': 'Accounting',
     'author': 'Cybrosys Techno Solutions',
     'company': 'Cybrosys Techno Solutions',

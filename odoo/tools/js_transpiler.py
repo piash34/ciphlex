@@ -3,7 +3,7 @@ This code is what let us use ES6-style modules in odoo.
 Classic Ciphlex modules are composed of a top-level :samp:`odoo.define({name},{body_function})` call.
 This processor will take files starting with an `@odoo-module` annotation (in a comment) and convert them to classic modules.
 If any file has the ``/** odoo-module */`` on top of it, it will get processed by this class.
-It performs several operations to get from ES6 syntax to the usual odoo one with minimal changes.
+It performs several operations to get from ES6 syntax to the usual ciphlex one with minimal changes.
 This is done on the fly, this not a pre-processing tool.
 
 Caveat: This is done without a full parser, only using regex. One can only expect to cover as much edge cases

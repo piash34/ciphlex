@@ -1,6 +1,6 @@
 Accounting Kit V16
 ==================
-* Full accounting kit for Odoo 16 community editions
+* Full accounting kit for Ciphlex 16 community editions
 
 Installation
 ============

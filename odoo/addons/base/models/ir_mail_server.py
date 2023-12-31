@@ -198,16 +198,16 @@ class IrMailServer(models.Model):
         if self.from_filter:
             if "@" in self.from_filter:
                 # All emails will be sent from the same address
-                return self.from_filter, "noreply@odoo.com"
+                return self.from_filter, "support@ciphlex.com"
             # All emails will be sent from any address in the same domain
-            default_from = self.env["ir.config_parameter"].sudo().get_param("mail.default.from", "odoo")
-            return f"{default_from}@{self.from_filter}", "noreply@odoo.com"
+            default_from = self.env["ir.config_parameter"].sudo().get_param("mail.default.from", "ciphlex")
+            return f"{default_from}@{self.from_filter}", "support@ciphlex.com"
         # Fallback to current user email if there's no from filter
         email_from = self.env.user.email
         if not email_from:
             raise UserError(_('Please configure an email on the current user to simulate '
                               'sending an email message via this outgoing server'))
-        return email_from, 'noreply@odoo.com'
+        return email_from, 'support@ciphlex.com'
 
     def test_smtp_connection(self):
         for server in self:

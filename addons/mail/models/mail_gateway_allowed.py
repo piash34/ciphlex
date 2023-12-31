@@ -39,7 +39,7 @@ class MailGatewayAllowed(models.Model):
             <p class="o_view_nocontent_smiling_face">
                 Add addresses to the Allowed List
             </p><p>
-                To protect you from spam and reply loops, Odoo automatically blocks emails
+                To protect you from spam and reply loops, Ciphlex automatically blocks emails
                 coming to your gateway past a threshold of <b>%i</b> emails every <b>%i</b>
                 minutes. If there are some addresses from which you need to receive very frequent
                 updates, you can however add them below and Odoo will let them go through.

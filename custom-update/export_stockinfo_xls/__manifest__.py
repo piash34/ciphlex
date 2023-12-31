@@ -25,7 +25,7 @@
     'version': '16.0.1.0.0',
     'live_test_url': 'https://www.youtube.com/watch?v=9ae4GkApHQM',
     'summary': "Current Stock Report for all Products in each Warehouse",
-    'description': "Current Stock Report for all Products in each Warehouse, Odoo 13,Odoo13",
+    'description': "Current Stock Report for all Products in each Warehouse, Ciphlex 13,Ciphlex13",
     'category': 'Warehouse',
     'author': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
