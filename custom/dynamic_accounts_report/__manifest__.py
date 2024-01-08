@@ -22,10 +22,16 @@
 
 {
     'name': 'Dynamic Financial Reports V16',
-    'version': '16.0.1.0.0',
+    'version': '16.0.1.0.10',
     'category': 'Accounting',
-    'summary': 'Dynamic Financial Reports with drill down and filters Community Edition',
-    'description': 'Dynamic Financial Reports, DynamicFinancialReports, Financial Report, Accounting reports',
+    'live_test_url': 'https://www.youtube.com/watch?v=gVQi9q9Rs-E&t=5s',
+    'summary': """Dynamic Financial Reports with drill 
+                down and filters– Community Edition""",
+    'description': "Dynamic Financial Reports, DynamicFinancialReports, FinancialReport, Accountingreports, ciphlex reports, ciphlex"
+                   "This module creates dynamic Accounting General Ledger, Trial Balance, Balance Sheet "
+                   "Proft and Loss, Cash Flow Statements, Partner Ledger,"
+                   "Partner Ageing, Day book"
+                   "Bank book and Cash book reports in Ciphlex 14 community edition.",
     'author': 'Cybrosys Techno Solutions',
     'website': "https://www.cybrosys.com",
     'company': 'Cybrosys Techno Solutions',

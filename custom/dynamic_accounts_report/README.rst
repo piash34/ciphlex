@@ -1,16 +1,16 @@
 Dynamic Financial Reports
 =========================
-* Dynamic financial reports for Odoo 16 community editions
+* Dynamic financial reports for Ciphlex 16 community editions
 
 Installation
 ============
-	- www.odoo.com/documentation/16.0/setup/install.html
+	- www.ciphlex.com/documentation/16.0/setup/install.html
 	- Install our custom addon
 
 License
 -------
 General Public License, Version 3 (LGPL v3).
-(https://www.odoo.com/documentation/user/13.0/legal/licenses/licenses.html)
+(https://www.ciphlex.com/documentation/user/13.0/legal/licenses/licenses.html)
 
 Company
 -------
@@ -26,7 +26,7 @@ Credits
 
 Contacts
 --------
-* Mail Contact : odoo@cybrosys.com
+* Mail Contact : ciphlex@cybrosys.com
 
 Bug Tracker
 -----------
