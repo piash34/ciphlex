@@ -6,7 +6,7 @@
 Ciphlex
 ----
 
-Ciphlex is a suite of web based open source business apps.
+Ciphlex is a suite of web based business apps.
 
 The main Ciphlex Apps include an <a href="https://www.ciphlex.com/page/crm">CRM</a>,
 <a href="https://www.ciphlex.com/app/website">Website Builder</a>,
