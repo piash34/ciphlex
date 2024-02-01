@@ -60,7 +60,7 @@
         <field name="inherit_id" ref="base.view_users_form_simple_modif" />
         <field name="arch" type="xml">
             <xpath expr="//page[last()]" position="after">
-                <page string="Backmate Theme Configuration" name="backmate_theme_configuration">
+                <page string="Ciphlex View" name="backmate_theme_configuration">
                     <group>
                         <group>
                             <field name="sh_enable_night_mode" readonly="0"/>
